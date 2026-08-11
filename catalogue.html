@@ -310,7 +310,145 @@
             margin: 4px;
             display: inline-block;
         }
-    </style>
+    
+/* ==========================================================================
+   FLAWLESS MOBILE RESPONSIVE CSS OVERRIDES (768px & 480px Breakpoints)
+   ========================================================================== */
+
+@media (max-width: 992px) {
+    .hero-grid, .subpage-grid {
+        grid-template-columns: 1fr !important;
+        text-align: center !important;
+    }
+    .hero-actions, .hero-highlights {
+        justify-content: center !important;
+    }
+    .catalogue-layout {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+@media (max-width: 768px) {
+    /* TOP ANNOUNCEMENT BAR */
+    .top-bar-content {
+        flex-direction: column !important;
+        gap: 6px !important;
+        text-align: center !important;
+        font-size: 0.78rem !important;
+        padding: 6px 12px !important;
+    }
+
+    /* HEADER & NAVBAR */
+    .nav-container {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        padding: 10px 16px !important;
+    }
+    .mobile-menu-btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        background: #059669 !important;
+        color: #ffffff !important;
+        border: none !important;
+        width: 42px !important;
+        height: 42px !important;
+        border-radius: 8px !important;
+        font-size: 1.2rem !important;
+        cursor: pointer !important;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 0 !important;
+        width: 100% !important;
+        background: #051a14 !important;
+        border-bottom: 1px solid rgba(16, 185, 129, 0.3) !important;
+        padding: 20px !important;
+        box-shadow: 0 15px 30px rgba(0,0,0,0.5) !important;
+        z-index: 1000 !important;
+    }
+    .nav-links.active, .nav-links.mobile-active {
+        display: flex !important;
+    }
+    .nav-links li {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+    }
+    .nav-links a {
+        display: block !important;
+        width: 100% !important;
+        font-size: 1rem !important;
+        padding: 8px 12px !important;
+    }
+    .nav-ctas {
+        display: none !important; /* Hide inline CTAs on mobile to avoid navbar overflow */
+    }
+
+    /* TRADE-IN & INSTANT PAYOUT 3-IMAGE GRID FIX */
+    .tradein-steps-grid, .tradein-conditions-grid, .payout-images-grid, .services-grid, .catalogue-products-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+    div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    .service-card-img, .tradein-card-img {
+        height: 200px !important;
+        width: 100% !important;
+        object-fit: cover !important;
+    }
+
+    /* CATALOGUE SIDEBAR HORIZONTAL CHIPS */
+    .catalogue-sidebar {
+        position: relative !important;
+        top: 0 !important;
+        width: 100% !important;
+        padding: 14px !important;
+    }
+    .sidebar-nav-list {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        gap: 8px !important;
+        padding-bottom: 8px !important;
+        -webkit-overflow-scrolling: touch;
+    }
+    .sidebar-nav-item {
+        flex: 0 0 auto !important;
+        padding: 8px 14px !important;
+        font-size: 0.85rem !important;
+        border-radius: 99px !important;
+    }
+
+    /* PROMO BANNERS */
+    .promo-banners-section div[style*="grid-template-columns"] {
+        grid-template-columns: 1fr !important;
+    }
+
+    /* FOOTER */
+    .footer-grid {
+        grid-template-columns: 1fr !important;
+        text-align: center !important;
+    }
+    .footer-col {
+        margin-bottom: 24px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.75rem !important; }
+    h2 { font-size: 1.4rem !important; }
+    .btn { width: 100% !important; justify-content: center !important; }
+}
+
+</style>
 </head>
 <body>
 
