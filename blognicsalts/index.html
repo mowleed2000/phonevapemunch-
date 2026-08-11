@@ -223,6 +223,103 @@
     }
 }
 
+
+/* ==========================================================================
+   PERFECT MOBILE LAYOUT OVERRIDES (CRITICAL FIX FOR CATALOGUE & SERVICE PAGES)
+   ========================================================================== */
+
+@media (max-width: 768px) {
+    /* 1. FIX CATALOGUE SHIFT TO RIGHT & MARGIN OVERFLOW */
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
+    
+    .catalogue-showcase-section, .subpage-section {
+        padding: 10px 0 40px !important;
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .catalogue-layout {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 12px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-sidebar {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin: 0 0 16px 0 !important;
+        padding: 12px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-products-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 16px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 12px 0 !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card-image {
+        height: 180px !important;
+        background: #ffffff !important;
+        padding: 10px !important;
+    }
+
+    .catalogue-card-image img {
+        max-height: 160px !important;
+        max-width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* 2. FIX SERVICE PAGES IMAGE & TEXT LAYOUT */
+    .subpage-grid, .service-details-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .subpage-card-image-box, .service-img-box {
+        width: 100% !important;
+        height: 220px !important;
+        border-radius: 14px !important;
+        overflow: hidden !important;
+    }
+
+    .subpage-card-image-box img, .service-img-box img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .process-results-grid, div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        width: 100% !important;
+    }
+}
+
 </style>
 
 </head>
