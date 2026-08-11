@@ -12,7 +12,7 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css?v=20260811_v5">
 
     
 
@@ -320,46 +320,175 @@
     }
 }
 
+
+/* ==========================================================================
+   CRITICAL INLINED MOBILE RESPONSIVE OVERRIDES (FORCE PARSED ON EVERY LOAD)
+   ========================================================================== */
+html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.desktop-text { display: inline !important; }
+.mobile-text { display: none !important; }
+
+@media (max-width: 768px) {
+    .desktop-text { display: none !important; }
+    .mobile-text { display: inline !important; }
+
+    /* CATALOGUE MOBILE LAYOUT & 1-PRODUCT PER ROW GRID */
+    .catalogue-showcase-section, .subpage-section {
+        padding: 10px 0 40px !important;
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .catalogue-layout {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-sidebar {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin: 0 0 16px 0 !important;
+        padding: 12px !important;
+        box-sizing: border-box !important;
+        background: #0c261e !important;
+        border: 1px solid rgba(16, 185, 129, 0.3) !important;
+        border-radius: 12px !important;
+    }
+
+    .sidebar-nav-list {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        gap: 8px !important;
+        padding-bottom: 6px !important;
+        margin: 0 !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .sidebar-nav-item {
+        flex: 0 0 auto !important;
+        padding: 8px 14px !important;
+        font-size: 0.84rem !important;
+        border-radius: 99px !important;
+    }
+
+    .catalogue-products-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 16px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 12px 0 !important;
+        background: #0c261e !important;
+        border: 1px solid rgba(16, 185, 129, 0.3) !important;
+        border-radius: 14px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card-image {
+        height: 190px !important;
+        background: #ffffff !important;
+        padding: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .catalogue-card-image img {
+        max-height: 160px !important;
+        max-width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* SERVICE PAGES MOBILE GRID & IMAGE CARDS */
+    .subpage-grid, .service-details-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        width: 100% !important;
+    }
+
+    .subpage-card-image-box {
+        width: 100% !important;
+        height: 220px !important;
+        border-radius: 14px !important;
+        overflow: hidden !important;
+    }
+
+    .subpage-card-image-box img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .process-results-grid, div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        width: 100% !important;
+    }
+}
+
 </style>
 
 </head>
 <body>
-    <div class="top-bar"><div class="container top-bar-content"><div class="top-contact-item"><i class="fa-solid fa-location-dot"></i> 354 Richmond Rd, East Twickenham TW1 2DU</div><div class="top-contact-item"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> WhatsApp: <a href="https://wa.me/447437530654" target="_blank">07437 530654</a></div><div class="top-contact-item"><i class="fa-solid fa-envelope" style="color: #10b981;"></i> Email: <a href="mailto:vapemunch@gmail.com">vapemunch@gmail.com</a></div></div></div>
     <!-- Sticky Navigation Bar -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="" class="logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
+            <a href="../" class="logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
             <ul class="nav-links" id="navLinks">
-                <li><a href="">Home</a></li>
+                <li><a href="../">Home</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-trigger">Phone Repairs <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="screenrepair">Screen Repair</a></li>
-                        <li><a href="batteryreplacement">Battery Replacement</a></li>
-                        <li><a href="chargingport">Charging Port Repair</a></li>
-                        <li><a href="waterdamage">Water Damage Repair</a></li>
-                        <li><a href="phoneunlocking">Phone Unlocking</a></li>
+                        <li><a href="../screenrepair">Screen Repair</a></li>
+                        <li><a href="../batteryreplacement">Battery Replacement</a></li>
+                        <li><a href="../chargingport">Charging Port Repair</a></li>
+                        <li><a href="../waterdamage">Water Damage Repair</a></li>
+                        <li><a href="../phoneunlocking">Phone Unlocking</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-trigger">Laptop Repairs <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="laptopscreen">Screen Repair</a></li>
-                        <li><a href="powercharging">Power and Battery</a></li>
-                        <li><a href="ramstorage">SSD and RAM Upgrades</a></li>
-                        <li><a href="slowperformance">Performance Tuneups</a></li>
-                        <li><a href="virusmalware">Virus and Malware Removal</a></li>
-                        <li><a href="datarecovery">Data Recovery</a></li>
-                        <li><a href="keyboardports">Keyboard and Ports Repair</a></li>
-                        <li><a href="liquidspill">Liquid Spill Recovery</a></li>
-                        <li><a href="laptoptablet">Tablet and General Repairs</a></li>
+                        <li><a href="../laptopscreen">Screen Repair</a></li>
+                        <li><a href="../powercharging">Power and Battery</a></li>
+                        <li><a href="../ramstorage">SSD and RAM Upgrades</a></li>
+                        <li><a href="../slowperformance">Performance Tuneups</a></li>
+                        <li><a href="../virusmalware">Virus and Malware Removal</a></li>
+                        <li><a href="../datarecovery">Data Recovery</a></li>
+                        <li><a href="../keyboardports">Keyboard and Ports Repair</a></li>
+                        <li><a href="../liquidspill">Liquid Spill Recovery</a></li>
+                        <li><a href="../laptoptablet">Tablet and General Repairs</a></li>
                     </ul>
                 </li>
                 
                 
-                <li><a href="catalogue">Catalogue</a></li>
-                <li><a href="blog">Blog</a></li>
-                <li><a href="contact">Contact</a></li>
+                <li><a href="../catalogue">Catalogue</a></li>
+                <li><a href="../blog">Blog</a></li>
+                <li><a href="../contact">Contact</a></li>
                 <li><a href="tel:02037159418" class="btn-nav-cta"><i class="fa-solid fa-phone"></i> Call Shop</a></li>
             </ul>
             <div class="hamburger" id="hamburger">
@@ -368,31 +497,113 @@
         </div>
     </nav>
 
-    <!-- Subpage Hero Section -->
-    <section class="subpage-hero" style="background: linear-gradient(135deg, #051a14 0%, #0c261e 100%); padding: 50px 0 40px; border-bottom: 1px solid rgba(16, 185, 129, 0.25);">
-        <div class="container">
-            <div class="subpage-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;">
-                <div class="subpage-hero-text">
-                    <div class="section-tag" style="color: #34d399; font-weight: 700; display: inline-flex; align-items: center; gap: 8px; margin-bottom: 12px; background: rgba(16,185,129,0.15); padding: 6px 14px; border-radius: 99px; border: 1px solid rgba(16,185,129,0.3);"><i class="fa-solid fa-battery-charging"></i> 30-Min Express Battery Service</div>
-                    <h1 style="font-size: 2.4rem; font-weight: 800; color: #ffffff; margin-bottom: 16px; line-height: 1.2;">Express Phone Battery Replacement</h1>
-                    <p style="font-size: 1.05rem; color: #a7f3d0; margin-bottom: 24px; line-height: 1.6;">Is your phone battery draining fast or shutting down unexpectedly? Our certified technicians replace faulty batteries in under 30 minutes with genuine OEM parts and a 12-month warranty.</p>
-                    <div style="display: flex; gap: 14px; flex-wrap: wrap;">
-                        <a href="tel:02037159418" class="btn btn-primary" style="background: #059669; color: #fff; padding: 12px 24px; border-radius: 99px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;"><i class="fa-solid fa-phone"></i> Call Store: 020 3715 9418</a>
-                        <a href="https://wa.me/447437530654" target="_blank" class="btn" style="background: #25d366; color: #fff; padding: 12px 24px; border-radius: 99px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 8px;"><i class="fa-brands fa-whatsapp"></i> WhatsApp Quote</a>
-                    </div>
+    <!-- Service Hero -->
+    <section class="service-hero" style="background-image: linear-gradient(rgba(17, 17, 17, 0.35), rgba(17, 17, 17, 0.55)), url('../battery-repair.jpg');">
+        <div class="container text-center reveal">
+            <h1>Phone Battery Replacement</h1>
+            <p>Phone draining in hours or shutting down at 20%? Get a brand new cell.</p>
+            <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Phone Vape and Munch</a>
+        </div>
+    </section>
+
+    <!-- What's Involved -->
+    <section class="service-details">
+        <div class="container details-grid">
+            <div class="details-text reveal">
+                <h2>What's Involved</h2>
+                <p>Over time, lithium-ion phone batteries naturally degrade and lose capacity. Swapping your depleted cell with a brand new, safety-tested battery restores original usage hours and prevents sudden shutdowns. Most battery replacements take under 45 minutes.</p>
+                
+                <div class="symptoms-box">
+                    <h3>Signs You Need This Service</h3>
+                    <ul class="symptoms-list">
+                        <li><i class='fa-solid fa-circle-exclamation'></i> Battery drains extremely fast during basic usage</li><li><i class='fa-solid fa-circle-exclamation'></i> Phone turns off suddenly at 10% to 30% battery level</li><li><i class='fa-solid fa-circle-exclamation'></i> Battery percentage jumps up and down erratically</li><li><i class='fa-solid fa-circle-exclamation'></i> Device back casing looks slightly bulged (swollen battery hazard)</li>
+                    </ul>
                 </div>
-                <div class="subpage-card-image-box" style="height: 280px; border-radius: 20px; overflow: hidden; border: 1px solid rgba(16,185,129,0.3); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
-                    <img src="assets/battery-repair.jpg" alt="Express Phone Battery Replacement" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+            </div>
+            <div class="details-image reveal">
+                <img src="assets/laptop-technician.jpg" alt="Service Process" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Row -->
+    <section class="service-gallery">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Our Process and Results</h2>
+                <div class="accent-divider"></div>
+            </div>
+            <div class="gallery-row reveal">
+                
+                <div class="gallery-item-wrapper" onclick="openLightbox('Battery dead image 1.jpg', 'Before Repair - Phone Battery Replacement')">
+                    <img src="assets/laptop-technician.jpg" alt="Service Process" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
+                    <span>Before Repair</span>
+                </div>
+                <div class="gallery-item-wrapper" onclick="openLightbox('Battery replacment page 2.jpg', 'Repair In Progress - Phone Battery Replacement')">
+                    <img src="assets/laptop-technician.jpg" alt="Service Process" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
+                    <span>Repair In Progress</span>
+                </div>
+                <div class="gallery-item-wrapper" onclick="openLightbox('Battery fixed 100 percent.jpg', 'Repaired Device - Phone Battery Replacement')">
+                    <img src="assets/laptop-technician.jpg" alt="Service Process" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
+                    <span>Repaired Device</span>
                 </div>
             </div>
         </div>
     </section>
 
-<footer class="footer">
+    <!-- CTA Section -->
+    <section class="service-cta text-center reveal">
+        <div class="container">
+            <h2>Get a Free Diagnostic Assessment</h2>
+            <p>Speak to our technicians directly to describe the issue and schedule your repair today.</p>
+            <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Phone Vape and Munch</a>
+        </div>
+    </section>
+
+    <!-- Related Services -->
+    <section class="related-services">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Other Repair Services</h2>
+                <div class="accent-divider"></div>
+            </div>
+            <div class="related-grid reveal">
+                <div class="related-card">
+                    <h3>Screen Repair</h3>
+                    <p>Smashed displays, bleeding LCDs, and unresponsive touch screens replaced.</p>
+                    <a href="../screenrepair" class="learn-more">Learn More &rarr;</a>
+                </div>
+                <div class="related-card">
+                    <h3>Battery and Charging</h3>
+                    <p>Swapping depleted cells and repairing charging ports.</p>
+                    <a href="../batteryreplacement" class="learn-more">Learn More &rarr;</a>
+                </div>
+                <div class="related-card">
+                    <h3>Liquid Spill Recovery</h3>
+                    <p>Logic board diagnostic and chemical corrosion cleaning.</p>
+                    <a href="../waterdamage" class="learn-more">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Options (Colors & Storage) Modal -->
+    <div id="optionsModal" class="booking-modal" onclick="closeOptionsModal()">
+        <div class="booking-modal-content" onclick="event.stopPropagation()" style="max-width: 500px; text-align: left; padding: 30px; border-radius: 8px;">
+            <span class="booking-modal-close" onclick="closeOptionsModal()">&times;</span>
+            <h2 id="options-modal-title" style="font-size: 1.4rem; margin-bottom: 16px; color: var(--text-main); font-family: var(--font-heading); font-weight: 700; border-bottom: 2px solid var(--primary); padding-bottom: 8px;">Available Options</h2>
+            <div id="options-modal-body" style="margin-bottom: 20px;">
+                <!-- Options will be inserted here -->
+            </div>
+            <button class="btn btn-primary" onclick="closeOptionsModal()" style="width: 100%;">Close</button>
+        </div>
+    </div>
+
+    <!-- Shared Footer -->
+    <footer class="footer">
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="" class="footer-logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
+                    <a href="../" class="footer-logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
                     <p>Serving Richmond with premium vapes and expert tech repairs. We stock authentic disposable vapes, closed pod kits, e-liquids, and perform professional screen and battery replacements for all major phone and laptop models.</p>
                     <div style="margin-top: 15px;">
                         <span class="badge" style="background: rgba(255,255,255,0.05); color: #fff; border-color: rgba(255,255,255,0.1);"><i class="fa-solid fa-award"></i> Premium Quality</span>
@@ -404,11 +615,11 @@
                         
                         
                         
-                        <li><a href="screenrepair">Phone Screen Repair</a></li> 
-                        <li><a href="batteryreplacement">Phone Battery</a></li> 
-                        <li><a href="laptopscreen">Laptop Screen</a></li> 
-                        <li><a href="slowperformance">Laptop Tuneup</a></li> 
-                        <li><a href="phoneunlocking">Phone Unlocking</a></li>
+                        <li><a href="../screenrepair">Phone Screen Repair</a></li> 
+                        <li><a href="../batteryreplacement">Phone Battery</a></li> 
+                        <li><a href="../laptopscreen">Laptop Screen</a></li> 
+                        <li><a href="../slowperformance">Laptop Tuneup</a></li> 
+                        <li><a href="../phoneunlocking">Phone Unlocking</a></li>
                     </ul>
                 </div>
                 <div class="footer-hours">

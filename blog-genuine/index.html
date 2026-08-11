@@ -10,7 +10,7 @@
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../style.css?v=20260811_v5">
 
     
 
@@ -305,6 +305,136 @@
     }
 
     .subpage-card-image-box img, .service-img-box img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .process-results-grid, div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        width: 100% !important;
+    }
+}
+
+
+/* ==========================================================================
+   CRITICAL INLINED MOBILE RESPONSIVE OVERRIDES (FORCE PARSED ON EVERY LOAD)
+   ========================================================================== */
+html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.desktop-text { display: inline !important; }
+.mobile-text { display: none !important; }
+
+@media (max-width: 768px) {
+    .desktop-text { display: none !important; }
+    .mobile-text { display: inline !important; }
+
+    /* CATALOGUE MOBILE LAYOUT & 1-PRODUCT PER ROW GRID */
+    .catalogue-showcase-section, .subpage-section {
+        padding: 10px 0 40px !important;
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .catalogue-layout {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-sidebar {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin: 0 0 16px 0 !important;
+        padding: 12px !important;
+        box-sizing: border-box !important;
+        background: #0c261e !important;
+        border: 1px solid rgba(16, 185, 129, 0.3) !important;
+        border-radius: 12px !important;
+    }
+
+    .sidebar-nav-list {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        gap: 8px !important;
+        padding-bottom: 6px !important;
+        margin: 0 !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .sidebar-nav-item {
+        flex: 0 0 auto !important;
+        padding: 8px 14px !important;
+        font-size: 0.84rem !important;
+        border-radius: 99px !important;
+    }
+
+    .catalogue-products-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 16px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 12px 0 !important;
+        background: #0c261e !important;
+        border: 1px solid rgba(16, 185, 129, 0.3) !important;
+        border-radius: 14px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card-image {
+        height: 190px !important;
+        background: #ffffff !important;
+        padding: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .catalogue-card-image img {
+        max-height: 160px !important;
+        max-width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* SERVICE PAGES MOBILE GRID & IMAGE CARDS */
+    .subpage-grid, .service-details-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        width: 100% !important;
+    }
+
+    .subpage-card-image-box {
+        width: 100% !important;
+        height: 220px !important;
+        border-radius: 14px !important;
+        overflow: hidden !important;
+    }
+
+    .subpage-card-image-box img {
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;

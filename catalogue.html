@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=20260811_v5">
     <style>
         body {
             background-color: #0b1120 !important;
@@ -571,6 +571,136 @@
     }
 
     .subpage-card-image-box img, .service-img-box img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+
+    .process-results-grid, div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+        width: 100% !important;
+    }
+}
+
+
+/* ==========================================================================
+   CRITICAL INLINED MOBILE RESPONSIVE OVERRIDES (FORCE PARSED ON EVERY LOAD)
+   ========================================================================== */
+html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.desktop-text { display: inline !important; }
+.mobile-text { display: none !important; }
+
+@media (max-width: 768px) {
+    .desktop-text { display: none !important; }
+    .mobile-text { display: inline !important; }
+
+    /* CATALOGUE MOBILE LAYOUT & 1-PRODUCT PER ROW GRID */
+    .catalogue-showcase-section, .subpage-section {
+        padding: 10px 0 40px !important;
+        width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .catalogue-layout {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-sidebar {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        margin: 0 0 16px 0 !important;
+        padding: 12px !important;
+        box-sizing: border-box !important;
+        background: #0c261e !important;
+        border: 1px solid rgba(16, 185, 129, 0.3) !important;
+        border-radius: 12px !important;
+    }
+
+    .sidebar-nav-list {
+        display: flex !important;
+        flex-direction: row !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        gap: 8px !important;
+        padding-bottom: 6px !important;
+        margin: 0 !important;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .sidebar-nav-item {
+        flex: 0 0 auto !important;
+        padding: 8px 14px !important;
+        font-size: 0.84rem !important;
+        border-radius: 99px !important;
+    }
+
+    .catalogue-products-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        gap: 16px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 0 12px 0 !important;
+        background: #0c261e !important;
+        border: 1px solid rgba(16, 185, 129, 0.3) !important;
+        border-radius: 14px !important;
+        box-sizing: border-box !important;
+    }
+
+    .catalogue-card-image {
+        height: 190px !important;
+        background: #ffffff !important;
+        padding: 10px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .catalogue-card-image img {
+        max-height: 160px !important;
+        max-width: 100% !important;
+        object-fit: contain !important;
+    }
+
+    /* SERVICE PAGES MOBILE GRID & IMAGE CARDS */
+    .subpage-grid, .service-details-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        width: 100% !important;
+    }
+
+    .subpage-card-image-box {
+        width: 100% !important;
+        height: 220px !important;
+        border-radius: 14px !important;
+        overflow: hidden !important;
+    }
+
+    .subpage-card-image-box img {
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;
@@ -2349,7 +2479,49 @@
         </div>
     </div>
 
-{footer_html}
+
+    <!-- Footer -->
+    <footer class="footer" style="background: #010c09; border-top: 1px solid rgba(16, 185, 129, 0.2); padding: 50px 0 20px;">
+        <div class="container">
+            <div class="footer-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-bottom: 40px;">
+                <div class="footer-col">
+                    <h3 style="color: #ffffff; font-size: 1.2rem; font-weight: 800; margin-bottom: 16px;">PHONE VAPE AND MUNCH</h3>
+                    <p style="color: #a7f3d0; font-size: 0.88rem; line-height: 1.6; margin-bottom: 16px;">Serving Richmond & Twickenham with authentic vapes, premium tech repairs, and 30-minute express device fixes.</p>
+                    <p style="color: #34d399; font-weight: 700; font-size: 0.9rem;"><i class="fa-solid fa-location-dot"></i> 354 Richmond Rd, East Twickenham TW1 2DU</p>
+                </div>
+                <div class="footer-col">
+                    <h4 style="color: #34d399; font-size: 1rem; font-weight: 700; margin-bottom: 16px;">Phone Repairs</h4>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 8px;"><a href="screen-repair.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Screen Replacement</a></li>
+                        <li style="margin-bottom: 8px;"><a href="battery-replacement.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Battery Replacement</a></li>
+                        <li style="margin-bottom: 8px;"><a href="charging-port.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Charging Port Fix</a></li>
+                        <li style="margin-bottom: 8px;"><a href="water-damage.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Water Damage Recovery</a></li>
+                        <li style="margin-bottom: 8px;"><a href="phone-unlocking.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Phone Unlocking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 style="color: #34d399; font-size: 1rem; font-weight: 700; margin-bottom: 16px;">Laptop & Tech Repairs</h4>
+                    <ul style="list-style: none; padding: 0; margin: 0;">
+                        <li style="margin-bottom: 8px;"><a href="laptopscreen.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Laptop Screen Repair</a></li>
+                        <li style="margin-bottom: 8px;"><a href="ramstorage.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">RAM & SSD Upgrade</a></li>
+                        <li style="margin-bottom: 8px;"><a href="datarecovery.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Data Recovery</a></li>
+                        <li style="margin-bottom: 8px;"><a href="liquidspill.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Liquid Spill Fix</a></li>
+                        <li style="margin-bottom: 8px;"><a href="virusmalware.html" style="color: #a7f3d0; text-decoration: none; font-size: 0.88rem;">Virus & Malware Removal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 style="color: #34d399; font-size: 1rem; font-weight: 700; margin-bottom: 16px;">Contact Store</h4>
+                    <p style="color: #a7f3d0; font-size: 0.88rem; margin-bottom: 8px;"><i class="fa-solid fa-phone" style="color: #10b981;"></i> Call: <a href="tel:02037159418" style="color: #ffffff; font-weight: 700;">020 3715 9418</a></p>
+                    <p style="color: #a7f3d0; font-size: 0.88rem; margin-bottom: 16px;"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> WhatsApp: <a href="https://wa.me/447437530654" target="_blank" style="color: #ffffff; font-weight: 700;">07437 530654</a></p>
+                    <p style="color: #a7f3d0; font-size: 0.82rem; line-height: 1.5;">Mon - Thu: 9:00 AM - 8:00 PM<br>Fri - Sat: 9:00 AM - 8:30 PM<br>Sun: 10:00 AM - 7:30 PM</p>
+                </div>
+            </div>
+            <div style="text-align: center; border-top: 1px solid rgba(16,185,129,0.15); padding-top: 20px; color: #64748b; font-size: 0.8rem;">
+                © 2026 Phone Vape and Munch. All Rights Reserved. Richmond Vape & Tech Repair Shop.
+            </div>
+        </div>
+    </footer>
+
 
     <a href="https://wa.me/447437530654" class="whatsapp-float" target="_blank" style="position: fixed; bottom: 24px; right: 24px; background: #25d366; color: #fff; width: 56px; height: 56px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: 0 8px 24px rgba(0,0,0,0.4); z-index: 999; text-decoration: none;">
         <i class="fa-brands fa-whatsapp"></i>
