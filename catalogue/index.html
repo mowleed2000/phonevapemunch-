@@ -184,6 +184,45 @@
     .btn { width: 100% !important; justify-content: center !important; }
 }
 
+
+/* ==========================================================================
+   MASTER MOBILE RESPONSIVE & SPEED OPTIMIZATION CSS
+   ========================================================================== */
+
+.desktop-text { display: inline !important; }
+.mobile-text { display: none !important; }
+
+@media (max-width: 768px) {
+    .desktop-text { display: none !important; }
+    .mobile-text { display: inline !important; }
+
+    /* CATALOGUE MOBILE 1-PRODUCT PER ROW */
+    .catalogue-products-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        padding: 0 10px !important;
+    }
+    .catalogue-card {
+        width: 100% !important;
+        max-width: 380px !important;
+        margin: 0 auto !important;
+    }
+    .catalogue-card img {
+        height: 200px !important;
+        object-fit: contain !important;
+    }
+
+    /* GENERAL BUTTON & IMAGE FIXES */
+    .btn {
+        padding: 10px 18px !important;
+        font-size: 0.9rem !important;
+    }
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
 </style>
 
 </head>
@@ -276,7 +315,7 @@
     
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 11" data-specs="64gb / 128gb available, factory unlocked ios smartphone" data-flavours="" data-colors="black" data-storages="64 gb, 128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iphone_11.png" alt="Apple iPhone 11" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iphone_11.png" alt="Apple iPhone 11" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -299,7 +338,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 15 pro max" data-specs="256gb premium storage, titanium frame, flagship camera setup" data-flavours="" data-colors="white, natural/grey, black" data-storages="256 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iphone_15_promax.png" alt="Apple iPhone 15 Pro Max" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iphone_15_promax.png" alt="Apple iPhone 15 Pro Max" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -322,7 +361,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 16 pro max" data-specs="256gb storage tier,  latest generation apple flagship device" data-flavours="" data-colors="natural, black" data-storages="256 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iphone_16_promax.png" alt="Apple iPhone 16 Pro Max" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iphone_16_promax.png" alt="Apple iPhone 16 Pro Max" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -345,7 +384,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="samsung galaxy s22 ultra" data-specs="256gb / 512gb options, pro-grade quad camera with built-in s-pen" data-flavours="" data-colors="phantom black" data-storages="256 gb, 512 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/galaxy_s22_ultra.png" alt="Samsung Galaxy S22 Ultra" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/galaxy_s22_ultra.png" alt="Samsung Galaxy S22 Ultra" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -368,7 +407,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="samsung galaxy a54 5g" data-specs="128gb system,  high-refresh amoled display unlocked android" data-flavours="" data-colors="awesome violet / light purple" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/galaxy_a54.png" alt="Samsung Galaxy A54 5G" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/galaxy_a54.png" alt="Samsung Galaxy A54 5G" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -391,7 +430,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="huawei p30" data-specs="128gb storage, leica triple camera, breathing crystal color, factory unlocked" data-flavours="" data-colors="aurora / breathing crystal (light blue/silver gradient)" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Huawei P30 breathing crystal white background.jpg" alt="Huawei P30" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Huawei P30 breathing crystal white background.jpg" alt="Huawei P30" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -414,7 +453,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="samsung galaxy a52s 5g" data-specs="128gb storage, 120hz super amoled display, quad camera, unlocked" data-flavours="" data-colors="awesome white" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Samsung Galaxy A52s white background transparent.jpg" alt="Samsung Galaxy A52s 5G" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Samsung Galaxy A52s white background transparent.jpg" alt="Samsung Galaxy A52s 5G" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -437,7 +476,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="samsung galaxy a71" data-specs="128gb storage, 6.7-inch infinity-o display, quad camera, prism crush silver" data-flavours="" data-colors="prism crush silver / light blue" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Samsung Galaxy A71 silver white background.jpg" alt="Samsung Galaxy A71" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Samsung Galaxy A71 silver white background.jpg" alt="Samsung Galaxy A71" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -460,7 +499,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 13" data-specs="128gb storage, starlight white, unlocked, a15 bionic chip" data-flavours="" data-colors="pink" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 13 starlight white background.jpg" alt="Apple iPhone 13" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 13 starlight white background.jpg" alt="Apple iPhone 13" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -483,7 +522,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 14" data-specs="128gb storage, midnight black, unlocked, super retina xdr display" data-flavours="" data-colors="red, light pink/purple" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 14 midnight transparent background.jpg" alt="Apple iPhone 14" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 14 midnight transparent background.jpg" alt="Apple iPhone 14" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -506,7 +545,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 8" data-specs="64gb storage, space gray, touch id home button, factory unlocked" data-flavours="" data-colors="black" data-storages="256 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 8 space gray white background.jpg" alt="Apple iPhone 8" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 8 space gray white background.jpg" alt="Apple iPhone 8" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -529,7 +568,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone se" data-specs="64gb/128gb storage, compact ios device, touch id, unlocked" data-flavours="" data-colors="red, white, black" data-storages="64 gb, 128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone SE black background transparent.png" alt="Apple iPhone SE" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone SE black background transparent.png" alt="Apple iPhone SE" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -552,7 +591,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 16" data-specs="128gb storage tier, apple dual camera system, action button" data-flavours="" data-colors="black, pink, white" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 16.jpg" alt="Apple iPhone 16" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 16.jpg" alt="Apple iPhone 16" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -575,7 +614,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 15 plus" data-specs="128gb storage, high-density battery, unlocked super retina xdr display" data-flavours="" data-colors="black" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Iphone 15 plus.jpg" alt="Apple iPhone 15 Plus" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Iphone 15 plus.jpg" alt="Apple iPhone 15 Plus" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -598,7 +637,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 15" data-specs="128gb storage, dynamic island display, unlocked ios smartphone" data-flavours="" data-colors="black, white/silver" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 15.jpg" alt="Apple iPhone 15" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 15.jpg" alt="Apple iPhone 15" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -621,7 +660,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 14 pro" data-specs="128gb storage, dynamic island screen, pro-grade camera module" data-flavours="" data-colors="purple" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Iphone 14 pro.jpg" alt="Apple iPhone 14 Pro" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Iphone 14 pro.jpg" alt="Apple iPhone 14 Pro" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -644,7 +683,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 13 pro max" data-specs="128gb storage, promotion high refresh display, factory unlocked" data-flavours="" data-colors="graphite/black" data-storages="128 gb">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 13 Pro Max.jpg" alt="Apple iPhone 13 Pro Max" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 13 Pro Max.jpg" alt="Apple iPhone 13 Pro Max" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -667,7 +706,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 11 pro" data-specs="triple camera array, super retina xdr display, premium ios smartphone" data-flavours="" data-colors="gold" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPhone 11 Pro.jpg" alt="Apple iPhone 11 Pro" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPhone 11 Pro.jpg" alt="Apple iPhone 11 Pro" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -690,7 +729,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="apple iphone 12" data-specs="64gb / 256gb settings, dual super retina xdr display 5g" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iphone_12.png" alt="Apple iPhone 12" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iphone_12.png" alt="Apple iPhone 12" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -709,7 +748,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="samsung galaxy a17 5g" data-specs="reliable long-life battery, unlocked everyday android device" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/galaxy_a17.png" alt="Samsung Galaxy A17 5G" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/galaxy_a17.png" alt="Samsung Galaxy A17 5G" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -728,7 +767,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="samsung galaxy a36 5g" data-specs="high-efficiency core setup,  modern infinity display framework" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/galaxy_a36.png" alt="Samsung Galaxy A36 5G" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/galaxy_a36.png" alt="Samsung Galaxy A36 5G" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -747,7 +786,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="zanco big button mobile phone" data-specs="senior-friendly interface, explicit hardware sos trigger, integrated torch" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/zanco_big_button.png" alt="Zanco Big Button Mobile Phone" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/zanco_big_button.png" alt="Zanco Big Button Mobile Phone" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -766,7 +805,7 @@
         
             <div class="product-card" data-category="Smartphones" data-title="honor x6a" data-specs="128gb storage, 4gb ram, 50mp triple camera, 5200mah battery, google play services" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Honor X6.jpg" alt="Honor X6a" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Honor X6.jpg" alt="Honor X6a" class="product-image" loading="lazy">
                     <span class="product-category-badge">Smartphones</span>
                 </div>
                 <div class="product-details">
@@ -785,7 +824,7 @@
         
             <div class="product-card" data-category="Tablets" data-title="apple ipad air (4th gen)" data-specs="64gb capacity, liquid retina all-screen display, wi-fi built-in" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/ipad_air_4.png" alt="Apple iPad Air (4th Gen)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/ipad_air_4.png" alt="Apple iPad Air (4th Gen)" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tablets</span>
                 </div>
                 <div class="product-details">
@@ -804,7 +843,7 @@
         
             <div class="product-card" data-category="Tablets" data-title="samsung galaxy tab a11" data-specs="premium android tablet, long-lasting battery, hd display" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Galaxy Tab A11.webp" alt="Samsung Galaxy Tab A11" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Galaxy Tab A11.webp" alt="Samsung Galaxy Tab A11" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tablets</span>
                 </div>
                 <div class="product-details">
@@ -823,7 +862,7 @@
         
             <div class="product-card" data-category="Tablets" data-title="apple ipad mini 4" data-specs="7.9-inch retina display, a8 chip, touch id, wi-fi / cellular, unlocked" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/iPad mini 4.jpg" alt="Apple iPad mini 4" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/iPad mini 4.jpg" alt="Apple iPad mini 4" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tablets</span>
                 </div>
                 <div class="product-details">
@@ -842,7 +881,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="dell inspiron 15 laptop" data-specs="intel core processor, 1tb hdd, windows 10 home" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048109.png" alt="Dell Inspiron 15 Laptop" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048109.png" alt="Dell Inspiron 15 Laptop" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -861,7 +900,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="dell latitude 7280" data-specs="intel core, 8gb ram, 256gb ssd, ms office included" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048106.png" alt="Dell Latitude 7280" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048106.png" alt="Dell Latitude 7280" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -880,7 +919,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="toshiba satellite laptop" data-specs="4gb ram,  450gb ssd,  ms office package installed" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048106_2.png" alt="Toshiba Satellite Laptop" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048106_2.png" alt="Toshiba Satellite Laptop" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -899,7 +938,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="dell latitude e5470" data-specs="8gb ram,  256gb ssd,  windows 10 pro architecture" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048106_3.png" alt="Dell Latitude E5470" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048106_3.png" alt="Dell Latitude E5470" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -918,7 +957,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="dell inspiron i5" data-specs="intel i5-1035g1, 8gb ram, 1tb hdd + 256gb ssd, win 10" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048108.png" alt="Dell Inspiron i5" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048108.png" alt="Dell Inspiron i5" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -937,7 +976,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="dell latitude 7490" data-specs="16gb ram,  256gb ssd,  windows 10 pro business setup" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048108_2.png" alt="Dell Latitude 7490" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048108_2.png" alt="Dell Latitude 7490" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -956,7 +995,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="acer chromebook 14" data-specs="14 inch hd anti-glare display, entry-level cloud os" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048108_3.png" alt="Acer Chromebook 14" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048108_3.png" alt="Acer Chromebook 14" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -975,7 +1014,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="acer aspire es1" data-specs="intel pentium r, 8gb ram, 2tb hdd, win 10, ms office" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048108_4.png" alt="Acer Aspire ES1" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048108_4.png" alt="Acer Aspire ES1" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -994,7 +1033,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="hp victus gaming laptop" data-specs="8gb ram, 500gb ssd, nvidia gtx 3050ti performance graphics" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048107.png" alt="HP Victus Gaming Laptop" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048107.png" alt="HP Victus Gaming Laptop" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -1013,7 +1052,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="apple macbook air" data-specs="13-inch retina display, apple m-series chip, 8gb ram, 256gb ssd, silver" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Apple MacBook Air silver transparent background.jpg" alt="Apple MacBook Air" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Apple MacBook Air silver transparent background.jpg" alt="Apple MacBook Air" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -1032,7 +1071,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="lenovo thinkpad laptop" data-specs="intel core i5, 8gb ram, 256gb ssd, windows 10/11 pro, business ready" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Lenovo ThinkPad business laptop white background.jpg" alt="Lenovo ThinkPad Laptop" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Lenovo ThinkPad business laptop white background.jpg" alt="Lenovo ThinkPad Laptop" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -1051,7 +1090,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="apple macbook air (2022)" data-specs="m2 chip, liquid retina display, 8gb ram, 256gb ssd" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Macbook air 2022.jpg" alt="Apple MacBook Air (2022)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Macbook air 2022.jpg" alt="Apple MacBook Air (2022)" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -1070,7 +1109,7 @@
         
             <div class="product-card" data-category="Laptops" data-title="apple macbook pro 13-inch" data-specs="retina display, intel core / apple m-series chip, unlocked" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Macbook pro 13 inch.jpg" alt="Apple MacBook Pro 13-Inch" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Macbook pro 13 inch.jpg" alt="Apple MacBook Pro 13-Inch" class="product-image" loading="lazy">
                     <span class="product-category-badge">Laptops</span>
                 </div>
                 <div class="product-details">
@@ -1089,7 +1128,7 @@
         
             <div class="product-card" data-category="Gaming" data-title="playstation 4 500gb slim" data-specs="500gb, disk edition, includes 1x wireless controller" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048114.png" alt="PlayStation 4 500GB Slim" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048114.png" alt="PlayStation 4 500GB Slim" class="product-image" loading="lazy">
                     <span class="product-category-badge">Gaming</span>
                 </div>
                 <div class="product-details">
@@ -1108,7 +1147,7 @@
         
             <div class="product-card" data-category="Gaming" data-title="nintendo switch + split pad pro bundle" data-specs="handheld ergonomic console layout, includes 3 games bundle" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/1000048107_2.png" alt="Nintendo Switch + Split Pad Pro Bundle" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/1000048107_2.png" alt="Nintendo Switch + Split Pad Pro Bundle" class="product-image" loading="lazy">
                     <span class="product-category-badge">Gaming</span>
                 </div>
                 <div class="product-details">
@@ -1127,7 +1166,7 @@
         
             <div class="product-card" data-category="Gaming" data-title="km6 4-in-1 gaming set" data-specs="includes led keyboard, gaming mouse, headset, and mousepad" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/KM6 4 in one gaming set.jpg" alt="KM6 4-in-1 Gaming Set" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/KM6 4 in one gaming set.jpg" alt="KM6 4-in-1 Gaming Set" class="product-image" loading="lazy">
                     <span class="product-category-badge">Gaming</span>
                 </div>
                 <div class="product-details">
@@ -1146,7 +1185,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="hayati pro ultra+ 25k (starter kit)" data-specs="25,000+ puffs capacity, 20mg nic salt, dual tank swappable system" data-flavours="strawberry cherry / raspberry ice, sour apple / juicy peach, blue razz pineapple / strawberry ice, raspberry cola, blueberry n' bubba / watermelon n' bubba, lemon & lime / summer dream" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/hayati_pro_25k.png" alt="Hayati Pro Ultra+ 25K (Starter Kit)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/hayati_pro_25k.png" alt="Hayati Pro Ultra+ 25K (Starter Kit)" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1169,7 +1208,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="crown bar al fakher 30k hypermax advanced" data-specs="30, 000 puffs massive output dtl sub-ohm disposable mod line" data-flavours="blueberry sour raspberry, blueberry gum, grape, blackcurrant mint, peach ice, cherry ice, strawberry punch, menthol, two apple, cool mango, berry blue, blueberry lemonade, hubba" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/alfakher_30k.png" alt="Crown Bar Al Fakher 30K Hypermax Advanced" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/alfakher_30k.png" alt="Crown Bar Al Fakher 30K Hypermax Advanced" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1192,7 +1231,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="vaporesso dojo blast 10k starter kit" data-specs="10, 000 puffs rechargeable reusable base hardware unit" data-flavours="strawberry raspberry cherry ice, triple mango, black grape, lemon lime, double apple, classic tobacco, ten tangerines, fizzy cherry, watermelon ice, sweet peach, pineapple ice, blueberry, blue razz lemonade, bubba, lychee ice, sour berry, kiwi passion fruit guava, sour peach gummy, banana ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/dojo_blast_kit.png" alt="Vaporesso Dojo Blast 10K Starter Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/dojo_blast_kit.png" alt="Vaporesso Dojo Blast 10K Starter Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1215,7 +1254,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="ivg pro 10k starter kit" data-specs="10, 000 puffs high-volume intelligent smart battery station" data-flavours="strawberry ice, kiwi passionfruit guava, sour cherry watermelon, tobacco, blue raspberry ice, blueberry mint, pineapple ice, strawberry raspberry cherry, fresh menthol mojito, pink lemonade, blue razz lemonade" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/ivg_pro_10k_kit.png" alt="IVG Pro 10K Starter Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/ivg_pro_10k_kit.png" alt="IVG Pro 10K Starter Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1238,7 +1277,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="lost mary 30k" data-specs="30,000 puffs smart screen indicator, dual-mesh adjustable wattage" data-flavours="cola, blackberry raspberry, watermelon ice, strawberry blueberry cherry, pineapple ice, strawberry kiwi, triple mango, blueberry ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Lost mary 30k.jpg" alt="Lost Mary 30K" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Lost mary 30k.jpg" alt="Lost Mary 30K" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1261,7 +1300,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="ske crystal bar 15k" data-specs="15,000+ puffs, crystal clear design, mesh coil, rechargeable battery" data-flavours="strawberry raspberry cherry, kiwi passion fruit guava, pineapple ice, cherry ice, mr. blue, blueberry sour raspberry, cherry berry, lemon & lime, strawberry burst" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Sky Crystal Plus Vape.webp" alt="SKE Crystal Bar 15K" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Sky Crystal Plus Vape.webp" alt="SKE Crystal Bar 15K" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1284,7 +1323,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="elfbar 5000" data-specs="5,000 puffs disposable vape kit, compact & portable design" data-flavours="blue razz lemonade, strawberry ice, watermelon, kiwi passion fruit guava" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Elfbar.jpg" alt="Elfbar 5000" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Elfbar.jpg" alt="Elfbar 5000" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1307,7 +1346,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="bloody bar pod twist 20k" data-specs="20,000 puffs capacity, unique pod twist dual flavor switcher" data-flavours="blueberry cherry cranberry, fresh mint, strawberry watermelon" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Bloody Bar pod twist.jpg" alt="Bloody Bar Pod Twist 20K" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Bloody Bar pod twist.jpg" alt="Bloody Bar Pod Twist 20K" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1330,7 +1369,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="lost mary bm6000 / 6k pods" data-specs="6,000 puffs rechargeable device with click-in e-liquid bottle system" data-flavours="strawberry raspberry cherry ice, cherry ice, smooth tobacco, triple melon, strawberry watermelon, pink lemonade, pineapple ice, blue razz lemonade, blueberry, blueberry sour raspberry, cola, strawberry ice, lemon lime, fresh mint, menthol, miami mint, triple mango, watermelon ice, double apple, cherry peach lemonade, juicy peach, banana ice, apple pear, fizzy cherry, grape, strawberry kiwi" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Lost Mary BM6000.jpg" alt="Lost Mary BM6000 / 6K Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Lost Mary BM6000.jpg" alt="Lost Mary BM6000 / 6K Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1353,7 +1392,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="ske crystal 600 pro disposable vape" data-specs="up to 600 puffs, 2ml prefilled e-liquid, 2% nicotine (20mg)" data-flavours="blueberry sour raspberry, watermelon ice, lemon & lime, fizzy cherry, pink lemonade, menthol" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/SKE Crystal 600 Pro.jpg" alt="SKE Crystal 600 Pro Disposable Vape" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/SKE Crystal 600 Pro.jpg" alt="SKE Crystal 600 Pro Disposable Vape" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1376,7 +1415,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="vuse go disposable vape" data-specs="up to 800 puffs, 2ml prefilled e-liquid, 2% nicotine (20mg), compact metal design" data-flavours="creamy tobacco, mint ice, berry blend, watermelon ice, mango ice, strawberry ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vuse Go.jpg" alt="Vuse Go Disposable Vape" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vuse Go.jpg" alt="Vuse Go Disposable Vape" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1399,7 +1438,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="hayati pro max 4000" data-specs="up to 4000 puffs disposable vape, 1400mah battery, prefilled mesh coil, tpd compliant" data-flavours="blue razz gummy bear, summer dream, fresh mint, lemon & lime, cherry cola" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Hayati Pro Max 4000.jpg" alt="Hayati Pro Max 4000" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Hayati Pro Max 4000.jpg" alt="Hayati Pro Max 4000" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1422,7 +1461,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="pixl 6000 big puff vape kit" data-specs="up to 6000 puffs, rechargeable battery, 2ml prefilled pod + 10ml bottle fed system, tpd compliant" data-flavours="blueberry sour raspberry, lemon & lime, strawberry ice, cherry ice, gummy bear" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Pixl 6000..jpg" alt="PIXL 6000 Big Puff Vape Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Pixl 6000..jpg" alt="PIXL 6000 Big Puff Vape Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1445,7 +1484,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="elf bar elfa pro prefilled pod kit" data-specs="prefilled pod starter kit, rechargeable 500mah battery, fast type-c charging, includes 1x prefilled pod" data-flavours="blue razz lemonade, watermelon, pink lemonade, kiwi passion fruit guava, blueberry sour raspberry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Elfa Pro Kit.jpg" alt="Elf Bar ELFA Pro Prefilled Pod Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Elfa Pro Kit.jpg" alt="Elf Bar ELFA Pro Prefilled Pod Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1468,7 +1507,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="elf bar 600 disposable vape" data-specs="up to 600 puffs, 2ml prefilled nic salt e-liquid, 2% nicotine (20mg), draw-activated" data-flavours="watermelon, blueberry sour raspberry, pink lemonade, strawberry ice, cola" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Elf Bar 600.jpg" alt="Elf Bar 600 Disposable Vape" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Elf Bar 600.jpg" alt="Elf Bar 600 Disposable Vape" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1491,7 +1530,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="ivg 600 disposable vape" data-specs="up to 600 puffs, 2ml prefilled e-liquid, 20mg (2%) nicotine, draw-activated vapour" data-flavours="strawberry watermelon, blue raspberry ice, classic menthol, fizzy cherry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/IVG 600.jpg" alt="IVG 600 Disposable Vape" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/IVG 600.jpg" alt="IVG 600 Disposable Vape" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1514,7 +1553,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="oxva slimstick vape kit" data-specs="ultra portable slim pod system, high performance mesh coil, auto-draw" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Slimstick Oxva.webp" alt="OXVA Slimstick Vape Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Slimstick Oxva.webp" alt="OXVA Slimstick Vape Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1533,7 +1572,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="vaporesso xros 5 pod kit" data-specs="premium vaporesso pod system, corex heating technology, 1000mah battery" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vaporesso Xros 5.jpg" alt="Vaporesso Xros 5 Pod Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vaporesso Xros 5.jpg" alt="Vaporesso Xros 5 Pod Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1552,7 +1591,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="voopoo drag vape kit" data-specs="advanced voopoo drag series pod mod, intelligent gene chip, dynamic airflow" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Voopoo drag.webp" alt="Voopoo Drag Vape Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Voopoo drag.webp" alt="Voopoo Drag Vape Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1571,7 +1610,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="iqos iluma i one kit" data-specs="next-gen induction heating system, single-piece device, 20 consecutive uses" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Iluama I one.jpg" alt="IQOS Iluma I One Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Iluama I one.jpg" alt="IQOS Iluma I One Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1590,7 +1629,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="oxva nexlim pod kit" data-specs="40w max output, 1500mah battery, 0.85-inch color screen, dual mesh" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/OXVA Nexlim.jpg" alt="OXVA NeXLiM Pod Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/OXVA Nexlim.jpg" alt="OXVA NeXLiM Pod Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1609,7 +1648,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="pyne pod click 6k starter kit" data-specs="prefabricated pod & e-liquid bottle system, rechargeable type-c" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Pyne pod click.jpg" alt="Pyne Pod Click 6K Starter Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Pyne pod click.jpg" alt="Pyne Pod Click 6K Starter Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1628,7 +1667,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="aspire pockex aio starter kit" data-specs="all-in-one pocket kit, 1500mah internal battery, 2ml tank, top airflow sizing" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Aspire PockeX Kit.jpg" alt="Aspire PockeX AIO Starter Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Aspire PockeX Kit.jpg" alt="Aspire PockeX AIO Starter Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1647,7 +1686,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="geekvape aegis solo vape kit" data-specs="dustproof, shockproof, waterproof, 100w max wattage, single 18650 battery mod" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Geekvape Aegis Kit.jpg" alt="Geekvape Aegis Solo Vape Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Geekvape Aegis Kit.jpg" alt="Geekvape Aegis Solo Vape Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1666,7 +1705,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="vaporesso gtx one pod kit" data-specs="2000mah battery mod, adjustable 40w output, mtl vaping optimized, type-c charging" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vaporesso GTX One Kit.jpg" alt="Vaporesso GTX One Pod Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vaporesso GTX One Kit.jpg" alt="Vaporesso GTX One Pod Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1685,7 +1724,7 @@
         
             <div class="product-card" data-category="Vape Kits" data-title="voopoo drag nano 2 pod kit" data-specs="compact metal chassis mod, 800mah battery, 3 adjustable power levels, top-fill pod" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Voopoo Drag Nano 2 Kit.jpg" alt="Voopoo Drag Nano 2 Pod Kit" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Voopoo Drag Nano 2 Kit.jpg" alt="Voopoo Drag Nano 2 Pod Kit" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Kits</span>
                 </div>
                 <div class="product-details">
@@ -1704,7 +1743,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="vaporesso dojo blast 10k replacement pods" data-specs="replacement prefilled mesh coil big puff pod cartridges" data-flavours="strawberry raspberry cherry ice, triple mango, black grape, lemon lime, double apple, classic tobacco, ten tangerines, fizzy cherry, watermelon ice, sweet peach, pineapple ice, blueberry, blue razz lemonade, bubba, lychee ice, sour berry, kiwi passion fruit guava, sour peach gummy, banana ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/dojo_blast_pods.png" alt="Vaporesso Dojo Blast 10K Replacement Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/dojo_blast_pods.png" alt="Vaporesso Dojo Blast 10K Replacement Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1727,7 +1766,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="ivg pro pod 10k replacement pods" data-specs="click-in replacement big puff empty-to-full flavor modules" data-flavours="blueberry raspberry, cola cherry, pink lemonade, blue razz lemonade, sour cherry watermelon" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/IVG Pro Pod 10K (Replacement Pods).webp" alt="IVG Pro Pod 10K Replacement Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/IVG Pro Pod 10K (Replacement Pods).webp" alt="IVG Pro Pod 10K Replacement Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1750,7 +1789,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="lost mary eco 15k/6k pod system" data-specs="eco-conscious modular replacement prefilled cartridge cartridges" data-flavours="watermelon ice, blueberry sour raspberry, blue razz lemonade, strawberry ice, double apple, cherry ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/lost_mary_pods.png" alt="Lost Mary ECO 15K/6K Pod System" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/lost_mary_pods.png" alt="Lost Mary ECO 15K/6K Pod System" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1773,7 +1812,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="hayati 6k pods" data-specs="6,000 puffs capacity, prefilled mesh coil pods, rich flavor profiles" data-flavours="blue razz lemonade, strawberry raspberry, lemon & lime, juicy peach" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Hayatti 6k.webp" alt="Hayati 6K Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Hayatti 6k.webp" alt="Hayati 6K Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1796,7 +1835,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="vuse ultra closed pods" data-specs="high-density nicotine closed pod system, rich vapor production" data-flavours="cherry ice, dragon pomegranate" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vuse Ultra.jpg" alt="Vuse Ultra Closed Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vuse Ultra.jpg" alt="Vuse Ultra Closed Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1819,7 +1858,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="elfbar elfa prefilled pods" data-specs="prefilled pods for elfa pod kit, intense flavor profiles, pack of 2" data-flavours="watermelon, raspberry cherry ice, mango" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Elf Bar Prefilled pods.jpg" alt="Elfbar Elfa Prefilled Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Elf Bar Prefilled pods.jpg" alt="Elfbar Elfa Prefilled Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1842,7 +1881,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="lost mary nera 15k pods" data-specs="15,000 puffs capacity replacement pods, intelligent smart display panel" data-flavours="strawberry ice, kiwi passion fruit guava, fizzy pineapple, raspberry watermelon, pineapple ice, summer grape, dubai chocolate, strawberry watermelon, golden mango, sour pineapple, triple mango, juicy peach, mint, cherry sour raspberry, blueberry raspberry, cherry ice, raspberry peach, menthol, miami mint, fruit punch, blue razz ice, grape, berry mix, banana ice, lemon lime, watermelon ice, sparkling cherry, pineapple apple pear, strawberry raspberry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Lost mary 15k.jpg" alt="Lost Mary NERA 15K Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Lost mary 15k.jpg" alt="Lost Mary NERA 15K Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1865,7 +1904,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="veev one pods" data-specs="premium veev one closed pod system, rich & satisfying draw, pack of 2" data-flavours="classic tobacco, velvet valley" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Veev one pods.jpg" alt="VEEV One Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Veev one pods.jpg" alt="VEEV One Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1888,7 +1927,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="vuse epod replacement pods" data-specs="prefilled closed pods for vuse epod 2 device, 1.9ml capacity, pack of 2" data-flavours="golden tobacco, chilled mint, very berry, cucumber mix, watermelon ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vuse epod.jpg" alt="Vuse ePod Replacement Pods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vuse epod.jpg" alt="Vuse ePod Replacement Pods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1911,7 +1950,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="innokin prism t20 replacement coils (5-pack)" data-specs="1.5 ohm resistance (12w - 14w), compatible with prism t20 tank, 5 coils per pack" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Innokin T20 Coils.jpg" alt="Innokin Prism T20 Replacement Coils (5-Pack)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Innokin T20 Coils.jpg" alt="Innokin Prism T20 Replacement Coils (5-Pack)" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1930,7 +1969,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="smok tfv16 sub-ohm tank" data-specs="9ml liquid capacity, dual mesh coils, top rotary refill system, large airflow ports" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/SMOK TFV16 Tank.jpg" alt="SMOK TFV16 Sub-Ohm Tank" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/SMOK TFV16 Tank.jpg" alt="SMOK TFV16 Sub-Ohm Tank" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1949,7 +1988,7 @@
         
             <div class="product-card" data-category="Vape Refills" data-title="vaporesso gtx pod 26 (2-pack)" data-specs="5.5ml capacity replacement pods, sss leak-resistant technology, magnetic connection" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vaporesso GTX Pod 26.jpg" alt="Vaporesso GTX Pod 26 (2-Pack)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vaporesso GTX Pod 26.jpg" alt="Vaporesso GTX Pod 26 (2-Pack)" class="product-image" loading="lazy">
                     <span class="product-category-badge">Vape Refills</span>
                 </div>
                 <div class="product-details">
@@ -1968,7 +2007,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="elux legend nic salts 10ml" data-specs="10mg / 20mg concentrations, small-pod optimized fluid nicotine" data-flavours="blueberry sour raspberry, mr blue, fizzy cherry, lemon & lime, strawberry watermelon bubblegum, gummy bear, watermelon ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/elux_salts_10ml.png" alt="Elux Legend Nic Salts 10ml" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/elux_salts_10ml.png" alt="Elux Legend Nic Salts 10ml" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -1991,7 +2030,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="bar juice 5000 (10ml nic salts)" data-specs="disposable-style concentrated taste refill liquid profiles" data-flavours="strawberry sour raspberry, orange zest, pink bubba, blue bubba, blueberry watermelon, strawberry ice, sour rainbow, double apple shisha, pear banana, blue razz lemonade, pink lemonade, lemon & lime, watermelon, strawberry kiwi, red apple ice, blueberry pomegranate, berry crush, fizzy cherry, cherry ice, blue ice, strawberry watermelon, peach, triple mango, blackberry raspberry, blueberry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/bar_juice_10ml.png" alt="Bar Juice 5000 (10ml Nic Salts)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/bar_juice_10ml.png" alt="Bar Juice 5000 (10ml Nic Salts)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2014,7 +2053,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="tasty cbd 100ml shortfill e-liquid" data-specs="1000mg-3500mg range,  thick high-vg cloud tank wellness blend" data-flavours="cherry drop, mango ice, bubblegum, chilled berry, sour apple" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/tasty_cbd_100ml.png" alt="Tasty CBD 100ml Shortfill E-Liquid" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/tasty_cbd_100ml.png" alt="Tasty CBD 100ml Shortfill E-Liquid" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2037,7 +2076,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="elfliq nic salt 10ml" data-specs="10ml bottle, 10mg/20mg nicotine strength, authentic elf bar flavors" data-flavours="watermelon, blue razz lemonade, kiwi passion fruit guava, blueberry sour raspberry, pink lemonade, spearmint, apple peach" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Elfliq 10ml bottle white background.jpg" alt="Elfliq Nic Salt 10ml" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Elfliq 10ml bottle white background.jpg" alt="Elfliq Nic Salt 10ml" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2060,7 +2099,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="maryliq nic salt 10ml" data-specs="10ml e-liquid by lost mary, 20mg nicotine strength, rich flavor options" data-flavours="triple mango, watermelon ice, double apple, peach ice, blackcurrant apple, lemon lime, blueberry sour raspberry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Maryliq 10ml bottle png.jpg" alt="Maryliq Nic Salt 10ml" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Maryliq 10ml bottle png.jpg" alt="Maryliq Nic Salt 10ml" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2083,7 +2122,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="nasty juice shortfills (100ml)" data-specs="100ml shortfill bottle, 70/30 vg/pg blend, premium fruity mint flavors" data-flavours="grape & mixed berries, menthol tobacco" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Nasty Juice 100ml shortfill bottle transparent.jpg" alt="Nasty Juice Shortfills (100ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Nasty Juice 100ml shortfill bottle transparent.jpg" alt="Nasty Juice Shortfills (100ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2106,7 +2145,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="juice bar shortfills (100ml)" data-specs="100ml shortfill e-liquid, premium high-vg cloud chaser formula" data-flavours="banana ice, pineapple peach mango" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Tasty Juice.jpg" alt="Juice Bar Shortfills (100ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Tasty Juice.jpg" alt="Juice Bar Shortfills (100ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2129,7 +2168,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="brand-specific nic salts (10ml)" data-specs="10ml premium nicotine salts from top brands (dinner lady, mary liq, nasty, hayati)" data-flavours="strawberry ice, strawberry banana, blackberry ice, fresh mint, pink lemonade" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Maryliq 10ml bottle png.jpg" alt="Brand-Specific Nic Salts (10ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Maryliq 10ml bottle png.jpg" alt="Brand-Specific Nic Salts (10ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2152,7 +2191,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="fizzy juice e-liquid (120ml shortfill)" data-specs="120ml bottle, 70vg/30pg ratio, low mint cooling effect, nic shot ready" data-flavours="fizzy strawberry, fizzy grape, fizzy wild berries" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Fizzy Juice Strawberry.jpg" alt="Fizzy Juice E-Liquid (120ml Shortfill)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Fizzy Juice Strawberry.jpg" alt="Fizzy Juice E-Liquid (120ml Shortfill)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2175,7 +2214,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="ramillion nic salts (10ml)" data-specs="10ml bottles, 10mg / 20mg nicotine strengths, balanced 50vg/50pg ratio" data-flavours="pink lemonade, strawberry ice, peach ice" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Ramillion nic salts.jpg" alt="Ramillion Nic Salts (10ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Ramillion nic salts.jpg" alt="Ramillion Nic Salts (10ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2198,7 +2237,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="royale cbd e-liquid (1000mg)" data-specs="10ml premium cbd e-liquid, organic hemp extract, 0% thc, rich flavors" data-flavours="mixed berry, mango ice, lemon haze, strawberry, peppermint" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/CBD Royale.jpg" alt="Royale CBD E-Liquid (1000mg)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/CBD Royale.jpg" alt="Royale CBD E-Liquid (1000mg)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2221,7 +2260,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="ske crystal nic salts (10ml)" data-specs="10ml bottle ske crystal bar official e-liquid, 10mg / 20mg strengths, smooth 50/50 vg/pg" data-flavours="lemon & lime, blueberry sour raspberry, strawberry burst, cherry ice, pink lemonade" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/SKE Crystal Salts.jpg" alt="SKE Crystal Nic Salts (10ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/SKE Crystal Salts.jpg" alt="SKE Crystal Nic Salts (10ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2244,7 +2283,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="nasty juice podmate nic salts (10ml)" data-specs="10ml bottles optimized for pod kits, 10mg / 20mg nicotine strengths, rich throat hit" data-flavours="peach lemonade, red apple, grape & berry, spearmint, strawberry kiwi" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Podmate Nic Salts.jpg" alt="Nasty Juice Podmate Nic Salts (10ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Podmate Nic Salts.jpg" alt="Nasty Juice Podmate Nic Salts (10ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2267,7 +2306,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="cbd leaf e-liquid (100ml)" data-specs="100ml premium cbd isolate e-liquid, 1000mg strength, 0% thc, fruit & menthol blends" data-flavours="blackcurrant, blue raspberry, gummy bear, menthol" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/CBD Leaf.jpg" alt="CBD Leaf E-Liquid (100ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/CBD Leaf.jpg" alt="CBD Leaf E-Liquid (100ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2290,7 +2329,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="nasty juice shortfill - wicked haze (60ml)" data-specs="60ml shortfill e-liquid, blackcurrant and lemonade menthol blend, 70% vg cloud chasing formula" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Wicked Haze.jpg" alt="Nasty Juice Shortfill - Wicked Haze (60ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Wicked Haze.jpg" alt="Nasty Juice Shortfill - Wicked Haze (60ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2309,7 +2348,7 @@
         
             <div class="product-card" data-category="E-Liquids" data-title="v-juice - tuned in nic salt (10ml)" data-specs="10ml premium nicotine salt e-liquid, famous cherry menthol blend, 50vg/50pg for pods" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Tuned In Cherry.jpg" alt="V-Juice - Tuned In Nic Salt (10ml)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Tuned In Cherry.jpg" alt="V-Juice - Tuned In Nic Salt (10ml)" class="product-image" loading="lazy">
                     <span class="product-category-badge">E-Liquids</span>
                 </div>
                 <div class="product-details">
@@ -2328,7 +2367,7 @@
         
             <div class="product-card" data-category="Nicotine Pouches" data-title="nordic spirit nicotine pouches" data-specs="premium spit-free nicotine pouches (all strengths)" data-flavours="spearmint, sweet mint, wild berry / elderflower" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/nordic spirit.jpg" alt="Nordic Spirit Nicotine Pouches" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/nordic spirit.jpg" alt="Nordic Spirit Nicotine Pouches" class="product-image" loading="lazy">
                     <span class="product-category-badge">Nicotine Pouches</span>
                 </div>
                 <div class="product-details">
@@ -2351,7 +2390,7 @@
         
             <div class="product-card" data-category="Nicotine Pouches" data-title="zyn nicotine pouches" data-specs="premium spit-free nicotine pouches (all strengths)" data-flavours="zyn espressino, cool mint, citrus" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/ZYN Pouches Reuse.webp" alt="ZYN Nicotine Pouches" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/ZYN Pouches Reuse.webp" alt="ZYN Nicotine Pouches" class="product-image" loading="lazy">
                     <span class="product-category-badge">Nicotine Pouches</span>
                 </div>
                 <div class="product-details">
@@ -2374,7 +2413,7 @@
         
             <div class="product-card" data-category="Nicotine Pouches" data-title="velo nicotine pouches" data-specs="premium spit-free nicotine pouches (all strengths)" data-flavours="freezing peppermint / peppermint storm, crispy peppermint, bright spearmint, spicy papaya, mango flame, ruby berry / blush berry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/velo nicotine pouches.webp" alt="Velo Nicotine Pouches" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/velo nicotine pouches.webp" alt="Velo Nicotine Pouches" class="product-image" loading="lazy">
                     <span class="product-category-badge">Nicotine Pouches</span>
                 </div>
                 <div class="product-details">
@@ -2397,7 +2436,7 @@
         
             <div class="product-card" data-category="Nicotine Pouches" data-title="pablo nicotine pouches" data-specs="strong spit-free nicotine pouches (all strengths)" data-flavours="pablo ice cold, pablo exclusive, pablo red" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Pablo Ice Cold can transparent background.jpg" alt="Pablo Nicotine Pouches" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Pablo Ice Cold can transparent background.jpg" alt="Pablo Nicotine Pouches" class="product-image" loading="lazy">
                     <span class="product-category-badge">Nicotine Pouches</span>
                 </div>
                 <div class="product-details">
@@ -2420,7 +2459,7 @@
         
             <div class="product-card" data-category="Nicotine Pouches" data-title="skruf superwhite nicotine pouches" data-specs="superslim format, premium all-white portions, long-lasting nicotine release" data-flavours="frozen mint xtra, fresh mint, blackberry" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Skruf nicotine pouches.jpg" alt="Skruf Superwhite Nicotine Pouches" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Skruf nicotine pouches.jpg" alt="Skruf Superwhite Nicotine Pouches" class="product-image" loading="lazy">
                     <span class="product-category-badge">Nicotine Pouches</span>
                 </div>
                 <div class="product-details">
@@ -2443,7 +2482,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="maxmate mmh15 wireless headphones" data-specs="over-ear cushioned bluetooth unit, built-in microphone, 6d audio" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/maxmate_headphones.png" alt="Maxmate MMH15 Wireless Headphones" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/maxmate_headphones.png" alt="Maxmate MMH15 Wireless Headphones" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2462,7 +2501,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="koleer h68 bluetooth speaker" data-specs="rugged exterior portable high-volume shock-absorbing speaker" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/koleer_h68.png" alt="Koleer H68 Bluetooth Speaker" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/koleer_h68.png" alt="Koleer H68 Bluetooth Speaker" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2481,7 +2520,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="zagg slim wired desktop keyboard" data-specs="universal typing interface, low-profile keys, usb-c/usb-a native" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/zagg_keyboard.png" alt="Zagg Slim Wired Desktop Keyboard" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/zagg_keyboard.png" alt="Zagg Slim Wired Desktop Keyboard" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2500,7 +2539,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="sandisk ultra dual drive usb-c flash" data-specs="high-speed flash drive to transfer data between phones & pcs" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/sandisk_dual_drive.png" alt="SanDisk Ultra Dual Drive USB-C Flash" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/sandisk_dual_drive.png" alt="SanDisk Ultra Dual Drive USB-C Flash" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2519,7 +2558,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="budi super fast pd charging cable" data-specs="high-durability heavy braided structural wire (type-c / lightning)" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/budi_charging_cable.png" alt="Budi Super Fast PD Charging Cable" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/budi_charging_cable.png" alt="Budi Super Fast PD Charging Cable" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2538,7 +2577,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="apple watch series 3" data-specs="space gray aluminum case, sport band, fitness tracking, heart rate monitor" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Apple Watch 38mm.jpg" alt="Apple Watch Series 3" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Apple Watch 38mm.jpg" alt="Apple Watch Series 3" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2557,7 +2596,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="apple watch series 4" data-specs="silver aluminum case, sport band, gps, retina display" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/apple watch 42mm.jpg" alt="Apple Watch Series 4" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/apple watch 42mm.jpg" alt="Apple Watch Series 4" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2576,7 +2615,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="authentic apple airpods" data-specs="wireless charging case, active noise cancellation, bluetooth 5.0, sweat resistant" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Authentic Apple Air Pods.jpg" alt="Authentic Apple AirPods" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Authentic Apple Air Pods.jpg" alt="Authentic Apple AirPods" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2595,7 +2634,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="core charger cable" data-specs="heavy duty braided lightning to usb-c cable, fast charging compatible" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Core charger cable.jpg" alt="Core Charger Cable" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Core charger cable.jpg" alt="Core Charger Cable" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2614,7 +2653,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="core dual wall charger" data-specs="dual port usb-c & usb-a fast wall charger, 20w pd output" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Core dual wall charger.jpg" alt="Core Dual Wall Charger" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Core dual wall charger.jpg" alt="Core Dual Wall Charger" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2633,7 +2672,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="dual lens vehicle black box dvr" data-specs="1080p full hd dashboard camera, wide angle dual lens, g-sensor, night vision" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Dual Lense Vechile black box DVR.jpg" alt="Dual Lens Vehicle Black Box DVR" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Dual Lense Vechile black box DVR.jpg" alt="Dual Lens Vehicle Black Box DVR" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2652,7 +2691,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="havit wireless headphones" data-specs="over-ear bluetooth headset, 40mm drivers, 30 hours playtime, foldable design" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Havit headphones.jpg" alt="Havit Wireless Headphones" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Havit headphones.jpg" alt="Havit Wireless Headphones" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2671,7 +2710,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="high-speed hdmi cable" data-specs="gold-plated connectors, support 4k ultra hd at 60hz, double shielded" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/HDMI cable.jpg" alt="High-Speed HDMI Cable" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/HDMI cable.jpg" alt="High-Speed HDMI Cable" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2690,7 +2729,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="kakusiga car rear view mirror phone mount" data-specs="360-degree rotating car mirror mount holder for smartphones" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Kakuisga Car Rear view mirror.jpg" alt="Kakusiga Car Rear View Mirror Phone Mount" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Kakuisga Car Rear view mirror.jpg" alt="Kakusiga Car Rear View Mirror Phone Mount" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2709,7 +2748,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="maxmate storage charger" data-specs="compact travel power bank & charger, integrated storage case" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Maxmate storage charger.jpg" alt="Maxmate Storage Charger" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Maxmate storage charger.jpg" alt="Maxmate Storage Charger" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2728,7 +2767,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="samsung usb-c cable" data-specs="original samsung usb-c to usb-c charging and data transfer cable" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Samsung USB cable.jpg" alt="Samsung USB-C Cable" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Samsung USB cable.jpg" alt="Samsung USB-C Cable" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2747,7 +2786,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="sgl hdmi cable" data-specs="heavy duty nylon braided 4k hdmi cable, gold plated connections" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/SGL Hdmi Cable.jpg" alt="SGL HDMI Cable" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/SGL Hdmi Cable.jpg" alt="SGL HDMI Cable" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2766,7 +2805,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="2-pin shaver adaptor" data-specs="uk 3-pin to eu/shaver 2-pin converter plug for shaver & toothbrush" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Shaver adaptor.jpg" alt="2-Pin Shaver Adaptor" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Shaver adaptor.jpg" alt="2-Pin Shaver Adaptor" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2785,7 +2824,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="tws wireless earbuds" data-specs="bluetooth 5.3, smart touch control, ipx5 waterproof, charging case" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/TWS wireless earbuds.jpg" alt="TWS Wireless Earbuds" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/TWS wireless earbuds.jpg" alt="TWS Wireless Earbuds" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2804,7 +2843,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="van dens wired headphones" data-specs="in-ear wired earphones, 3.5mm jack, built-in mic, bass boosted stereo" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Van Dens wired headphones.webp" alt="Van Dens Wired Headphones" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Van Dens wired headphones.webp" alt="Van Dens Wired Headphones" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2823,7 +2862,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="wired optical mouse" data-specs="usb plug and play optical mouse, 3 buttons, 1200 dpi precision" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Wired Mouse.jpg" alt="Wired Optical Mouse" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Wired Mouse.jpg" alt="Wired Optical Mouse" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2842,7 +2881,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="wtk universal laptop charger" data-specs="90w universal power adapter with 8 interchangeable connector tips" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/WTK automatic laptop charger.jpg" alt="WTK Universal Laptop Charger" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/WTK automatic laptop charger.jpg" alt="WTK Universal Laptop Charger" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2861,7 +2900,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="zagg wired keyboard" data-specs="full-size keyboard, low profile scissor keys, usb wired connection" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/ZAGG wired keyboard.jpg" alt="ZAGG Wired Keyboard" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/ZAGG wired keyboard.jpg" alt="ZAGG Wired Keyboard" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2880,7 +2919,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="apple watch series 2" data-specs="aluminum case, sport band, gps, heart rate sensor" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Iwatch 2.jpg" alt="Apple Watch Series 2" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Iwatch 2.jpg" alt="Apple Watch Series 2" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2899,7 +2938,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="efest lush q2 intelligent battery charger" data-specs="dual-slot charger, led indicators, auto cut-off, charges 18650, 20700, 21700 vaping batteries" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Efest Lush Q2 Charger.jpg" alt="Efest Lush Q2 Intelligent Battery Charger" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Efest Lush Q2 Charger.jpg" alt="Efest Lush Q2 Intelligent Battery Charger" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2918,7 +2957,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="yesplus handheld usb mini fan" data-specs="portable rechargeable pocket fan, 3 speed modes, long-life battery, micro-usb charging" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Yesplus mini fan.webp" alt="Yesplus Handheld USB Mini Fan" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Yesplus mini fan.webp" alt="Yesplus Handheld USB Mini Fan" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2937,7 +2976,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="1080p smart home security camera" data-specs="wi-fi ip camera, night vision, two-way audio, motion detection, cloud & microsd storage" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Security Camera.jpg" alt="1080p Smart Home Security Camera" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Security Camera.jpg" alt="1080p Smart Home Security Camera" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2956,7 +2995,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="samsung galaxy s10 type-c fast charging cable" data-specs="durable braided usb-a to usb-c data sync & power fast cable, 1.2 meter" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Samsung Type-C Cable.png" alt="Samsung Galaxy S10 Type-C Fast Charging Cable" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Samsung Type-C Cable.png" alt="Samsung Galaxy S10 Type-C Fast Charging Cable" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2975,7 +3014,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="mtk high-speed portable ssd" data-specs="512gb / 1tb external usb 3.2 gen 2 ssd, ultra compact, shock resistant" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/MTK SSD.jpg" alt="MTK High-Speed Portable SSD" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/MTK SSD.jpg" alt="MTK High-Speed Portable SSD" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -2994,7 +3033,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="mtk external hard drive (hdd)" data-specs="1tb / 2tb portable hard drive, usb 3.0 interface, plug & play backup" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/MTK External Hard Drive.jpg" alt="MTK External Hard Drive (HDD)" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/MTK External Hard Drive.jpg" alt="MTK External Hard Drive (HDD)" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3013,7 +3052,7 @@
         
             <div class="product-card" data-category="Tech Accessories" data-title="45w usb-c super fast power adapter" data-specs="samsung/apple compatible 45w pd wall charger plug, compact gan tech, safe charging" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/45W Charger.jpg" alt="45W USB-C Super Fast Power Adapter" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/45W Charger.jpg" alt="45W USB-C Super Fast Power Adapter" class="product-image" loading="lazy">
                     <span class="product-category-badge">Tech Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3032,7 +3071,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="mutural ipad smart folio stand case" data-specs="tri-fold magnetic shell, auto wake/sleep feature, multi-angle fit" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/mutural_ipad_case.png" alt="Mutural iPad Smart Folio Stand Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/mutural_ipad_case.png" alt="Mutural iPad Smart Folio Stand Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3051,7 +3090,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="maxx clear anti-shock smartphone case" data-specs="impact-resistant hard tpu protective backcovers (ios & android)" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/clear_antishock_case.png" alt="Maxx Clear Anti-Shock Smartphone Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/clear_antishock_case.png" alt="Maxx Clear Anti-Shock Smartphone Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3070,7 +3109,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="anti burst phone case" data-specs="shockproof clear tpu, reinforced corners, scratch resistant, available for various iphone & samsung models" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Anti Burst phone case.jpg" alt="Anti Burst Phone Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Anti Burst phone case.jpg" alt="Anti Burst Phone Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3089,7 +3128,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="defence folio phone case" data-specs="premium synthetic leather, card slots & cash pocket, magnetic closure, stand feature" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Defence folio phone case.jpg" alt="Defence Folio Phone Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Defence folio phone case.jpg" alt="Defence Folio Phone Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3108,7 +3147,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="leather wallet flip phone case" data-specs="genuine leather texture, card slots, kickstand view, drop protection" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Leather wallet flip phone case white background.jpg" alt="Leather Wallet Flip Phone Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Leather wallet flip phone case white background.jpg" alt="Leather Wallet Flip Phone Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3127,7 +3166,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="liquid silicone phone case" data-specs="soft microfiber lining, anti-scratch & grip cover, sleek finish" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Liquid silicone phone case mockup png.jpg" alt="Liquid Silicone Phone Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Liquid silicone phone case mockup png.jpg" alt="Liquid Silicone Phone Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3146,7 +3185,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="silicone cover phone case" data-specs="flexible tpu gel, ultra-slim profile, camera protection, crystal clear" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Silicone cover phone case.jpg" alt="Silicone Cover Phone Case" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Silicone cover phone case.jpg" alt="Silicone Cover Phone Case" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3165,7 +3204,7 @@
         
             <div class="product-card" data-category="Protection & Cases" data-title="van dens tempered glass screen protector" data-specs="9h hardness tempered glass, case friendly, high clarity, scratch protection" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Van - Dens tempered glass Iphone.jpg" alt="Van Dens Tempered Glass Screen Protector" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Van - Dens tempered glass Iphone.jpg" alt="Van Dens Tempered Glass Screen Protector" class="product-image" loading="lazy">
                     <span class="product-category-badge">Protection & Cases</span>
                 </div>
                 <div class="product-details">
@@ -3184,7 +3223,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="raw organic hemp slim rolling papers" data-specs="unrefined 100% natural organic flax rolling sheets display pack" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/raw_papers.png" alt="RAW Organic Hemp Slim Rolling Papers" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/raw_papers.png" alt="RAW Organic Hemp Slim Rolling Papers" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3203,7 +3242,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="d&k herb crusher" data-specs="premium metal magnetic herb grinder, sharp diamond teeth, 4-piece setup" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/D and K herb crusher.jpg" alt="D&K Herb Crusher" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/D and K herb crusher.jpg" alt="D&K Herb Crusher" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3222,7 +3261,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="d&k metal pipe" data-specs="durable pocket-sized metal smoking pipe, easy to clean, heat resistant" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/D and K metal pipe.jpg" alt="D&K Metal Pipe" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/D and K metal pipe.jpg" alt="D&K Metal Pipe" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3241,7 +3280,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="small green rizla papers" data-specs="rizla green standard size rolling papers, medium weight, pack of 50" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Small green rizla paper.png" alt="Small Green Rizla Papers" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Small green rizla paper.png" alt="Small Green Rizla Papers" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3260,7 +3299,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="small orange rizla papers" data-specs="rizla orange standard size rolling papers, slow burning, pack of 50" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Small orange rizla paper.jpg" alt="Small Orange Rizla Papers" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Small orange rizla paper.jpg" alt="Small Orange Rizla Papers" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3279,7 +3318,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="thin blue rizla papers" data-specs="rizla blue king size slim rolling papers, ultra thin, pack of 32" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Thin Blue Rizla paper.jpg" alt="Thin Blue Rizla Papers" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Thin Blue Rizla paper.jpg" alt="Thin Blue Rizla Papers" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3298,7 +3337,7 @@
         
             <div class="product-card" data-category="Counter Accessories" data-title="elements ultra thin rice rolling papers" data-specs="king size ultra-thin rice papers, sugar gum, 33 leaves per pack" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Elements Rice Papers.jpg" alt="Elements Ultra Thin Rice Rolling Papers" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Elements Rice Papers.jpg" alt="Elements Ultra Thin Rice Rolling Papers" class="product-image" loading="lazy">
                     <span class="product-category-badge">Counter Accessories</span>
                 </div>
                 <div class="product-details">
@@ -3317,7 +3356,7 @@
         
             <div class="product-card" data-category="SIM Cards" data-title="ee pay as you go sim card" data-specs="5g-ready multi-fit (nano/micro/standard) sim card, simple activation, pay-as-you-go" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/EE SIM Card.png" alt="EE Pay As You Go SIM Card" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/EE SIM Card.png" alt="EE Pay As You Go SIM Card" class="product-image" loading="lazy">
                     <span class="product-category-badge">SIM Cards</span>
                 </div>
                 <div class="product-details">
@@ -3336,7 +3375,7 @@
         
             <div class="product-card" data-category="SIM Cards" data-title="giffgaff pay as you go sim card" data-specs="multi-fit sim card, runs on o2 network, no contract required, 5g ready" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Giffgaff SIM Card.jpg" alt="giffgaff Pay As You Go SIM Card" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Giffgaff SIM Card.jpg" alt="giffgaff Pay As You Go SIM Card" class="product-image" loading="lazy">
                     <span class="product-category-badge">SIM Cards</span>
                 </div>
                 <div class="product-details">
@@ -3355,7 +3394,7 @@
         
             <div class="product-card" data-category="SIM Cards" data-title="lebara pay as you go sim card" data-specs="cheap international minutes, runs on vodafone network, multi-fit nano/micro sim" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Lebara SIM Card.webp" alt="Lebara Pay As You Go SIM Card" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Lebara SIM Card.webp" alt="Lebara Pay As You Go SIM Card" class="product-image" loading="lazy">
                     <span class="product-category-badge">SIM Cards</span>
                 </div>
                 <div class="product-details">
@@ -3374,7 +3413,7 @@
         
             <div class="product-card" data-category="SIM Cards" data-title="lycamobile pay as you go sim card" data-specs="low-cost international calls, easy top-up, multi-fit sim card, 5g enabled" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Lycamobile SIM Card.jpg" alt="Lycamobile Pay As You Go SIM Card" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Lycamobile SIM Card.jpg" alt="Lycamobile Pay As You Go SIM Card" class="product-image" loading="lazy">
                     <span class="product-category-badge">SIM Cards</span>
                 </div>
                 <div class="product-details">
@@ -3393,7 +3432,7 @@
         
             <div class="product-card" data-category="SIM Cards" data-title="vodafone pay as you go sim card" data-specs="standard vodafone pay-as-you-go sim, 5g network support, multi-fit sizing" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Vodafone SIM Card.webp" alt="Vodafone Pay As You Go SIM Card" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Vodafone SIM Card.webp" alt="Vodafone Pay As You Go SIM Card" class="product-image" loading="lazy">
                     <span class="product-category-badge">SIM Cards</span>
                 </div>
                 <div class="product-details">
@@ -3412,7 +3451,7 @@
         
             <div class="product-card" data-category="Drinks" data-title="chilled coca-cola classic" data-specs="330ml ice-cold canned carbonated soft drink" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/cola.jpg" alt="Chilled Coca-Cola Classic" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/cola.jpg" alt="Chilled Coca-Cola Classic" class="product-image" loading="lazy">
                     <span class="product-category-badge">Drinks</span>
                 </div>
                 <div class="product-details">
@@ -3431,7 +3470,7 @@
         
             <div class="product-card" data-category="Drinks" data-title="chilled still spring water" data-specs="500ml pure chilled still mineral water" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/water.jpg" alt="Chilled Still Spring Water" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/water.jpg" alt="Chilled Still Spring Water" class="product-image" loading="lazy">
                     <span class="product-category-badge">Drinks</span>
                 </div>
                 <div class="product-details">
@@ -3450,7 +3489,7 @@
         
             <div class="product-card" data-category="Drinks" data-title="chilled red bull energy drink" data-specs="250ml chilled energy drink for a quick mental and physical boost" data-flavours="" data-colors="" data-storages="">
                 <div class="product-image-wrapper">
-                    <img src="../Fast acsess images/Redbull.webp" alt="Chilled Red Bull Energy Drink" class="product-image" loading="lazy">
+                    <img src="../fast_access_images/Redbull.webp" alt="Chilled Red Bull Energy Drink" class="product-image" loading="lazy">
                     <span class="product-category-badge">Drinks</span>
                 </div>
                 <div class="product-details">

@@ -184,6 +184,45 @@
     .btn { width: 100% !important; justify-content: center !important; }
 }
 
+
+/* ==========================================================================
+   MASTER MOBILE RESPONSIVE & SPEED OPTIMIZATION CSS
+   ========================================================================== */
+
+.desktop-text { display: inline !important; }
+.mobile-text { display: none !important; }
+
+@media (max-width: 768px) {
+    .desktop-text { display: none !important; }
+    .mobile-text { display: inline !important; }
+
+    /* CATALOGUE MOBILE 1-PRODUCT PER ROW */
+    .catalogue-products-grid {
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+        padding: 0 10px !important;
+    }
+    .catalogue-card {
+        width: 100% !important;
+        max-width: 380px !important;
+        margin: 0 auto !important;
+    }
+    .catalogue-card img {
+        height: 200px !important;
+        object-fit: contain !important;
+    }
+
+    /* GENERAL BUTTON & IMAGE FIXES */
+    .btn {
+        padding: 10px 18px !important;
+        font-size: 0.9rem !important;
+    }
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
 </style>
 
 </head>
@@ -238,7 +277,7 @@
             <div class="blog-post-meta">Published June 30, 2026 by Vape Tech Experts</div>
         </header>
         
-        <img src="../Fast acsess images/blog_big_puff_vapes.webp" alt="Big Puff Vapes" style="width: 100%; border-radius: 8px; margin-bottom: 40px; box-shadow: var(--shadow);" loading="lazy">
+        <img src="../fast_access_images/blog_big_puff_vapes.webp" alt="Big Puff Vapes" style="width: 100%; border-radius: 8px; margin-bottom: 40px; box-shadow: var(--shadow);" loading="lazy">
         
         <div class="blog-post-content">
             <p>Big-puff vapes offer massive longevity improvements over standard disposables. However, with systems ranging from 10,000 puffs up to 30,000 puffs, choosing the right modular system for your budget requires understanding the core differences. Here is a breakdown of the cost and technology.</p>
