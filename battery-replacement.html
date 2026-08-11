@@ -3,430 +3,773 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Power & Battery Replacement | Phone Vape and Munch</title>
-    <meta name="description" content="High-capacity replacement batteries installed in 20 minutes with full health monitoring.">
+    <title>Phone Battery Replacement | Phone Vape and Munch | Richmond Vape and Tech Repair</title>
+    <meta name="description" content="Phone Vape and Munch is Richmond's premier vape shop and expert device repair store. High quality vapes, e-liquids, and fast phone/laptop repairs using genuine parts.">
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Stylesheet -->
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
 
     
-    <!-- Top Announcement Bar -->
-    
-    <!-- Top Announcement Bar -->
-    
-    <!-- Top Announcement Bar -->
-    
-    <!-- Top Announcement Bar -->
-    
-    <!-- Top Announcement Bar -->
-    <div class="top-bar">
-        <div class="container top-bar-content">
-            <div class="top-contact-item"><i class="fa-solid fa-location-dot"></i> 354 Richmond Rd, East Twickenham TW1 2DU</div>
-            <div class="top-contact-item"><i class="fa-solid fa-clock"></i> Open 7 Days: 9:00 AM – 10:00 PM</div>
-            <div class="top-contact-item"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> WhatsApp: <a href="https://wa.me/447459554398" target="_blank">07459 554398</a></div>
-            <div class="top-contact-item"><i class="fa-solid fa-envelope" style="color: #10b981;"></i> Email: <a href="mailto:vapemunch@gmail.com">vapemunch@gmail.com</a></div>
+
+
+    <style>
+        :root {
+            --primary: #10b981 !important;
+            --primary-hover: #059669 !important;
+            --secondary: #34d399 !important;
+            --bg-dark: #051a14 !important;
+            --bg-card: #0c261e !important;
+            --border: #154033 !important;
+            --border-light: rgba(16, 185, 129, 0.3) !important;
+            --text-muted: #a7f3d0 !important;
+        }
+        body { background-color: #051a14 !important; color: #f8fafc !important; }
+        .hero, .subpage-hero { background: linear-gradient(135deg, #022c22 0%, #064e3b 60%, #051a14 100%) !important; }
+        .navbar { background: rgba(5, 26, 20, 0.96) !important; border-bottom: 1px solid rgba(16, 185, 129, 0.25) !important; }
+        .top-bar { background: #02120e !important; border-bottom: 1px solid rgba(16, 185, 129, 0.15) !important; }
+        .footer { background: #010c09 !important; border-top: 1px solid rgba(16, 185, 129, 0.2) !important; }
+        .section-tag { color: #34d399 !important; }
+        .btn-primary { background: #059669 !important; color: #ffffff !important; font-weight: 700 !important; }
+        .btn-primary:hover { background: #10b981 !important; }
+        .service-card, .catalogue-card, .sidebar-nav-item.active { background: #0c261e !important; border: 1px solid rgba(16, 185, 129, 0.3) !important; }
+        .service-card:hover, .catalogue-card:hover { border-color: #10b981 !important; transform: translateY(-4px); }
+        .catalogue-sidebar { background: #0c261e !important; border: 1px solid rgba(16, 185, 129, 0.3) !important; }
+        .search-bar-input { background: #051a14 !important; border: 1px solid rgba(16, 185, 129, 0.3) !important; color: #fff !important; }
+        /* OVERRIDE ALL BLUE BUTTONS AND BLUE BADGES WITH EMERALD GREEN */
+        .sidebar-nav-item.active, .sidebar-nav-item:hover { background: #059669 !important; color: #ffffff !important; }
+        .btn-call-price, .catalogue-card .btn, .card-btn, button[type="submit"] { background: #059669 !important; border-color: #059669 !important; color: #ffffff !important; }
+        .btn-call-price:hover, .catalogue-card .btn:hover { background: #10b981 !important; border-color: #10b981 !important; }
+        .badge, .category-tag-badge, .sidebar-nav-item .badge { background: #02120e !important; color: #34d399 !important; border: 1px solid rgba(16,185,129,0.2) !important; }
+        a { color: #34d399; }
+    </style>
+
+</head>
+<body>
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="" class="logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Phone Repairs <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="screenrepair">Screen Repair</a></li>
+                        <li><a href="batteryreplacement">Battery Replacement</a></li>
+                        <li><a href="chargingport">Charging Port Repair</a></li>
+                        <li><a href="waterdamage">Water Damage Repair</a></li>
+                        <li><a href="phoneunlocking">Phone Unlocking</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-trigger">Laptop Repairs <i class="fa-solid fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="laptopscreen">Screen Repair</a></li>
+                        <li><a href="powercharging">Power and Battery</a></li>
+                        <li><a href="ramstorage">SSD and RAM Upgrades</a></li>
+                        <li><a href="slowperformance">Performance Tuneups</a></li>
+                        <li><a href="virusmalware">Virus and Malware Removal</a></li>
+                        <li><a href="datarecovery">Data Recovery</a></li>
+                        <li><a href="keyboardports">Keyboard and Ports Repair</a></li>
+                        <li><a href="liquidspill">Liquid Spill Recovery</a></li>
+                        <li><a href="laptoptablet">Tablet and General Repairs</a></li>
+                    </ul>
+                </li>
+                
+                
+                <li><a href="catalogue">Catalogue</a></li>
+                <li><a href="blog">Blog</a></li>
+                <li><a href="contact">Contact</a></li>
+                <li><a href="tel:02037159418" class="btn-nav-cta"><i class="fa-solid fa-phone"></i> Call Shop</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Service Hero -->
+    <section class="service-hero" style="background-image: linear-gradient(rgba(17, 17, 17, 0.35), rgba(17, 17, 17, 0.55)), url('battery-repair.jpg');">
+        <div class="container text-center reveal">
+            <h1>Phone Battery Replacement</h1>
+            <p>Phone draining in hours or shutting down at 20%? Get a brand new cell.</p>
+            <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Phone Vape and Munch</a>
+        </div>
+    </section>
+
+    <!-- What's Involved -->
+    <section class="service-details">
+        <div class="container details-grid">
+            <div class="details-text reveal">
+                <h2>What's Involved</h2>
+                <p>Over time, lithium-ion phone batteries naturally degrade and lose capacity. Swapping your depleted cell with a brand new, safety-tested battery restores original usage hours and prevents sudden shutdowns. Most battery replacements take under 45 minutes.</p>
+                
+                <div class="symptoms-box">
+                    <h3>Signs You Need This Service</h3>
+                    <ul class="symptoms-list">
+                        <li><i class='fa-solid fa-circle-exclamation'></i> Battery drains extremely fast during basic usage</li><li><i class='fa-solid fa-circle-exclamation'></i> Phone turns off suddenly at 10% to 30% battery level</li><li><i class='fa-solid fa-circle-exclamation'></i> Battery percentage jumps up and down erratically</li><li><i class='fa-solid fa-circle-exclamation'></i> Device back casing looks slightly bulged (swollen battery hazard)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="details-image reveal">
+                <img src="Battery replacment page 2.jpg" alt="Repair service process" class="in-process-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Row -->
+    <section class="service-gallery">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Our Process and Results</h2>
+                <div class="accent-divider"></div>
+            </div>
+            <div class="gallery-row reveal">
+                
+                <div class="gallery-item-wrapper" onclick="openLightbox('Battery dead image 1.jpg', 'Before Repair - Phone Battery Replacement')">
+                    <img src="Battery dead image 1.jpg" alt="Before Repair">
+                    <span>Before Repair</span>
+                </div>
+                <div class="gallery-item-wrapper" onclick="openLightbox('Battery replacment page 2.jpg', 'Repair In Progress - Phone Battery Replacement')">
+                    <img src="Battery replacment page 2.jpg" alt="Repair In Progress">
+                    <span>Repair In Progress</span>
+                </div>
+                <div class="gallery-item-wrapper" onclick="openLightbox('Battery fixed 100 percent.jpg', 'Repaired Device - Phone Battery Replacement')">
+                    <img src="Battery fixed 100 percent.jpg" alt="Repaired Device">
+                    <span>Repaired Device</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="service-cta text-center reveal">
+        <div class="container">
+            <h2>Get a Free Diagnostic Assessment</h2>
+            <p>Speak to our technicians directly to describe the issue and schedule your repair today.</p>
+            <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Phone Vape and Munch</a>
+        </div>
+    </section>
+
+    <!-- Related Services -->
+    <section class="related-services">
+        <div class="container">
+            <div class="section-header text-center reveal">
+                <h2>Other Repair Services</h2>
+                <div class="accent-divider"></div>
+            </div>
+            <div class="related-grid reveal">
+                <div class="related-card">
+                    <h3>Screen Repair</h3>
+                    <p>Smashed displays, bleeding LCDs, and unresponsive touch screens replaced.</p>
+                    <a href="screenrepair" class="learn-more">Learn More &rarr;</a>
+                </div>
+                <div class="related-card">
+                    <h3>Battery and Charging</h3>
+                    <p>Swapping depleted cells and repairing charging ports.</p>
+                    <a href="batteryreplacement" class="learn-more">Learn More &rarr;</a>
+                </div>
+                <div class="related-card">
+                    <h3>Liquid Spill Recovery</h3>
+                    <p>Logic board diagnostic and chemical corrosion cleaning.</p>
+                    <a href="waterdamage" class="learn-more">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Options (Colors & Storage) Modal -->
+    <div id="optionsModal" class="booking-modal" onclick="closeOptionsModal()">
+        <div class="booking-modal-content" onclick="event.stopPropagation()" style="max-width: 500px; text-align: left; padding: 30px; border-radius: 8px;">
+            <span class="booking-modal-close" onclick="closeOptionsModal()">&times;</span>
+            <h2 id="options-modal-title" style="font-size: 1.4rem; margin-bottom: 16px; color: var(--text-main); font-family: var(--font-heading); font-weight: 700; border-bottom: 2px solid var(--primary); padding-bottom: 8px;">Available Options</h2>
+            <div id="options-modal-body" style="margin-bottom: 20px;">
+                <!-- Options will be inserted here -->
+            </div>
+            <button class="btn btn-primary" onclick="closeOptionsModal()" style="width: 100%;">Close</button>
         </div>
     </div>
 
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">
-                <span class="logo-main">PHONE VAPE AND MUNCH</span>
-                <span class="logo-sub">VAPE & TECH REPAIR</span>
-            </a>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="index.html" class="">Home</a></li>
-
-                <!-- Phone Repairs Dropdown -->
-                <li class="dropdown">
-                    <a href="screen-repair.html" class="dropdown-trigger active">Phone Repairs <i class="fa-solid fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="screen-repair.html"><i class="fa-solid fa-mobile-screen"></i> Screen Repair</a></li>
-                        <li><a href="battery-replacement.html"><i class="fa-solid fa-battery-three-quarters"></i> Power and Battery</a></li>
-                        <li><a href="charging-port.html"><i class="fa-solid fa-plug-circle-bolt"></i> Charging Port Fix</a></li>
-                        <li><a href="water-damage.html"><i class="fa-solid fa-droplet"></i> Water Damage Repair</a></li>
-                        <li><a href="phone-unlocking.html"><i class="fa-solid fa-unlock-keyhole"></i> Network Phone Unlocking</a></li>
-                        <li><a href="catalogue.html"><i class="fa-solid fa-mobile"></i> Pre-Owned Phones In Store</a></li>
-                    </ul>
-                </li>
-
-                <!-- Laptop Repairs Dropdown -->
-                <li class="dropdown">
-                    <a href="laptopscreen.html" class="dropdown-trigger ">Laptop Repairs <i class="fa-solid fa-chevron-down"></i></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="laptopscreen.html"><i class="fa-solid fa-laptop-code"></i> Laptop Screen Repair</a></li>
-                        <li><a href="powercharging.html"><i class="fa-solid fa-bolt"></i> Power & Battery</a></li>
-                        <li><a href="ramstorage.html"><i class="fa-solid fa-memory"></i> SSD & RAM Upgrades</a></li>
-                        <li><a href="slowperformance.html"><i class="fa-solid fa-gauge-high"></i> Performance Tuneups</a></li>
-                        <li><a href="virusmalware.html"><i class="fa-solid fa-bug-slash"></i> Virus & Malware Removal</a></li>
-                        <li><a href="datarecovery.html"><i class="fa-solid fa-database"></i> Data Recovery</a></li>
-                        <li><a href="keyboardports.html"><i class="fa-solid fa-keyboard"></i> Keyboard & Ports Repair</a></li>
-                        <li><a href="liquidspill.html"><i class="fa-solid fa-shield-virus"></i> Liquid Spill Recovery</a></li>
-                        <li><a href="laptoptablet.html"><i class="fa-solid fa-tablet-screen-button"></i> Tablet & General Repairs</a></li>
-                    </ul>
-                </li>
-
-                <li><a href="trade-in.html" class="">Trade-In & Cash</a></li>
-                <li><a href="blog.html" class="">Blog</a></li>
-                <li><a href="catalogue.html" class="">Product Catalogue</a></li>
-                <li><a href="contact.html" class="">Contact</a></li>
-            </ul>
-            <div class="nav-ctas">
-                <a href="tel:07459554398" class="nav-cta-btn"><i class="fa-solid fa-phone"></i> Call Shop</a>
-                <a href="https://wa.me/447459554398" target="_blank" class="nav-whatsapp-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
-            </div>
-            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
-        </div>
-    </nav>
-    
-    
-
-    
-    
-
-    <!-- Subpage Hero -->
-    <section class="subpage-hero">
-        <div class="container subpage-grid">
-            <div>
-                <div class="hero-badge">
-                    <i class="fa-solid fa-battery-three-quarters"></i> Health Checked
-                </div>
-                <h1 style="font-family: 'Outfit', sans-serif; font-size: 2.3rem; font-weight: 800; color: #ffffff; margin-bottom: 14px;">Power & Battery Replacement</h1>
-                <p style="font-size: 1rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6;">High-capacity replacement batteries installed in 20 minutes with full health monitoring.</p>
-
-                <div class="hero-actions">
-                    <a href="https://wa.me/447459554398" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp: 07459 554398</a>
-                    <a href="tel:07459554398" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Shop: 07459 554398</a>
-                </div>
-            </div>
-
-            <div class="subpage-card-image-box">
-                <img src="assets/battery-repair.jpg" alt="Power & Battery Replacement" class="subpage-card-img">
-            </div>
-        </div>
-    </section>
-
-    <!-- Key Service Features -->
-    
-    <!-- Animated Moving Official Brand Logos Section -->
-    
-    <!-- Seamless Endless Official Brand Logos Marquee -->
-    
-    <!-- ANIMATED MOVING BRAND LOGO MARQUEE (BELOW HERO - ZERO GAP) -->
-    <section class="section text-center" style="padding: 30px 0; background: #040914; border-bottom: 1px solid var(--border);">
-        <div class="container">
-            <span class="section-tag" style="color: #60a5fa;"><i class="fa-solid fa-screwdriver-wrench"></i> Official Component Support</span>
-            <h2 style="font-size: 1.6rem; color: #ffffff; margin-bottom: 16px;">Brands We Service & Repair</h2>
-        </div>
-
-        <div class="brand-marquee-container">
-            <div class="brand-marquee-track">
-                <!-- Set 1 -->
-                <div class="brand-logo-card"><img src="assets/apple-logo.jpg" alt="Apple" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/samsung-logo.jpg" alt="Samsung" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/dell-logo.webp" alt="Dell" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/hp-logo.png" alt="HP" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/asus-logo.png" alt="Asus" class="brand-logo-img" loading="lazy"></div>
-
-                <!-- Set 2 -->
-                <div class="brand-logo-card"><img src="assets/apple-logo.jpg" alt="Apple" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/samsung-logo.jpg" alt="Samsung" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/dell-logo.webp" alt="Dell" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/hp-logo.png" alt="HP" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/asus-logo.png" alt="Asus" class="brand-logo-img" loading="lazy"></div>
-
-                <!-- Set 3 -->
-                <div class="brand-logo-card"><img src="assets/apple-logo.jpg" alt="Apple" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/samsung-logo.jpg" alt="Samsung" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/dell-logo.webp" alt="Dell" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/hp-logo.png" alt="HP" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/asus-logo.png" alt="Asus" class="brand-logo-img" loading="lazy"></div>
-
-                <!-- Set 4 -->
-                <div class="brand-logo-card"><img src="assets/apple-logo.jpg" alt="Apple" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/samsung-logo.jpg" alt="Samsung" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/dell-logo.webp" alt="Dell" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/hp-logo.png" alt="HP" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/asus-logo.png" alt="Asus" class="brand-logo-img" loading="lazy"></div>
-
-                <!-- Set 5 -->
-                <div class="brand-logo-card"><img src="assets/apple-logo.jpg" alt="Apple" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/samsung-logo.jpg" alt="Samsung" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/dell-logo.webp" alt="Dell" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/hp-logo.png" alt="HP" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/asus-logo.png" alt="Asus" class="brand-logo-img" loading="lazy"></div>
-
-                <!-- Set 6 -->
-                <div class="brand-logo-card"><img src="assets/apple-logo.jpg" alt="Apple" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/samsung-logo.jpg" alt="Samsung" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/dell-logo.webp" alt="Dell" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/hp-logo.png" alt="HP" class="brand-logo-img" loading="lazy"></div>
-                <div class="brand-logo-card"><img src="assets/asus-logo.png" alt="Asus" class="brand-logo-img" loading="lazy"></div>
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <!-- Connected 4-Step Repair Process Timeline -->
-    
-
-    <!-- Animated Accordion FAQs -->
-    
-    <!-- Fast Access Style: Our Process and Results (3 Photo Cards) -->
-    <section class="section" style="background: linear-gradient(180deg, #0b1120 0%, #151f32 100%);">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag"><i class="fa-solid fa-camera"></i> Visual Quality Control</span>
-                <h2>Our Process and Results</h2>
-                <p>Real repair transformations completed by our certified technicians in store.</p>
-            </div>
-
-            <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 35px;">
-                <!-- Step 1: Before Repair -->
-                <div class="service-card" style="background: #040914;">
-                    <div class="service-img-container" style="height: 200px;">
-                        <img src="assets/Battery dead image 1.jpg" alt="Before Repair" class="service-card-img" loading="lazy">
-                        <span class="service-badge-tag" style="color: #ef4444; border-color: rgba(239,68,68,0.3);">1. Before Repair</span>
-                    </div>
-                    <div class="service-card-body" style="text-align: center;">
-                        <h4 style="color: #ffffff; font-size: 1.05rem; margin-bottom: 6px;">Damaged Device Assessment</h4>
-                        <p style="font-size: 0.84rem; color: #94a3b8;">Cracked glass, unresponsive touchscreen, or drained battery brought into store.</p>
-                    </div>
-                </div>
-
-                <!-- Step 2: Repair In Progress -->
-                <div class="service-card" style="background: #040914;">
-                    <div class="service-img-container" style="height: 200px;">
-                        <img src="assets/Battery replacment page 2.jpg" alt="Repair In Progress" class="service-card-img" loading="lazy">
-                        <span class="service-badge-tag" style="color: #3b82f6; border-color: rgba(59,130,246,0.3);">2. In Progress</span>
-                    </div>
-                    <div class="service-card-body" style="text-align: center;">
-                        <h4 style="color: #ffffff; font-size: 1.05rem; margin-bottom: 6px;">Precision Repair Work</h4>
-                        <p style="font-size: 0.84rem; color: #94a3b8;">Precision micro-soldering and OEM component replacement in workshop.</p>
-                    </div>
-                </div>
-
-                <!-- Step 3: Repaired Device -->
-                <div class="service-card" style="background: #040914;">
-                    <div class="service-img-container" style="height: 200px;">
-                        <img src="assets/Battery fixed 100 percent.jpg" alt="Repaired Device" class="service-card-img" loading="lazy">
-                        <span class="service-badge-tag" style="color: #10b981; border-color: rgba(16,185,129,0.3);">3. Restored & Tested</span>
-                    </div>
-                    <div class="service-card-body" style="text-align: center;">
-                        <h4 style="color: #ffffff; font-size: 1.05rem; margin-bottom: 6px;">100% Restored & Warrantied</h4>
-                        <p style="font-size: 0.84rem; color: #94a3b8;">Fully tested display touch, battery health & 12-month warranty issued.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Get Free Diagnostic Assessment Callout Banner -->
-    <section class="section bg-card text-center" style="padding: 45px 0;">
-        <div class="container" style="max-width: 800px;">
-            <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 12px;">Get a Free Diagnostic Assessment</h2>
-            <p style="color: #94a3b8; font-size: 1rem; margin-bottom: 24px;">Speak directly with our technicians to describe the issue and schedule your express 30-minute repair today.</p>
-            <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
-                <a href="tel:07459554398" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Shop: 07459 554398</a>
-                <a href="https://wa.me/447459554398" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Other Related Repair Services Grid -->
-    <section class="section">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag">Explore More</span>
-                <h2>Other Related Repair Services</h2>
-            </div>
-            <div class="services-grid" style="margin-top: 30px;">
-                <div class="service-card" onclick="window.location.href='screen-repair.html'" style="cursor: pointer;">
-                    <div class="service-img-container">
-                        <img src="assets/cracked-screen.jpg" alt="Screen Repair" class="service-card-img" loading="lazy">
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Phone Screen Repair</h3>
-                        <p>30-minute OLED display replacement for iPhone & Samsung.</p>
-                    </div>
-                </div>
-
-                <div class="service-card" onclick="window.location.href='battery-replacement.html'" style="cursor: pointer;">
-                    <div class="service-img-container">
-                        <img src="assets/battery-repair.jpg" alt="Battery Replacement" class="service-card-img" loading="lazy">
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Power & Battery</h3>
-                        <p>High capacity replacement batteries installed with health monitoring.</p>
-                    </div>
-                </div>
-
-                <div class="service-card" onclick="window.location.href='laptopscreen.html'" style="cursor: pointer;">
-                    <div class="service-img-container">
-                        <img src="assets/laptop-screen-broken.jpg" alt="Laptop Screen" class="service-card-img" loading="lazy">
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Laptop Screen Fix</h3>
-                        <p>MacBook & PC display replacements completed with OEM panels.</p>
-                    </div>
-                </div>
-
-                <div class="service-card" onclick="window.location.href='trade-in.html'" style="cursor: pointer;">
-                    <div class="service-img-container">
-                        <img src="assets/Iphone 17 pro max.webp" alt="Trade In Tech" class="service-card-img" loading="lazy">
-                    </div>
-                    <div class="service-card-body">
-                        <h3>Trade-In Tech for Cash</h3>
-                        <p>Get top instant cash or store credit for your old phones & laptops.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-<section class="section">
-        <div class="container">
-            <div class="section-header text-center">
-                <span class="section-tag">Got Questions?</span>
-                <h2>Frequently Asked Questions</h2>
-            </div>
-            <div class="faq-accordion-container">
-                <details class="faq-accordion-item" open>
-                    <summary>How long does the repair process take?</summary>
-                    <div class="faq-accordion-content">
-                        Phone screen and battery replacements take approximately 20-30 minutes. Complex laptop motherboard or liquid damage repairs take 1-2 working days.
-                    </div>
-                </details>
-                <details class="faq-accordion-item">
-                    <summary>Will my personal data remain safe?</summary>
-                    <div class="faq-accordion-content">
-                        Yes! Your personal photos, contacts, messages, and applications remain 100% untouched and safe during all repair procedures.
-                    </div>
-                </details>
-                <details class="faq-accordion-item">
-                    <summary>Do you offer a warranty on repairs?</summary>
-                    <div class="faq-accordion-content">
-                        Yes, every repair is covered by our full 12-month warranty against defects in parts or workmanship.
-                    </div>
-                </details>
-                <details class="faq-accordion-item">
-                    <summary>Where is your shop located?</summary>
-                    <div class="faq-accordion-content">
-                        We are located at 354 Richmond Rd, East Twickenham TW1 2DU. Open 7 days a week from 9:00 AM to 10:00 PM.
-                    </div>
-                </details>
-            </div>
-        </div>
-    </section>
-
-    <!-- Instant Quote Form -->
-    <section class="section bg-card">
-        <div class="container">
-            <div class="enquiry-box">
-                <div>
-                    <span class="section-tag">Instant Quote</span>
-                    <h2>Book Your Power & Battery Replacement Today</h2>
-                    <p style="color: var(--text-muted); margin-top: 12px; line-height: 1.6;">
-                        Visit us at 354 Richmond Rd or fill out the request form below. Our technicians respond in under 15 minutes!
-                    </p>
-                    
-                    <div class="contact-mini-list">
-                        <div><i class="fa-solid fa-location-dot" style="color: #3b82f6;"></i> <strong>Address:</strong> 354 Richmond Rd, East Twickenham TW1 2DU</div>
-                        <div><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> <strong>WhatsApp:</strong> 07459 554398</div>
-                        <div><i class="fa-solid fa-envelope" style="color: #3b82f6;"></i> <strong>Email:</strong> vapemunch@gmail.com</div>
-                    </div>
-                </div>
-
-                <form class="enquiry-form" onsubmit="handleEnquiry(event)">
-                    <div class="form-group">
-                        <label for="name">Your Name</label>
-                        <input type="text" id="name" required placeholder="e.g. Scott Evans">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Phone / WhatsApp</label>
-                        <input type="tel" id="phone" required placeholder="e.g. 07459 554398">
-                    </div>
-                    <div class="form-group">
-                        <label for="device">Device Model</label>
-                        <input type="text" id="device" required placeholder="e.g. iPhone 16 Pro / MacBook Air M2">
-                    </div>
-                    <div class="form-group">
-                        <label for="issue">Describe Issue</label>
-                        <textarea id="issue" rows="3" required placeholder="Provide details of the problem"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary btn-block"><i class="fa-solid fa-paper-plane"></i> Get Free Quote</button>
-                    <p id="formFeedback" class="form-feedback"></p>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    
-    <!-- Footer -->
-    
-    <!-- Master 4-Column Consistent Footer -->
-    
-    <!-- Master Green 4-Column Footer -->
+    <!-- Shared Footer -->
     <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-col">
-                <a href="index.html" class="logo">
-                    <span class="logo-main">PHONE VAPE AND MUNCH</span>
-                    <span class="logo-sub">VAPE & TECH REPAIR</span>
-                </a>
-                <p style="margin-top: 14px; font-size: 0.88rem; color: #a7f3d0; line-height: 1.6;">
-                    East Twickenham's top rated hub for authentic vapes, nicotine pouches, express phone & laptop repairs, and instant cash trade-ins.
-                </p>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="" class="footer-logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
+                    <p>Serving Richmond with premium vapes and expert tech repairs. We stock authentic disposable vapes, closed pod kits, e-liquids, and perform professional screen and battery replacements for all major phone and laptop models.</p>
+                    <div style="margin-top: 15px;">
+                        <span class="badge" style="background: rgba(255,255,255,0.05); color: #fff; border-color: rgba(255,255,255,0.1);"><i class="fa-solid fa-award"></i> Premium Quality</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul class="footer-services-list">
+                        
+                        
+                        
+                        <li><a href="screenrepair">Phone Screen Repair</a></li> 
+                        <li><a href="batteryreplacement">Phone Battery</a></li> 
+                        <li><a href="laptopscreen">Laptop Screen</a></li> 
+                        <li><a href="slowperformance">Laptop Tuneup</a></li> 
+                        <li><a href="phoneunlocking">Phone Unlocking</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>Opening Hours</h4>
+                    <ul>
+                        <li>Monday - Saturday: 10:00 am – 8:00 pm</li>
+                        <li>Sunday: 1:00 pm – 7:00 pm</li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Speak with Us</h4>
+                    <p class="phone-num"><a href="tel:02037159418">020 3715 9418</a></p>
+                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-bottom: 8px;">
+                        <i class="fa-solid fa-envelope" style="color: var(--primary); margin-right: 6px;"></i>
+                        <a href="mailto:fastinternetaccess@gmail.com" style="color: rgba(255,255,255,0.6); text-decoration: none;">fastinternetaccess@gmail.com</a>
+                    </p>
+                    <p class="address-num">354 Richmond Rd, East Twickenham, Twickenham TW1 2DU</p>
+                </div>
             </div>
-
-            <div class="footer-col">
-                <h4>Quick Navigation</h4>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="trade-in.html">Trade-In & Cash Exchange</a></li>
-                    <li><a href="blog.html">Vape & Tech Blog</a></li>
-                    <li><a href="catalogue.html">Product Catalogue</a></li>
-                    <li><a href="contact.html">Contact Store</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; Phone Vape and Munch 2026. All rights reserved. Serving the High Street with quality and integrity.</p>
             </div>
-
-            <div class="footer-col">
-                <h4>Popular Repairs</h4>
-                <ul>
-                    <li><a href="screen-repair.html">Phone Screen Repair</a></li>
-                    <li><a href="battery-replacement.html">Battery Replacement</a></li>
-                    <li><a href="laptopscreen.html">MacBook Screen Repair</a></li>
-                    <li><a href="ramstorage.html">SSD & RAM Upgrades</a></li>
-                    <li><a href="water-damage.html">Water Damage Fix</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-col">
-                <h4>Contact Store</h4>
-                <p style="font-size: 0.88rem; color: #a7f3d0; line-height: 1.6;">
-                    📍 354 Richmond Rd, East Twickenham TW1 2DU<br>
-                    📞 <strong>Store Phone:</strong> 07459 554398<br>
-                    💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447459554398" style="color: #25d366;" target="_blank">07459 554398</a><br>
-                    ✉️ <strong>Email:</strong> <a href="mailto:vapemunch@gmail.com" style="color: #10b981;">vapemunch@gmail.com</a><br>
-                    ⏰ Open 7 Days: 9:00 AM – 10:00 PM
-                </p>
-            </div>
-        </div>
-
-        <div class="footer-bottom text-center">
-            <p>© 2026 Phone Vape and Munch. All rights reserved.</p>
         </div>
     </footer>
 
-    <a href="https://wa.me/447459554398" target="_blank" class="floating-whatsapp-btn" title="Chat on WhatsApp">
-        <i class="fa-brands fa-whatsapp"></i>
-    </a>
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" src="" alt="Enlarged gallery view">
+        <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- Flavours Modal -->
+    <div id="flavoursModal" class="booking-modal" onclick="closeFlavoursModal()">
+        <div class="booking-modal-content" onclick="event.stopPropagation()" style="max-width: 500px; text-align: left; padding: 30px; border-radius: 8px;">
+            <span class="booking-modal-close" onclick="closeFlavoursModal()">&times;</span>
+            <h2 id="flavours-modal-title" style="font-size: 1.4rem; margin-bottom: 16px; color: var(--text-main); font-family: var(--font-heading); font-weight: 700; border-bottom: 2px solid var(--primary); padding-bottom: 8px;">Available Flavours</h2>
+            <div id="flavours-modal-list" style="max-height: 300px; overflow-y: auto; display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px; padding: 5px;">
+                <!-- Flavours will be inserted here -->
+            </div>
+            <button class="btn btn-primary" onclick="closeFlavoursModal()" style="width: 100%;">Close</button>
+        </div>
+    </div>
+
+    <!-- Booking Confirmation Modal -->
+    <div id="bookingModal" class="booking-modal" onclick="closeBookingModal()">
+        <div class="booking-modal-content" onclick="event.stopPropagation()">
+            <span class="booking-modal-close" onclick="closeBookingModal()">&times;</span>
+            <div class="modal-success-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h2>Enquiry Received!</h2>
+            <p>Thank you for reaching out to Phone Vape and Munch. We have received your enquiry details and will call you shortly on your provided phone number to confirm details.</p>
+            <button class="btn btn-primary" onclick="closeBookingModal()">Got it, thanks!</button>
+        </div>
+    </div>
+
+    <!-- Core JavaScript -->
+    <script>
+        // Hamburger toggle
+        
+        // Premium Dark/Light Mode Theme Toggle
+        (function() {
+            const toggleBtn = document.createElement('button');
+            toggleBtn.id = 'theme-toggle-btn';
+            toggleBtn.className = 'floating-theme-toggle';
+            toggleBtn.innerHTML = '<i class="fa-solid fa-moon"></i>';
+            toggleBtn.title = 'Toggle Light/Dark Theme';
+            document.body.appendChild(toggleBtn);
+
+            const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateToggleIcon(savedTheme);
+
+            toggleBtn.addEventListener('click', () => {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                updateToggleIcon(newTheme);
+                
+                toggleBtn.style.transform = 'scale(0.8)';
+                setTimeout(() => toggleBtn.style.transform = 'scale(1)', 150);
+            });
+
+            function updateToggleIcon(theme) {
+                const icon = toggleBtn.querySelector('i');
+                if (theme === 'dark') {
+                    icon.className = 'fa-solid fa-sun';
+                    toggleBtn.style.backgroundColor = '#FAF9F6';
+                    toggleBtn.style.color = '#1C1C1E';
+                } else {
+                    icon.className = 'fa-solid fa-moon';
+                    toggleBtn.style.backgroundColor = '#1C1C1E';
+                    toggleBtn.style.color = '#FAF9F6';
+                }
+            }
+        })();
+
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.getElementById('navLinks');
+        
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.querySelector('i').classList.toggle('fa-bars');
+            hamburger.querySelector('i').classList.toggle('fa-xmark');
+        });
+
+        // Close menu immediately when clicking any link inside it
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', (e) => {
+                if (link.classList.contains('dropdown-trigger')) return;
+                navLinks.classList.remove('active');
+                const icon = hamburger.querySelector('i');
+                if (icon) {
+                    icon.className = 'fa-solid fa-bars';
+                }
+            });
+        });
+
+        // Inline selection and Enquire link updater for Product Catalogue
+        function selectColor(el) {
+            const parent = el.parentNode;
+            parent.querySelectorAll('.color-swatch').forEach(sw => sw.classList.remove('active'));
+            el.classList.add('active');
+            updateCardEnquiryLink(el.closest('.product-card'));
+        }
+
+        function selectStorage(el) {
+            const parent = el.parentNode;
+            parent.querySelectorAll('.storage-pill').forEach(pill => pill.classList.remove('active'));
+            el.classList.add('active');
+            updateCardEnquiryLink(el.closest('.product-card'));
+        }
+
+        function updateCardEnquiryLink(card) {
+            const btn = card.querySelector('.enquire-btn');
+            if (!btn) return;
+            
+            const productName = btn.getAttribute('data-product');
+            const flavourSelect = card.querySelector('.flavour-select');
+            const activeColor = card.querySelector('.color-swatch.active');
+            const activeStorage = card.querySelector('.storage-pill.active');
+            
+            let queryParams = new URLSearchParams();
+            queryParams.append('product', productName);
+            
+            if (flavourSelect && flavourSelect.value) {
+                queryParams.append('flavor', flavourSelect.value);
+            }
+            if (activeColor) {
+                queryParams.append('color', activeColor.getAttribute('data-color'));
+            }
+            if (activeStorage) {
+                queryParams.append('storage', activeStorage.getAttribute('data-storage'));
+            }
+            
+            btn.href = 'contact.html?' + queryParams.toString();
+        }
+
+        // Initialize selectors and handle form pre-filling on contact / index pages
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set up flavor select event listener
+            document.querySelectorAll('.flavour-select').forEach(select => {
+                select.addEventListener('change', (e) => {
+                    updateCardEnquiryLink(e.target.closest('.product-card'));
+                });
+            });
+            
+            // Auto-select first color/storage and compute initially
+            document.querySelectorAll('.product-card').forEach(card => {
+                const btn = card.querySelector('.enquire-btn');
+                if (!btn) return; // Skip cards without enquiry button (e.g. catalogue grid cards)
+                
+                const firstColor = card.querySelector('.color-swatch');
+                if (firstColor) firstColor.classList.add('active');
+                
+                const firstStorage = card.querySelector('.storage-pill');
+                if (firstStorage) firstStorage.classList.add('active');
+                
+                updateCardEnquiryLink(card);
+            });
+
+            // Parse URL parameters and pre-fill form fields
+            const params = new URLSearchParams(window.location.search);
+            const product = params.get('product');
+            const flavor = params.get('flavor');
+            const color = params.get('color');
+            const storage = params.get('storage');
+            
+            if (product) {
+                let detailsText = `Enquiry about: ${product}`;
+                let parts = [];
+                if (flavor) parts.push(`Flavor: ${flavor}`);
+                if (color) parts.push(`Color: ${color}`);
+                if (storage) parts.push(`Storage: ${storage}`);
+                if (parts.length > 0) {
+                    detailsText += ` (${parts.join(', ')})`;
+                }
+                
+                // Form details textarea fields
+                const contactDetails = document.getElementById('contactDetails');
+                if (contactDetails) contactDetails.value = detailsText;
+                
+                const issueDetails = document.getElementById('issueDetails');
+                if (issueDetails) issueDetails.value = detailsText;
+                
+                // Form product/service select fields
+                const contactService = document.getElementById('contactService');
+                if (contactService) {
+                    if (product.toLowerCase().includes('iphone') || product.toLowerCase().includes('samsung') || product.toLowerCase().includes('galaxy') || product.toLowerCase().includes('honor')) {
+                        contactService.value = 'phones';
+                    } else if (product.toLowerCase().includes('pouch') || product.toLowerCase().includes('vape') || product.toLowerCase().includes('elux') || product.toLowerCase().includes('juice') || product.toLowerCase().includes('salt') || product.toLowerCase().includes('mary') || product.toLowerCase().includes('pro max')) {
+                        contactService.value = 'vapes';
+                    } else {
+                        contactService.value = 'phones';
+                    }
+                }
+                
+                const serviceType = document.getElementById('serviceType');
+                if (serviceType) {
+                    if (product.toLowerCase().includes('iphone') || product.toLowerCase().includes('samsung') || product.toLowerCase().includes('galaxy') || product.toLowerCase().includes('honor')) {
+                        serviceType.value = 'phones';
+                    } else if (product.toLowerCase().includes('pouch') || product.toLowerCase().includes('vape') || product.toLowerCase().includes('elux') || product.toLowerCase().includes('juice') || product.toLowerCase().includes('salt') || product.toLowerCase().includes('mary') || product.toLowerCase().includes('pro max')) {
+                        serviceType.value = 'vapes';
+                    } else {
+                        serviceType.value = 'consultation';
+                    }
+                }
+                
+                // Form device model text input fields
+                const deviceModel = document.getElementById('deviceModel');
+                if (deviceModel) deviceModel.value = product;
+            }
+        });
+
+        // Mobile dropdown toggle
+        document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
+            trigger.addEventListener('click', (e) => {
+                if (window.innerWidth <= 1250) {
+                    e.preventDefault();
+                    const menu = trigger.nextElementSibling;
+                    menu.classList.toggle('active');
+                }
+            });
+        });
+
+        // Intersection Observer Scroll Animations with Fallbacks
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const checkReveal = () => {
+            revealElements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight * 0.95 && rect.bottom > 0) {
+                    el.classList.add('active');
+                }
+            });
+        };
+
+        if ('IntersectionObserver' in window) {
+            const observer = new IntersectionObserver((entries, obs) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        obs.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.02 });
+            revealElements.forEach(el => observer.observe(el));
+            
+            window.addEventListener('load', checkReveal);
+            document.addEventListener('DOMContentLoaded', checkReveal);
+        } else {
+            revealElements.forEach(el => el.classList.add('active'));
+        }
+
+        // Failsafe: force reveal all elements after a short timeout so pages never hang
+        setTimeout(() => {
+            revealElements.forEach(el => el.classList.add('active'));
+        }, 400);
+
+        // Lightbox functionality
+        function openLightbox(src, caption) {
+            const lightbox = document.getElementById('lightbox');
+            const img = document.getElementById('lightbox-img');
+            const cap = document.getElementById('lightbox-caption');
+            
+            img.src = src;
+            cap.innerHTML = caption;
+            lightbox.classList.add('active');
+            
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Handle escape key for lightbox
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeLightbox();
+                closeBookingModal();
+            }
+        });
+
+        function closeLightbox() {
+            const lightbox = document.getElementById('lightbox');
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Flavours Modal Functions
+        function openFlavoursModal(productName, flavoursList) {
+            const modal = document.getElementById('flavoursModal');
+            const title = document.getElementById('flavours-modal-title');
+            const list = document.getElementById('flavours-modal-list');
+            
+            title.textContent = productName + " Flavours";
+            list.innerHTML = "";
+            
+            flavoursList.forEach(flavour => {
+                const item = document.createElement('div');
+                item.className = 'flavour-item';
+                item.style.padding = '10px 14px';
+                item.style.backgroundColor = 'var(--bg-alternate)';
+                item.style.borderRadius = '6px';
+                item.style.fontSize = '0.85rem';
+                item.style.border = '1px solid var(--border-color)';
+                item.style.fontWeight = '600';
+                item.style.color = 'var(--text-main)';
+                item.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.02)';
+                item.textContent = flavour;
+                list.appendChild(item);
+            });
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeFlavoursModal() {
+            const modal = document.getElementById('flavoursModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Options Modal Functions
+        function openOptionsModal(productName, colorsList, storagesList) {
+            const modal = document.getElementById('optionsModal');
+            const title = document.getElementById('options-modal-title');
+            const body = document.getElementById('options-modal-body');
+            
+            title.textContent = productName + " Options";
+            body.innerHTML = "";
+            
+            const colorHex = {
+                "Natural": "#BEB2A2",
+                "Black": "#1C1C1E",
+                "White": "#F5F5F7",
+                "Natural/Grey": "#8E8E93",
+                "Red": "#E31837",
+                "Light Pink/Purple": "#E8D8F8",
+                "Pink": "#FFC0CB",
+                "Gold": "#F4D068",
+                "Phantom Black": "#1A1A1A",
+                "Awesome Violet / Light Purple": "#E2D3F5",
+                "Awesome White": "#FAF9F6",
+                "Aurora / Breathing Crystal (Light Blue/Silver Gradient)": "linear-gradient(135deg, #E0F2FE 0%, #E2E8F0 50%, #C084FC 100%)",
+                "Awesome Black": "#1E1E1F",
+                "Purple": "#4E365E",
+                "Dark Titanium/Black": "#2E3033",
+                "Graphite/Black": "#3E3E40",
+                "White/Silver": "#F0F0F2",
+                "Awesome Black": "#1E1E1F"
+            };
+
+            if (storagesList && storagesList.length > 0) {
+                const storageTitle = document.createElement('h3');
+                storageTitle.style.fontSize = '1.05rem';
+                storageTitle.style.margin = '15px 0 10px 0';
+                storageTitle.style.color = 'var(--text-main)';
+                storageTitle.style.fontWeight = '700';
+                storageTitle.textContent = "Available Storage Variations:";
+                body.appendChild(storageTitle);
+                
+                const storageContainer = document.createElement('div');
+                storageContainer.style.display = 'flex';
+                storageContainer.style.gap = '8px';
+                storageContainer.style.flexWrap = 'wrap';
+                storageContainer.style.marginBottom = '20px';
+                
+                storagesList.forEach(s => {
+                    const badge = document.createElement('span');
+                    badge.className = 'storage-badge';
+                    badge.style.backgroundColor = 'var(--bg-alternate)';
+                    badge.style.border = '1px solid var(--border-color)';
+                    badge.style.padding = '4px 12px';
+                    badge.style.borderRadius = '4px';
+                    badge.style.fontWeight = '600';
+                    badge.style.fontSize = '0.85rem';
+                    badge.textContent = s;
+                    storageContainer.appendChild(badge);
+                });
+                body.appendChild(storageContainer);
+            }
+            
+            if (colorsList && colorsList.length > 0) {
+                const colorTitle = document.createElement('h3');
+                colorTitle.style.fontSize = '1.05rem';
+                colorTitle.style.margin = '15px 0 10px 0';
+                colorTitle.style.color = 'var(--text-main)';
+                colorTitle.style.fontWeight = '700';
+                colorTitle.textContent = "Available Colors:";
+                body.appendChild(colorTitle);
+                
+                const colorContainer = document.createElement('div');
+                colorContainer.style.display = 'flex';
+                colorContainer.style.alignItems = 'center';
+                colorContainer.style.gap = '12px';
+                colorContainer.style.flexWrap = 'wrap';
+                
+                colorsList.forEach(c => {
+                    const swatchWrapper = document.createElement('div');
+                    swatchWrapper.style.display = 'flex';
+                    swatchWrapper.style.alignItems = 'center';
+                    swatchWrapper.style.gap = '8px';
+                    swatchWrapper.style.padding = '6px 12px';
+                    swatchWrapper.style.backgroundColor = 'var(--bg-alternate)';
+                    swatchWrapper.style.border = '1px solid var(--border-color)';
+                    swatchWrapper.style.borderRadius = '20px';
+                    
+                    const swatch = document.createElement('span');
+                    const hexVal = colorHex[c] || "#cccccc";
+                    swatch.style.background = hexVal;
+                    swatch.style.width = '14px';
+                    swatch.style.height = '14px';
+                    swatch.style.borderRadius = '50%';
+                    swatch.style.display = 'inline-block';
+                    swatch.style.border = '1px solid rgba(0,0,0,0.15)';
+                    
+                    const label = document.createElement('span');
+                    label.style.fontSize = '0.85rem';
+                    label.style.fontWeight = '600';
+                    label.style.color = 'var(--text-main)';
+                    label.textContent = c;
+                    
+                    swatchWrapper.appendChild(swatch);
+                    swatchWrapper.appendChild(label);
+                    colorContainer.appendChild(swatchWrapper);
+                });
+                body.appendChild(colorContainer);
+            }
+            
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeOptionsModal() {
+            const modal = document.getElementById('optionsModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Native Booking Form Submission Handler
+        function handleBookingSubmit(event) {
+            event.preventDefault();
+            const modal = document.getElementById('bookingModal');
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            event.target.reset();
+            return false;
+        }
+
+        function closeBookingModal() {
+            const modal = document.getElementById('bookingModal');
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        // Testimonial Review Slider
+        let currentSlideIndex = 0;
+        const slides = document.querySelectorAll('.review-slide');
+        const dots = document.querySelectorAll('.dot');
+        
+        function showSlide(index) {
+            if (slides.length === 0) return;
+            slides.forEach(slide => slide.classList.remove('active'));
+            dots.forEach(dot => dot.classList.remove('active'));
+            
+            currentSlideIndex = (index + slides.length) % slides.length;
+            slides[currentSlideIndex].classList.add('active');
+            if (dots[currentSlideIndex]) {
+                dots[currentSlideIndex].classList.add('active');
+            }
+        }
+        
+        function currentSlide(index) {
+            showSlide(index);
+        }
+        
+        if (slides.length > 0) {
+            let slideInterval = setInterval(() => {
+                showSlide(currentSlideIndex + 1);
+            }, 5000);
+            
+            document.querySelectorAll('.dot').forEach(dot => {
+                dot.addEventListener('click', () => {
+                    clearInterval(slideInterval);
+                    slideInterval = setInterval(() => {
+                        showSlide(currentSlideIndex + 1);
+                    }, 5000);
+                });
+            });
+        }
+
+        // Product Showcase Filter Function (legacy/fallback)
+        function filterShowcase(category) {
+            const buttons = document.querySelectorAll('.filter-btn');
+            buttons.forEach(btn => {
+                if (btn.textContent.trim() === category || (category === 'All' && btn.textContent.trim() === 'All Products')) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+
+            const cards = document.querySelectorAll('.product-card');
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                if (category === 'All' || cardCat === category) {
+                    card.style.display = 'flex';
+                    setTimeout(() => {
+                        card.classList.add('active');
+                        card.style.opacity = '1';
+                        card.style.transform = 'translateY(0)';
+                    }, 50);
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Hash-based category filtering on page load or hash change
+        function handleHashFilter() {
+            const hash = window.location.hash;
+            if (hash && hash.startsWith('#category-')) {
+                const category = decodeURIComponent(hash.replace('#category-', '')).replace(/-/g, ' ');
+                filterShowcase(category);
+                
+                const target = document.getElementById('products-showcase');
+                if (target) {
+                    setTimeout(() => {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }, 150);
+                }
+            }
+        }
+
+        window.addEventListener('DOMContentLoaded', handleHashFilter);
+        window.addEventListener('hashchange', handleHashFilter);
+    </script>
 </body>
 </html>
