@@ -273,8 +273,8 @@
                 <h4 style="color: #ffffff; font-size: 1rem; margin-bottom: 14px;">Contact Store</h4>
                 <p style="font-size: 0.88rem; color: #cbd5e1; line-height: 1.7;">
                     📍 354 Richmond Rd, East Twickenham TW1 2DU<br>
-                    📞 <strong>Store Phone:</strong> 020 3715 9418<br>
-                    💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447437530654" style="color: #25d366;" target="_blank">020 3715 9418</a><br>
+                    📞 <strong>Store Phone:</strong> <a href="tel:02037159418" style="color: #ffffff;">020 3715 9418</a><br>
+                    💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447437530654" style="color: #25d366;" target="_blank">07437 530654</a><br>
                     ✉️ <strong>Email:</strong> <a href="mailto:vapemunch@gmail.com" style="color: #34d399;">vapemunch@gmail.com</a><br>
                     ⏰ Open 7 Days: See Contact Page
                 </p>
@@ -299,78 +299,7 @@
     </div>
 
     <!-- Scripts -->
-    <script>
-        // Hamburger Menu Toggle
-        document.addEventListener('DOMContentLoaded', () => {
-            const menuBtn = document.getElementById('mobileMenuBtn');
-            const navLinks = document.getElementById('navLinks');
-            if (menuBtn && navLinks) {
-                menuBtn.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    navLinks.classList.toggle('active');
-                    if (navLinks.classList.contains('active')) {
-                        navLinks.style.display = 'flex';
-                        navLinks.style.flexDirection = 'column';
-                        navLinks.style.position = 'absolute';
-                        navLinks.style.top = '100%';
-                        navLinks.style.left = '0';
-                        navLinks.style.width = '100%';
-                        navLinks.style.background = '#051a14';
-                        navLinks.style.padding = '20px';
-                        navLinks.style.borderBottom = '1px solid rgba(16,185,129,0.3)';
-                        navLinks.style.zIndex = '1000';
-                    } else {
-                        navLinks.style.display = '';
-                    }
-                });
-            }
-
-            // Close nav when clicking outside
-            document.addEventListener('click', () => {
-                document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('active'));
-                if (navLinks && navLinks.classList.contains('active')) {
-                    navLinks.classList.remove('active');
-                    navLinks.style.display = '';
-                }
-            });
-
-            // Mobile friendly dropdown toggle on touch devices
-            document.querySelectorAll('.dropdown-trigger').forEach(trigger => {
-                trigger.addEventListener('click', function(e) {
-                    if (window.innerWidth <= 768) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        const parent = this.parentElement;
-                        
-                        // Close other dropdowns
-                        document.querySelectorAll('.dropdown').forEach(d => {
-                            if (d !== parent) d.classList.remove('active');
-                        });
-                        
-                        parent.classList.toggle('active');
-                    }
-                });
-            });
-        });
-
-        // Lightbox functionality
-        function openLightbox(src, caption) {
-            const lb = document.getElementById('lightbox');
-            const lbImg = document.getElementById('lightbox-img');
-            const lbCap = document.getElementById('lightbox-caption');
-            if (lb && lbImg && lbCap) {
-                lbImg.src = 'assets/' + src;
-                lbCap.innerText = caption;
-                lb.style.display = 'flex';
-            }
-        }
-
-        function closeLightbox() {
-            const lb = document.getElementById('lightbox');
-            if (lb) {
-                lb.style.display = 'none';
-            }
-        }
-    </script>
+    <script src="nav.js" defer></script>
+    <script src="lightbox.js" defer></script>
 </body>
 </html>
