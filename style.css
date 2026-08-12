@@ -1113,10 +1113,10 @@ p, .section-header p, body {
 
 
 
-/* ==========================================================================
-   FLAWLESS MOBILE RESPONSIVE CSS OVERRIDES (768px & 480px Breakpoints)
-   ========================================================================== */
 
+/* ==========================================================================
+   CONSOLIDATED MOBILE RESPONSIVE OVERRIDES (Desktop Frozen)
+   ========================================================================== */
 @media (max-width: 992px) {
     .hero-grid, .subpage-grid {
         grid-template-columns: 1fr !important;
@@ -1131,7 +1131,16 @@ p, .section-header p, body {
 }
 
 @media (max-width: 768px) {
-    /* TOP ANNOUNCEMENT BAR */
+    /* Reset base overflow styles */
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+    }
+
+    .desktop-text { display: none !important; }
+    .mobile-text { display: inline !important; }
+
+    /* Top Announcements and Navbar */
     .top-bar-content {
         flex-direction: column !important;
         gap: 6px !important;
@@ -1140,13 +1149,13 @@ p, .section-header p, body {
         padding: 6px 12px !important;
     }
 
-    /* HEADER & NAVBAR */
     .nav-container {
         display: flex !important;
         justify-content: space-between !important;
         align-items: center !important;
         padding: 10px 16px !important;
     }
+
     .mobile-menu-btn {
         display: flex !important;
         align-items: center !important;
@@ -1160,6 +1169,7 @@ p, .section-header p, body {
         font-size: 1.2rem !important;
         cursor: pointer !important;
     }
+
     .nav-links {
         display: none;
         flex-direction: column !important;
@@ -1173,136 +1183,43 @@ p, .section-header p, body {
         box-shadow: 0 15px 30px rgba(0,0,0,0.5) !important;
         z-index: 1000 !important;
     }
+
     .nav-links.active, .nav-links.mobile-active {
         display: flex !important;
     }
+
     .nav-links li {
         width: 100% !important;
         margin-bottom: 10px !important;
     }
+
     .nav-links a {
         display: block !important;
         width: 100% !important;
         font-size: 1rem !important;
         padding: 8px 12px !important;
     }
+
     .nav-ctas {
-        display: none !important; /* Hide inline CTAs on mobile to avoid navbar overflow */
+        display: none !important;
     }
 
-    /* TRADE-IN & INSTANT PAYOUT 3-IMAGE GRID FIX */
-    .tradein-steps-grid, .tradein-conditions-grid, .payout-images-grid, .services-grid, .catalogue-products-grid {
+    /* Stacking layout elements */
+    .hero-grid, .subpage-grid, .tradein-steps-grid, .tradein-conditions-grid, 
+    .payout-images-grid, .services-grid, .footer-grid, .features-4grid, .timeline-grid, .trust-stats-bar, .enquiry-box {
         grid-template-columns: 1fr !important;
         gap: 16px !important;
     }
-    div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
+
+    /* SPECIFIC PROCESS RESULTS GRID STACKING (No broad style*= attribute selectors) */
+    .process-results-grid {
+        display: grid !important;
         grid-template-columns: 1fr !important;
         gap: 16px !important;
-    }
-
-    .service-card-img, .tradein-card-img {
-        height: 200px !important;
-        width: 100% !important;
-        object-fit: cover !important;
-    }
-
-    /* CATALOGUE SIDEBAR HORIZONTAL CHIPS */
-    .catalogue-sidebar {
-        position: relative !important;
-        top: 0 !important;
-        width: 100% !important;
-        padding: 14px !important;
-    }
-    .sidebar-nav-list {
-        display: flex !important;
-        flex-direction: row !important;
-        overflow-x: auto !important;
-        white-space: nowrap !important;
-        gap: 8px !important;
-        padding-bottom: 8px !important;
-        -webkit-overflow-scrolling: touch;
-    }
-    .sidebar-nav-item {
-        flex: 0 0 auto !important;
-        padding: 8px 14px !important;
-        font-size: 0.85rem !important;
-        border-radius: 99px !important;
-    }
-
-    /* PROMO BANNERS */
-    .promo-banners-section div[style*="grid-template-columns"] {
-        grid-template-columns: 1fr !important;
-    }
-
-    /* FOOTER */
-    .footer-grid {
-        grid-template-columns: 1fr !important;
-        text-align: center !important;
-    }
-    .footer-col {
-        margin-bottom: 24px !important;
-    }
-}
-
-@media (max-width: 480px) {
-    h1 { font-size: 1.75rem !important; }
-    h2 { font-size: 1.4rem !important; }
-    .btn { width: 100% !important; justify-content: center !important; }
-}
-
-
-
-/* ==========================================================================
-   MASTER MOBILE RESPONSIVE & SPEED OPTIMIZATION CSS
-   ========================================================================== */
-
-.desktop-text { display: inline !important; }
-.mobile-text { display: none !important; }
-
-@media (max-width: 768px) {
-    .desktop-text { display: none !important; }
-    .mobile-text { display: inline !important; }
-
-    /* CATALOGUE MOBILE 1-PRODUCT PER ROW */
-    .catalogue-products-grid {
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
-        padding: 0 10px !important;
-    }
-    .catalogue-card {
-        width: 100% !important;
-        max-width: 380px !important;
-        margin: 0 auto !important;
-    }
-    .catalogue-card img {
-        height: 200px !important;
-        object-fit: contain !important;
-    }
-
-    /* GENERAL BUTTON & IMAGE FIXES */
-    .btn {
-        padding: 10px 18px !important;
-        font-size: 0.9rem !important;
-    }
-    img {
-        max-width: 100% !important;
-        height: auto !important;
-    }
-}
-
-
-
-/* ==========================================================================
-   PERFECT MOBILE LAYOUT OVERRIDES (CRITICAL FIX FOR CATALOGUE & SERVICE PAGES)
-   ========================================================================== */
-
-@media (max-width: 768px) {
-    /* 1. FIX CATALOGUE SHIFT TO RIGHT & MARGIN OVERFLOW */
-    html, body {
-        overflow-x: hidden !important;
         width: 100% !important;
     }
-    
+
+    /* Catalogue Mobile Overrides */
     .catalogue-showcase-section, .subpage-section {
         padding: 10px 0 40px !important;
         width: 100% !important;
@@ -1315,111 +1232,6 @@ p, .section-header p, body {
         max-width: 100% !important;
         margin: 0 !important;
         padding: 0 12px !important;
-        box-sizing: border-box !important;
-    }
-
-    .catalogue-sidebar {
-        position: relative !important;
-        top: 0 !important;
-        left: 0 !important;
-        width: 100% !important;
-        margin: 0 0 16px 0 !important;
-        padding: 12px !important;
-        box-sizing: border-box !important;
-    }
-
-    .catalogue-products-grid {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        gap: 16px !important;
-        box-sizing: border-box !important;
-    }
-
-    .catalogue-card {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 0 12px 0 !important;
-        box-sizing: border-box !important;
-    }
-
-    .catalogue-card-image {
-        height: 180px !important;
-        background: #ffffff !important;
-        padding: 10px !important;
-    }
-
-    .catalogue-card-image img {
-        max-height: 160px !important;
-        max-width: 100% !important;
-        object-fit: contain !important;
-    }
-
-    /* 2. FIX SERVICE PAGES IMAGE & TEXT LAYOUT */
-    .subpage-grid, .service-details-grid {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
-        width: 100% !important;
-        padding: 0 !important;
-    }
-
-    .subpage-card-image-box, .service-img-box {
-        width: 100% !important;
-        height: 220px !important;
-        border-radius: 14px !important;
-        overflow: hidden !important;
-    }
-
-    .subpage-card-image-box img, .service-img-box img {
-        width: 100% !important;
-        height: 100% !important;
-        object-fit: cover !important;
-    }
-
-    .process-results-grid, div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        gap: 16px !important;
-        width: 100% !important;
-    }
-}
-
-
-
-/* ==========================================================================
-   CRITICAL INLINED MOBILE RESPONSIVE OVERRIDES (FORCE PARSED ON EVERY LOAD)
-   ========================================================================== */
-html, body {
-    overflow-x: hidden !important;
-    width: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-
-.desktop-text { display: inline !important; }
-.mobile-text { display: none !important; }
-
-@media (max-width: 768px) {
-    .desktop-text { display: none !important; }
-    .mobile-text { display: inline !important; }
-
-    /* CATALOGUE MOBILE LAYOUT & 1-PRODUCT PER ROW GRID */
-    .catalogue-showcase-section, .subpage-section {
-        padding: 10px 0 40px !important;
-        width: 100% !important;
-        overflow-x: hidden !important;
-    }
-
-    .catalogue-layout {
-        display: block !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 !important;
-        padding: 0 10px !important;
         box-sizing: border-box !important;
     }
 
@@ -1467,11 +1279,8 @@ html, body {
 
     .catalogue-card {
         width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 0 12px 0 !important;
-        background: #0c261e !important;
-        border: 1px solid rgba(16, 185, 129, 0.3) !important;
-        border-radius: 14px !important;
+        max-width: 380px !important;
+        margin: 0 auto 12px !important;
         box-sizing: border-box !important;
     }
 
@@ -1490,31 +1299,42 @@ html, body {
         object-fit: contain !important;
     }
 
-    /* SERVICE PAGES MOBILE GRID & IMAGE CARDS */
-    .subpage-grid, .service-details-grid {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        gap: 20px !important;
+    /* Heights and Object Fit sizes */
+    .service-card-img, .tradein-card-img {
+        height: 200px !important;
         width: 100% !important;
+        object-fit: cover !important;
     }
 
-    .subpage-card-image-box {
+    .subpage-card-image-box, .service-img-box {
         width: 100% !important;
         height: 220px !important;
         border-radius: 14px !important;
         overflow: hidden !important;
     }
 
-    .subpage-card-image-box img {
+    .subpage-card-image-box img, .service-img-box img {
         width: 100% !important;
         height: 100% !important;
         object-fit: cover !important;
     }
 
-    .process-results-grid, div[style*="repeat(3, 1fr)"], div[style*="repeat(4, 1fr)"] {
-        display: grid !important;
-        grid-template-columns: 1fr !important;
-        gap: 16px !important;
-        width: 100% !important;
+    .btn {
+        padding: 10px 18px !important;
+        font-size: 0.9rem !important;
     }
+
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .footer-col {
+        margin-bottom: 24px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.75rem !important; h2 { font-size: 1.4rem !important; } }
+    .btn { width: 100% !important; justify-content: center !important; }
 }
