@@ -925,6 +925,10 @@ body {
     display: block;
 }
 
+.tradein-steps-grid .service-card:first-child .service-card-img {
+    object-position: center 35%;
+}
+
 .tradein-steps-grid .service-card-body,
 .tradein-conditions-grid .service-card-body {
     flex: 1;
@@ -1763,8 +1767,45 @@ p, .section-header p, body {
         object-fit: contain !important;
     }
 
-    /* Heights and Object Fit sizes */
-    .service-card-img, .tradein-card-img {
+    /* Trade-in mobile cards – proper aspect ratio, not full-width strips */
+    .tradein-steps-grid,
+    .tradein-conditions-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+
+    .tradein-steps-grid .service-card,
+    .tradein-conditions-grid .service-card {
+        max-width: 480px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    .tradein-steps-grid .service-img-container,
+    .tradein-conditions-grid .service-img-container {
+        height: auto !important;
+        aspect-ratio: 4 / 3 !important;
+        min-height: 0 !important;
+        max-height: none !important;
+    }
+
+    .tradein-steps-grid .service-card-img,
+    .tradein-conditions-grid .service-card-img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        object-position: center !important;
+    }
+
+    .tradein-steps-grid .service-card:first-child .service-card-img {
+        object-position: center 35% !important;
+    }
+
+    /* Heights and Object Fit sizes – scoped, not trade-in */
+    .services-grid .service-card-img,
+    .tradein-card-img {
         height: 200px !important;
         width: 100% !important;
         object-fit: cover !important;
@@ -1788,7 +1829,7 @@ p, .section-header p, body {
         font-size: 0.9rem !important;
     }
 
-    img {
+    img:not(.service-card-img):not(.subpage-card-img):not(.brand-logo-img):not(.slide-img):not(.catalogue-card-image img) {
         max-width: 100% !important;
         height: auto !important;
     }
