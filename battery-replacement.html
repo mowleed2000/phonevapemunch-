@@ -8,205 +8,297 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- CSS Stylesheet -->
-    <link rel="stylesheet" href="style.css?v=20260812_v1">
-
-    
-
-
-    
-
+    <link rel="stylesheet" href="style.css?v=20260812_v2">
 </head>
 <body>
+    <!-- Top Announcement Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-content">
+            <div class="top-contact-item"><i class="fa-solid fa-location-dot"></i> 354 Richmond Rd, East Twickenham TW1 2DU</div>
+            <div class="top-contact-item"><i class="fa-brands fa-whatsapp" style="color: #25d366;"></i> WhatsApp: <a href="https://wa.me/447437530654" target="_blank">07437 530654</a></div>
+            <div class="top-contact-item"><i class="fa-solid fa-envelope" style="color: #10b981;"></i> Email: <a href="mailto:vapemunch@gmail.com">vapemunch@gmail.com</a></div>
+        </div>
+    </div>
+
     <!-- Sticky Navigation Bar -->
     <nav class="navbar">
         <div class="container nav-container">
-            <a href="index.html" class="logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
+            <a href="index.html" class="logo">
+                <span class="logo-main">PHONE VAPE AND MUNCH</span>
+                <span class="logo-sub">VAPE & TECH REPAIR</span>
+            </a>
             <ul class="nav-links" id="navLinks">
                 <li><a href="index.html">Home</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-trigger">Phone Repairs <i class="fa-solid fa-chevron-down"></i></a>
+                    <a href="screen-repair.html" class="dropdown-trigger active">Phone Repairs <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="screen-repair.html">Screen Repair</a></li>
-                        <li><a href="battery-replacement.html">Battery Replacement</a></li>
-                        <li><a href="charging-port.html">Charging Port Repair</a></li>
-                        <li><a href="water-damage.html">Water Damage Repair</a></li>
-                        <li><a href="phone-unlocking.html">Phone Unlocking</a></li>
+                        <li><a href="screen-repair.html"><i class="fa-solid fa-mobile-screen"></i> Screen Repair</a></li>
+                        <li><a href="battery-replacement.html"><i class="fa-solid fa-battery-three-quarters"></i> Power & Battery</a></li>
+                        <li><a href="charging-port.html"><i class="fa-solid fa-plug-circle-bolt"></i> Charging Port Fix</a></li>
+                        <li><a href="water-damage.html"><i class="fa-solid fa-droplet"></i> Water Damage Repair</a></li>
+                        <li><a href="phone-unlocking.html"><i class="fa-solid fa-unlock-keyhole"></i> Phone Unlocking</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-trigger">Laptop Repairs <i class="fa-solid fa-chevron-down"></i></a>
+                    <a href="laptopscreen.html" class="dropdown-trigger">Laptop Repairs <i class="fa-solid fa-chevron-down"></i></a>
                     <ul class="dropdown-menu">
-                        <li><a href="laptopscreen.html">Screen Repair</a></li>
-                        <li><a href="powercharging.html">Power and Battery</a></li>
-                        <li><a href="ramstorage.html">SSD and RAM Upgrades</a></li>
-                        <li><a href="slowperformance.html">Performance Tuneups</a></li>
-                        <li><a href="virusmalware.html">Virus and Malware Removal</a></li>
-                        <li><a href="datarecovery.html">Data Recovery</a></li>
-                        <li><a href="keyboardports.html">Keyboard and Ports Repair</a></li>
-                        <li><a href="liquidspill.html">Liquid Spill Recovery</a></li>
-                        <li><a href="laptoptablet.html">Tablet and General Repairs</a></li>
+                        <li><a href="laptopscreen.html"><i class="fa-solid fa-laptop-code"></i> Laptop Screen Repair</a></li>
+                        <li><a href="keyboardports.html"><i class="fa-solid fa-keyboard"></i> Keyboard & Ports</a></li>
+                        <li><a href="ramstorage.html"><i class="fa-solid fa-memory"></i> RAM & SSD Upgrade</a></li>
+                        <li><a href="datarecovery.html"><i class="fa-solid fa-database"></i> Data Recovery</a></li>
+                        <li><a href="liquidspill.html"><i class="fa-solid fa-droplet"></i> Liquid Spill Repair</a></li>
+                        <li><a href="virusmalware.html"><i class="fa-solid fa-bug-slash"></i> Virus Removal</a></li>
+                        <li><a href="powercharging.html"><i class="fa-solid fa-bolt"></i> Power & Battery Repair</a></li>
+                        <li><a href="slowperformance.html"><i class="fa-solid fa-gauge-high"></i> Performance Tuneups</a></li>
                     </ul>
                 </li>
-                
-                
-                <li><a href="catalogue.html">Catalogue</a></li>
+                <li><a href="trade-in.html">Trade-In & Cash</a></li>
                 <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="tel:02037159418" class="btn-nav-cta"><i class="fa-solid fa-phone"></i> Call Shop</a></li>
+                <li><a href="catalogue.html">Product Catalogue</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
+            <div class="nav-ctas">
+                <a href="tel:02037159418" class="nav-cta-btn" style="background: #059669; color: #ffffff; padding: 8px 16px; border-radius: 99px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;"><i class="fa-solid fa-phone"></i> Call Shop</a>
+                <a href="https://wa.me/447437530654" target="_blank" class="nav-whatsapp-btn" style="background: #25d366; color: #ffffff; padding: 8px 16px; border-radius: 99px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 6px;"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+            </div>
             <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu"><i class="fa-solid fa-bars"></i></button>
         </div>
     </nav>
 
-    <!-- Service Hero -->
-    <section class="service-hero" style="background-image: linear-gradient(rgba(17, 17, 17, 0.35), rgba(17, 17, 17, 0.55)), url('assets/battery-repair.jpg');">
-        <div class="container text-center reveal">
-            <h1>Phone Battery Replacement</h1>
-            <p>Phone draining in hours or shutting down at 20%? Get a brand new cell.</p>
-            <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Phone Vape and Munch</a>
+    <!-- Hero Section -->
+    <section class="subpage-hero">
+        <div class="container subpage-grid">
+            <div>
+                <div class="hero-badge">
+                    <i class="fa-solid fa-mobile-screen-button"></i> Express Device Repair
+                </div>
+                <h1 style="font-family: 'Outfit', sans-serif; font-size: 2.3rem; font-weight: 800; color: #ffffff; margin-bottom: 14px;">Phone Battery Replacement</h1>
+                <p style="font-size: 1rem; color: var(--text-muted); margin-bottom: 24px; line-height: 1.6;">Phone draining in hours or shutting down at 20%? Get a brand new cell.</p>
+                <div class="hero-actions">
+                    <a href="https://wa.me/447437530654" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp: 07437 530654</a>
+                    <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Shop: 020 3715 9418</a>
+                </div>
+            </div>
+            <div class="subpage-card-image-box">
+                <img src="assets/battery-repair.jpg" alt="Phone Battery Replacement" class="subpage-card-img">
+            </div>
         </div>
     </section>
 
-    <!-- What's Involved -->
-    <section class="service-details">
-        <div class="container details-grid">
-            <div class="details-text reveal">
-                <h2>What's Involved</h2>
-                <p>Over time, lithium-ion phone batteries naturally degrade and lose capacity. Swapping your depleted cell with a brand new, safety-tested battery restores original usage hours and prevents sudden shutdowns. Most battery replacements take under 45 minutes.</p>
+    <!-- What's Involved & Symptoms Section -->
+    <section class="section" style="padding: 60px 0; background: #040914; border-bottom: 1px solid var(--border);">
+        <div class="container subpage-grid">
+            <div>
+                <h2 style="font-family: 'Outfit', sans-serif; font-size: 2rem; color: #ffffff; margin-bottom: 20px; border-bottom: 2px solid var(--primary); display: inline-block; padding-bottom: 8px;">What's Involved</h2>
+                <p style="font-size: 1.05rem; line-height: 1.6; color: #cbd5e1; margin-bottom: 25px;">Over time, lithium-ion phone batteries naturally degrade and lose capacity. Swapping your depleted cell with a brand new, safety-tested battery restores original usage hours and prevents sudden shutdowns. Most battery replacements take under 45 minutes.</p>
                 
-                <div class="symptoms-box">
-                    <h3>Signs You Need This Service</h3>
-                    <ul class="symptoms-list">
-                        <li><i class='fa-solid fa-circle-exclamation'></i> Battery drains extremely fast during basic usage</li><li><i class='fa-solid fa-circle-exclamation'></i> Phone turns off suddenly at 10% to 30% battery level</li><li><i class='fa-solid fa-circle-exclamation'></i> Battery percentage jumps up and down erratically</li><li><i class='fa-solid fa-circle-exclamation'></i> Device back casing looks slightly bulged (swollen battery hazard)</li>
+                <div class="symptoms-box" style="background: rgba(16, 185, 129, 0.05); border: 1px solid var(--border-light); border-radius: 16px; padding: 25px; text-align: left;">
+                    <h3 style="font-size: 1.2rem; color: #34d399; margin-bottom: 15px; font-family: 'Outfit', sans-serif; display: flex; align-items: center; gap: 10px;">
+                        <i class="fa-solid fa-triangle-exclamation"></i> Signs You Need This Service
+                    </h3>
+                    <ul class="symptoms-list" style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 12px;">
+                                                <li style="color: #cbd5e1; font-size: 0.95rem; display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                            <i class="fa-solid fa-circle-notch" style="color: var(--primary); font-size: 0.8rem;"></i> Battery drains extremely fast during basic usage
+                        </li>
+                        <li style="color: #cbd5e1; font-size: 0.95rem; display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                            <i class="fa-solid fa-circle-notch" style="color: var(--primary); font-size: 0.8rem;"></i> Phone turns off suddenly at 10% to 30% battery level
+                        </li>
+                        <li style="color: #cbd5e1; font-size: 0.95rem; display: flex; align-items: center; gap: 10px; margin-bottom: 8px;">
+                            <i class="fa-solid fa-circle-notch" style="color: var(--primary); font-size: 0.8rem;"></i> Battery percentage jumps up and down erratically
+                        </li>
+                        <li style="color: #cbd5e1; font-size: 0.95rem; display: flex; align-items: center; gap: 10px;">
+                            <i class="fa-solid fa-circle-notch" style="color: var(--primary); font-size: 0.8rem;"></i> Device back casing looks slightly bulged (swollen battery hazard)
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="details-image reveal">
-                <img src="assets/Battery dead image 1.jpg" alt="Before Repair" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
+            <div class="details-image" style="display: flex; align-items: center; justify-content: center; height: 100%;">
+                <img src="assets/battery-repair.jpg" alt="Phone Battery Replacement Details" style="width: 100%; border-radius: 18px; border: 1px solid var(--border); box-shadow: 0 10px 30px rgba(0,0,0,0.5); object-fit: cover; height: 350px;">
             </div>
         </div>
     </section>
 
-    <!-- Gallery Row -->
-    <section class="service-gallery">
+    <!-- Our Process and Results -->
+    <section class="section" style="background: linear-gradient(180deg, #051a14 0%, #0c261e 100%); border-bottom: 1px solid var(--border);">
         <div class="container">
-            <div class="section-header text-center reveal">
+            <div class="section-header text-center">
+                <span class="section-tag"><i class="fa-solid fa-camera"></i> Visual Quality Control</span>
                 <h2>Our Process and Results</h2>
-                <div class="accent-divider"></div>
+                <p>Real repair transformations completed by our certified technicians in store.</p>
             </div>
-            <div class="process-results-grid gallery-row reveal">
-                
-                <div class="gallery-item-wrapper" onclick="openLightbox('Battery dead image 1.jpg', 'Before Repair - Phone Battery Replacement')">
-                    <img src="assets/Battery replacment page 2.jpg" alt="Repair In Progress" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
-                    <span>Before Repair</span>
-                </div>
-                <div class="gallery-item-wrapper" onclick="openLightbox('Battery replacment page 2.jpg', 'Repair In Progress - Phone Battery Replacement')">
-                    <img src="assets/Battery fixed 100 percent.jpg" alt="Repaired Device" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
-                    <span>Repair In Progress</span>
-                </div>
-                <div class="gallery-item-wrapper" onclick="openLightbox('Battery fixed 100 percent.jpg', 'Repaired Device - Phone Battery Replacement')">
-                    <img src="assets/Battery fixed 100 percent.jpg" alt="Repaired Device" style="width:100%; height:200px; object-fit:cover; border-radius:12px;" loading="lazy">
-                    <span>Repaired Device</span>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- CTA Section -->
-    <section class="service-cta text-center reveal">
-        <div class="container">
-            <h2>Get a Free Diagnostic Assessment</h2>
-            <p>Speak to our technicians directly to describe the issue and schedule your repair today.</p>
-            <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Phone Vape and Munch</a>
-        </div>
-    </section>
-
-    <!-- Related Services -->
-    <section class="related-services">
-        <div class="container">
-            <div class="section-header text-center reveal">
-                <h2>Other Repair Services</h2>
-                <div class="accent-divider"></div>
-            </div>
-            <div class="related-grid reveal">
-                <div class="related-card">
-                    <h3>Screen Repair</h3>
-                    <p>Smashed displays, bleeding LCDs, and unresponsive touch screens replaced.</p>
-                    <a href="screen-repair.html" class="learn-more">Learn More &rarr;</a>
-                </div>
-                <div class="related-card">
-                    <h3>Battery and Charging</h3>
-                    <p>Swapping depleted cells and repairing charging ports.</p>
-                    <a href="battery-replacement.html" class="learn-more">Learn More &rarr;</a>
-                </div>
-                <div class="related-card">
-                    <h3>Liquid Spill Recovery</h3>
-                    <p>Logic board diagnostic and chemical corrosion cleaning.</p>
-                    <a href="water-damage.html" class="learn-more">Learn More &rarr;</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Shared Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="index.html" class="footer-logo"><span class="logo-main">PHONE VAPE AND MUNCH</span><span class="logo-sub primary-text">VAPE AND TECH REPAIR</span></a>
-                    <p>Serving Richmond with premium vapes and expert tech repairs. We stock authentic disposable vapes, closed pod kits, e-liquids, and perform professional screen and battery replacements for all major phone and laptop models.</p>
-                    <div style="margin-top: 15px;">
-                        <span class="badge" style="background: rgba(255,255,255,0.05); color: #fff; border-color: rgba(255,255,255,0.1);"><i class="fa-solid fa-award"></i> Premium Quality</span>
+            <div class="process-results-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 35px;">
+                <!-- Step 1 -->
+                <div class="service-card" style="background: #040914;">
+                    <div class="service-img-container" style="height: 200px; position: relative; overflow: hidden;" onclick="openLightbox('Battery dead image 1.jpg', '1. Before Repair - Phone Battery Replacement')">
+                        <img src="assets/Battery dead image 1.jpg" alt="Before Repair" style="width:100%; height:200px; object-fit:cover; border-radius:12px; cursor: pointer;" loading="lazy">
+                        <span class="service-badge-tag" style="color: #ef4444; border-color: rgba(239,68,68,0.3);">1. Before Repair</span>
+                    </div>
+                    <div class="service-card-body" style="text-align: center; padding: 20px;">
+                        <h4 style="color: #ffffff; font-size: 1.05rem; margin-bottom: 6px;">Depleted Capacity</h4>
+                        <p style="font-size: 0.84rem; color: #94a3b8;">Battery health degraded below 80% leading to severe throttle and sudden phone shutdowns.</p>
                     </div>
                 </div>
-                <div class="footer-links">
-                    <h4>Services</h4>
-                    <ul class="footer-services-list">
-                        
-                        
-                        
-                        <li><a href="screen-repair.html">Phone Screen Repair</a></li> 
-                        <li><a href="battery-replacement.html">Phone Battery</a></li> 
-                        <li><a href="laptopscreen.html">Laptop Screen</a></li> 
-                        <li><a href="slowperformance.html">Laptop Tuneup</a></li> 
-                        <li><a href="phone-unlocking.html">Phone Unlocking</a></li>
-                    </ul>
+
+                <!-- Step 2 -->
+                <div class="service-card" style="background: #040914;">
+                    <div class="service-img-container" style="height: 200px; position: relative; overflow: hidden;" onclick="openLightbox('Battery replacment page 2.jpg', '2. In Progress - Phone Battery Replacement')">
+                        <img src="assets/Battery replacment page 2.jpg" alt="In Progress" style="width:100%; height:200px; object-fit:cover; border-radius:12px; cursor: pointer;" loading="lazy">
+                        <span class="service-badge-tag" style="color: #3b82f6; border-color: rgba(59,130,246,0.3);">2. In Progress</span>
+                    </div>
+                    <div class="service-card-body" style="text-align: center; padding: 20px;">
+                        <h4 style="color: #ffffff; font-size: 1.05rem; margin-bottom: 6px;">Express Cell Swap</h4>
+                        <p style="font-size: 0.84rem; color: #94a3b8;">Extracting the old degraded battery cell safely and preparing the chassis for installation.</p>
+                    </div>
                 </div>
-                <div class="footer-hours">
-                    <h4>Opening Hours</h4>
-                    <ul>
-                        <li>Monday - Saturday: 10:00 am – 8:00 pm</li>
-                        <li>Sunday: 1:00 pm – 7:00 pm</li>
-                    </ul>
-                </div>
-                <div class="footer-contact">
-                    <h4>Speak with Us</h4>
-                    <p class="phone-num"><a href="tel:02037159418">020 3715 9418</a></p>
-                    <p style="font-size: 0.85rem; color: rgba(255,255,255,0.6); margin-bottom: 8px;">
-                        <i class="fa-solid fa-envelope" style="color: var(--primary); margin-right: 6px;"></i>
-                        <a href="mailto:fastinternetaccess@gmail.com" style="color: rgba(255,255,255,0.6); text-decoration: none;">fastinternetaccess@gmail.com</a>
-                    </p>
-                    <p class="address-num">354 Richmond Rd, East Twickenham, Twickenham TW1 2DU</p>
+
+                <!-- Step 3 -->
+                <div class="service-card" style="background: #040914;">
+                    <div class="service-img-container" style="height: 200px; position: relative; overflow: hidden;" onclick="openLightbox('Battery fixed 100 percent.jpg', '3. Restored & Tested - Phone Battery Replacement')">
+                        <img src="assets/Battery fixed 100 percent.jpg" alt="Restored & Tested" style="width:100%; height:200px; object-fit:cover; border-radius:12px; cursor: pointer;" loading="lazy">
+                        <span class="service-badge-tag" style="color: #10b981; border-color: rgba(16,185,129,0.3);">3. Restored & Tested</span>
+                    </div>
+                    <div class="service-card-body" style="text-align: center; padding: 20px;">
+                        <h4 style="color: #ffffff; font-size: 1.05rem; margin-bottom: 6px;">100% Health Restored</h4>
+                        <p style="font-size: 0.84rem; color: #94a3b8;">Brand new high-capacity replacement battery installed, tested, and showing 100% capacity.</p>
+                    </div>
                 </div>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; Phone Vape and Munch 2026. All rights reserved. Serving the High Street with quality and integrity.</p>
+        </div>
+    </section>
+
+    <!-- Get Free Diagnostic Assessment Callout Banner -->
+    <section class="section bg-card text-center" style="padding: 45px 0; border-bottom: 1px solid var(--border);">
+        <div class="container" style="max-width: 800px;">
+            <h2 style="font-size: 2rem; color: #ffffff; margin-bottom: 12px;">Get a Free Diagnostic Assessment</h2>
+            <p style="color: #94a3b8; font-size: 1rem; margin-bottom: 24px;">Speak directly with our technicians to describe the issue and schedule your express 30-minute repair today.</p>
+            <div style="display: flex; justify-content: center; gap: 14px; flex-wrap: wrap;">
+                <a href="tel:02037159418" class="btn btn-primary"><i class="fa-solid fa-phone"></i> Call Shop: 020 3715 9418</a>
+                <a href="https://wa.me/447437530654" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
             </div>
+        </div>
+    </section>
+
+    <!-- Other Related Repair Services Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Explore More</span>
+                <h2>Other Related Repair Services</h2>
+            </div>
+            <div class="services-grid" style="margin-top: 30px;">
+                <div class="service-card" onclick="window.location.href='screen-repair.html'" style="cursor: pointer;">
+                    <div class="service-img-container">
+                        <img src="assets/cracked-screen.jpg" alt="Screen Repair" class="service-card-img" loading="lazy">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Phone Screen Repair</h3>
+                        <p>30-minute OLED display replacement for iPhone & Samsung.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" onclick="window.location.href='battery-replacement.html'" style="cursor: pointer;">
+                    <div class="service-img-container">
+                        <img src="assets/battery-repair.jpg" alt="Battery Replacement" class="service-card-img" loading="lazy">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Power & Battery</h3>
+                        <p>High capacity replacement batteries installed with health monitoring.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" onclick="window.location.href='laptopscreen.html'" style="cursor: pointer;">
+                    <div class="service-img-container">
+                        <img src="assets/laptop-screen-broken.jpg" alt="Laptop Screen" class="service-card-img" loading="lazy">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Laptop Screen Fix</h3>
+                        <p>MacBook & PC display replacements completed with OEM panels.</p>
+                    </div>
+                </div>
+
+                <div class="service-card" onclick="window.location.href='trade-in.html'" style="cursor: pointer;">
+                    <div class="service-img-container">
+                        <img src="assets/Iphone 17 pro max.webp" alt="Trade In Tech" class="service-card-img" loading="lazy">
+                    </div>
+                    <div class="service-card-body">
+                        <h3>Trade-In Tech for Cash</h3>
+                        <p>Get top instant cash or store credit for your old phones & laptops.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Master Green 4-Column Footer -->
+    <footer class="footer" style="background: #020706; padding: 50px 20px 20px 20px; border-top: 1px solid rgba(16,185,129,0.15);">
+        <div class="container footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
+            <div class="footer-col">
+                <a href="index.html" class="logo">
+                    <span class="logo-main" style="color: #ffffff; font-weight: 800; font-size: 1.1rem;">PHONE VAPE AND MUNCH</span><br>
+                    <span class="logo-sub" style="color: #34d399; font-size: 0.75rem; letter-spacing: 0.1em;">VAPE & TECH REPAIR</span>
+                </a>
+                <p style="margin-top: 14px; font-size: 0.88rem; color: #cbd5e1; line-height: 1.6;">
+                    East Twickenham's top rated hub for authentic vapes, nicotine pouches, express phone & laptop repairs, and instant cash trade-ins.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h4 style="color: #ffffff; font-size: 1rem; margin-bottom: 14px;">Quick Navigation</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; line-height: 2;">
+                    <li><a href="index.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Home</a></li>
+                    <li><a href="trade-in.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Trade-In & Cash Exchange</a></li>
+                    <li><a href="blog.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Vape & Tech Blog</a></li>
+                    <li><a href="catalogue.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Product Catalogue</a></li>
+                    <li><a href="contact.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Contact Store</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 style="color: #ffffff; font-size: 1rem; margin-bottom: 14px;">Popular Repairs</h4>
+                <ul style="list-style: none; padding: 0; margin: 0; line-height: 2;">
+                    <li><a href="screen-repair.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Phone Screen Repair</a></li>
+                    <li><a href="battery-replacement.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Battery Replacement</a></li>
+                    <li><a href="laptopscreen.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">MacBook Screen Repair</a></li>
+                    <li><a href="ramstorage.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">SSD & RAM Upgrades</a></li>
+                    <li><a href="water-damage.html" style="color: #cbd5e1; text-decoration: none; font-size: 0.88rem;">Water Damage Fix</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4 style="color: #ffffff; font-size: 1rem; margin-bottom: 14px;">Contact Store</h4>
+                <p style="font-size: 0.88rem; color: #cbd5e1; line-height: 1.7;">
+                    📍 354 Richmond Rd, East Twickenham TW1 2DU<br>
+                    📞 <strong>Store Phone:</strong> 020 3715 9418<br>
+                    💬 <strong>WhatsApp:</strong> <a href="https://wa.me/447437530654" style="color: #25d366;" target="_blank">020 3715 9418</a><br>
+                    ✉️ <strong>Email:</strong> <a href="mailto:vapemunch@gmail.com" style="color: #34d399;">vapemunch@gmail.com</a><br>
+                    ⏰ Open 7 Days: See Contact Page
+                </p>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 36px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.05); color: #94a3b8; font-size: 0.82rem;">
+            <p>© 2026 Phone Vape and Munch. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Lightbox Modal -->
-    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
-        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-        <img id="lightbox-img" class="lightbox-content" src="" alt="Enlarged gallery view">
-        <div id="lightbox-caption" class="lightbox-caption"></div>
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/447437530654" target="_blank" class="floating-whatsapp-btn" title="Chat on WhatsApp" style="position: fixed; bottom: 20px; right: 20px; background: #25d366; color: #fff; width: 54px; height: 54px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: 0 10px 25px rgba(0,0,0,0.5); z-index: 999; text-decoration: none;">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); display: none; align-items: center; justify-content: center; z-index: 10000; cursor: pointer; flex-direction: column;">
+        <span class="lightbox-close" style="position: absolute; top: 20px; right: 20px; color: #fff; font-size: 2rem; cursor: pointer;">&times;</span>
+        <img id="lightbox-img" class="lightbox-content" style="max-width: 90%; max-height: 80%; border-radius: 12px; border: 2px solid rgba(255,255,255,0.1); box-shadow: 0 15px 35px rgba(0,0,0,0.75);">
+        <div id="lightbox-caption" class="lightbox-caption" style="color: #a7f3d0; margin-top: 16px; font-family: 'Outfit', sans-serif; font-size: 1rem; font-weight: 500; text-align: center;"></div>
     </div>
 
-    <!-- Core JavaScript -->
-    
+    <!-- Scripts -->
     <script>
         // Hamburger Menu Toggle
         document.addEventListener('DOMContentLoaded', () => {
@@ -261,42 +353,6 @@
             });
         });
 
-        // Testimonial Review Slider
-        let currentSlideIndex = 0;
-        const slides = document.querySelectorAll('.review-slide');
-        const dots = document.querySelectorAll('.dot');
-        
-        function showSlide(index) {
-            if (slides.length === 0) return;
-            slides.forEach(slide => slide.classList.remove('active'));
-            dots.forEach(dot => dot.classList.remove('active'));
-            
-            currentSlideIndex = (index + slides.length) % slides.length;
-            slides[currentSlideIndex].classList.add('active');
-            if (dots[currentSlideIndex]) {
-                dots[currentSlideIndex].classList.add('active');
-            }
-        }
-        
-        function currentSlide(index) {
-            showSlide(index);
-        }
-        
-        if (slides.length > 0) {
-            let slideInterval = setInterval(() => {
-                showSlide(currentSlideIndex + 1);
-            }, 5000);
-            
-            document.querySelectorAll('.dot').forEach(dot => {
-                dot.addEventListener('click', () => {
-                    clearInterval(slideInterval);
-                    slideInterval = setInterval(() => {
-                        showSlide(currentSlideIndex + 1);
-                    }, 5000);
-                });
-            });
-        }
-
         // Lightbox functionality
         function openLightbox(src, caption) {
             const lb = document.getElementById('lightbox');
@@ -305,17 +361,16 @@
             if (lb && lbImg && lbCap) {
                 lbImg.src = 'assets/' + src;
                 lbCap.innerText = caption;
-                lb.classList.add('active');
+                lb.style.display = 'flex';
             }
         }
 
         function closeLightbox() {
             const lb = document.getElementById('lightbox');
             if (lb) {
-                lb.classList.remove('active');
+                lb.style.display = 'none';
             }
         }
     </script>
-
 </body>
 </html>
