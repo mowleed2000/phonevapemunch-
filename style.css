@@ -904,14 +904,10 @@ body {
     height: 100%;
 }
 
-.tradein-steps-grid .service-img-container {
-    height: 200px;
-    overflow: hidden;
-    flex-shrink: 0;
-}
-
+.tradein-steps-grid .service-img-container,
 .tradein-conditions-grid .service-img-container {
-    height: 180px;
+    aspect-ratio: 4 / 3;
+    height: auto;
     overflow: hidden;
     flex-shrink: 0;
 }
