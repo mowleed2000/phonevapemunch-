@@ -1195,6 +1195,302 @@ p, .section-header p, body {
     width: 100%;
 }
 
+
+/* ==========================================================================
+   DESKTOP PRODUCT CATALOGUE STYLES
+   ========================================================================== */
+.catalogue-page-banner {
+    background: transparent !important;
+    padding: 40px 0 20px;
+    text-align: center;
+}
+.catalogue-badge {
+    display: inline-block;
+    background: rgba(16, 185, 129, 0.15);
+    color: #34d399;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    font-size: 0.78rem;
+    font-weight: 800;
+    padding: 6px 14px;
+    border-radius: 99px;
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.catalogue-page-banner h2 {
+    color: #ffffff !important;
+    font-family: 'Outfit', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin: 0 0 8px 0;
+}
+.catalogue-page-banner p {
+    color: #94a3b8 !important;
+    font-size: 1.05rem;
+    max-width: 620px;
+    margin: 0 auto;
+}
+.catalogue-showcase-section {
+    background-color: #0b1120 !important;
+    padding: 20px 0 80px;
+}
+.catalogue-layout {
+    display: grid;
+    grid-template-columns: 270px 1fr;
+    gap: 30px;
+    align-items: flex-start;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.catalogue-sidebar {
+    background: #0c261e !important;
+    border: 1px solid rgba(16, 185, 129, 0.3) !important;
+    border-radius: 16px !important;
+    padding: 20px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+    position: sticky;
+    top: 90px;
+}
+.sidebar-title {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 16px 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+}
+.sidebar-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.sidebar-nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.sidebar-nav-item i {
+    width: 22px;
+    color: #34d399;
+    font-size: 0.95rem;
+}
+.sidebar-nav-item:hover, .sidebar-nav-item.active {
+    background: #059669;
+    color: #ffffff;
+}
+.sidebar-nav-item:hover i, .sidebar-nav-item.active i {
+    color: #ffffff;
+}
+.item-count-pill {
+    background: rgba(255,255,255,0.15);
+    font-size: 0.75rem;
+    padding: 2px 8px;
+    border-radius: 99px;
+    font-weight: 700;
+}
+.catalogue-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.search-bar-input {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 0.98rem;
+    border-radius: 12px;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    background: #0c261e;
+    color: #ffffff;
+    outline: none;
+    box-sizing: border-box;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+    transition: border-color 0.2s ease;
+}
+.search-bar-input:focus {
+    border-color: #10b981;
+}
+.catalogue-products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 22px;
+}
+.catalogue-card {
+    background: #0c261e;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.catalogue-card:hover {
+    transform: translateY(-5px);
+    border-color: #10b981;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+}
+.catalogue-card-image {
+    height: 220px;
+    background: #051a14;
+    border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+.catalogue-card-image img {
+    max-height: 180px;
+    max-width: 88%;
+    object-fit: contain;
+}
+.category-tag-badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #02120e;
+    color: #34d399;
+    font-size: 0.7rem;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+.catalogue-card-content {
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.catalogue-card-content h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.12rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 8px 0;
+    line-height: 1.35;
+}
+.product-summary-text {
+    font-size: 0.84rem;
+    color: #cbd5e1;
+    margin: 0 0 16px 0;
+    line-height: 1.45;
+    flex-grow: 1;
+}
+.btn-call-shop {
+    width: 100%;
+    padding: 11px 14px;
+    border-radius: 10px;
+    background: #059669;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 0.88rem;
+    border: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 12px;
+    transition: background 0.2s ease;
+}
+.btn-call-shop:hover {
+    background: #047857;
+}
+.btn-view-flavors {
+    width: 100%;
+    padding: 11px 14px;
+    border-radius: 10px;
+    background: rgba(37, 99, 235, 0.15);
+    border: 1px solid rgba(37, 99, 235, 0.4);
+    color: #93c5fd;
+    font-weight: 700;
+    font-size: 0.88rem;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: all 0.2s ease;
+}
+.btn-view-flavors:hover {
+    background: rgba(37, 99, 235, 0.3);
+    color: #ffffff;
+}
+.in-stock-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    color: #34d399;
+    font-size: 0.82rem;
+    font-weight: 700;
+}
+.in-stock-badge::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    background-color: #10b981;
+    border-radius: 50%;
+}
+/* Flavor Modal */
+.flavor-modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    backdrop-filter: blur(8px);
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.flavor-modal-box {
+    background: #0c261e;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    border-radius: 20px;
+    max-width: 480px;
+    width: 100%;
+    padding: 24px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+}
+.flavor-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: rgba(255,255,255,0.1);
+    border: none;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.flavor-chip-tag {
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    color: #a7f3d0;
+    padding: 6px 12px;
+    border-radius: 99px;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin: 4px;
+    display: inline-block;
+}
+
 /* ==========================================================================
    CONSOLIDATED MOBILE RESPONSIVE OVERRIDES (Desktop Frozen)
    ========================================================================== */
@@ -1321,12 +1617,14 @@ p, .section-header p, body {
         top: 0 !important;
         left: 0 !important;
         width: 100% !important;
+        max-width: 100% !important;
         margin: 0 0 16px 0 !important;
         padding: 12px !important;
         box-sizing: border-box !important;
         background: #0c261e !important;
         border: 1px solid rgba(16, 185, 129, 0.3) !important;
         border-radius: 12px !important;
+        overflow: hidden !important;
     }
 
     .sidebar-nav-list {
@@ -1367,7 +1665,8 @@ p, .section-header p, body {
 
     .catalogue-card-image {
         height: 190px !important;
-        background: #ffffff !important;
+        background: #051a14 !important;
+        border-bottom: 1px solid rgba(16, 185, 129, 0.2) !important;
         padding: 10px !important;
         display: flex !important;
         align-items: center !important;
