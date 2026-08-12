@@ -1885,6 +1885,30 @@
                 closeFlavorModal();
             }
         }
-    </script>
+    
+        // Parse category from URL parameter on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const category = params.get('category');
+            if (category) {
+                let targetCategory = category;
+                if (category === 'Laptops') targetCategory = 'Tablets & Laptops';
+                if (category === 'Vapes') targetCategory = 'Vapes & Pod Systems';
+                
+                const items = document.querySelectorAll('.sidebar-nav-item');
+                let foundItem = null;
+                items.forEach(item => {
+                    const text = item.textContent.trim();
+                    if (text.includes(targetCategory)) {
+                        foundItem = item;
+                    }
+                });
+                
+                if (foundItem) {
+                    selectCategory(targetCategory, foundItem);
+                }
+            }
+        });
+</script>
 </body>
 </html>
