@@ -1152,7 +1152,18 @@ body {
     display: flex !important;
     gap: 24px !important;
     width: max-content !important;
-    animation: marqueeScroll 22s linear infinite !important;
+    animation: marqueeScroll 40s linear infinite !important;
+}
+
+.brand-marquee-track:has(.brand-marquee-group) {
+    gap: 0 !important;
+}
+
+.brand-marquee-group {
+    display: flex !important;
+    gap: 24px !important;
+    padding-right: 24px !important;
+    flex-shrink: 0 !important;
 }
 
 .brand-marquee-track:hover {
@@ -1171,6 +1182,7 @@ body {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+    flex-shrink: 0 !important;
     height: 70px !important;
     min-width: 160px !important;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
