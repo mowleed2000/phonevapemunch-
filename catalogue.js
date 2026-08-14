@@ -9,12 +9,22 @@
         }).join('/');
     }
 
+    function isOfferBadge(text) {
+        return !!(text && /for £/i.test(text));
+    }
+
     function buildProductSummary(product) {
         if (product.action_type === 'call') {
             return 'Unlocked, Verified Specs, Physical Stock at 354 Richmond Rd';
         }
+        if (product.category === 'Perfumes' && product.flavors && product.flavors.length) {
+            return 'Available scents: ' + product.flavors.slice(0, 3).join(', ');
+        }
         if (product.flavors && product.flavors.length) {
             return 'Available Flavors: ' + product.flavors.slice(0, 3).join(', ');
+        }
+        if (isOfferBadge(product.badge_text)) {
+            return product.badge_text + ' · In Stock & Ready for In-Store Pickup';
         }
         return 'In Stock & Ready for In-Store Pickup';
     }
@@ -24,9 +34,15 @@
             return '<a href="tel:02037159418" class="btn-call-shop"><i class="fa-solid fa-phone"></i> CALL STORE FOR PRICE & STOCK</a>';
         }
         if (product.flavors && product.flavors.length) {
-            return '<button type="button" onclick="openFlavorModal(' + index + ')" class="btn-view-flavors"><i class="fa-solid fa-eye"></i> VIEW AVAILABLE FLAVORS</button>';
+            var label = product.category === 'Perfumes' ? 'VIEW AVAILABLE SCENTS' : 'VIEW AVAILABLE FLAVORS';
+            return '<button type="button" onclick="openFlavorModal(' + index + ')" class="btn-view-flavors"><i class="fa-solid fa-eye"></i> ' + label + '</button>';
         }
         return '';
+    }
+
+    function buildOfferHtml(product) {
+        if (!isOfferBadge(product.badge_text)) return '';
+        return '<span class="offer-tag-badge">' + product.badge_text + '</span>';
     }
 
     function renderCatalogue() {
@@ -44,6 +60,7 @@
             card.innerHTML =
                 '<div class="catalogue-card-image">' +
                     '<span class="category-tag-badge">' + product.category + '</span>' +
+                    buildOfferHtml(product) +
                     '<img src="' + encodeImagePath(product.image) + '" alt="' + product.name.replace(/"/g, '&quot;') + '" loading="lazy" decoding="async">' +
                 '</div>' +
                 '<div class="catalogue-card-content">' +
@@ -99,6 +116,10 @@
         modalImg.src = encodeImagePath(product.image);
         modalCat.innerText = product.category;
         modalTitle.innerText = product.name;
+        var modalHeading = document.getElementById('modalListHeading');
+        if (modalHeading) {
+            modalHeading.innerText = product.category === 'Perfumes' ? 'Available In-Store Scents:' : 'Available In-Store Flavors:';
+        }
 
         chipsWrap.innerHTML = '';
         var flavors = product.flavors && product.flavors.length ? product.flavors : ['Popular In-Store Flavor Selection'];

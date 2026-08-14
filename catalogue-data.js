@@ -1,1 +1,2492 @@
-const productsData = [{"name": "iPhone 16", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Phone 16 (Base Model).jpg", "variants": ["White", "Black", "Standard"], "flavors": []}, {"name": "Samsung Galaxy S24 Ultra", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy S24 Ultra.jpg", "variants": ["Titanium Black", "256GB", "512GB"], "flavors": []}, {"name": "Sony Xperia L4", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Sony Xperia L4.jpg", "variants": ["Grade A+ 64GB"], "flavors": []}, {"name": "iPhone 15 Pro Max", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iphone_15_promax.png", "variants": ["Black", "Space Black", "Pro Max"], "flavors": []}, {"name": "Samsung Galaxy S23 Ultra", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy S23 Ultra.jpg", "variants": ["Black"], "flavors": []}, {"name": "TCL 405", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/TCL 405.jpg", "variants": ["Grade A+ 64GB"], "flavors": []}, {"name": "iPhone 15 Pro", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iphone_15_promax.png", "variants": ["Black Titanium", "Natural Titanium", "81%-86% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy S22 Ultra", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/galaxy_s22_ultra.png", "variants": ["Black"], "flavors": []}, {"name": "TCL 403", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/TCL 403.jpg", "variants": ["Grade A+ 32GB"], "flavors": []}, {"name": "iPhone 15", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 15.jpg", "variants": ["Black", "Blue", "Standard"], "flavors": []}, {"name": "Samsung Galaxy S22", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy S22 (Base Model).jpg", "variants": ["Black"], "flavors": []}, {"name": "Nokia C12", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Nokia C12.jpg", "variants": ["Boxed Teal/Blue 64GB"], "flavors": []}, {"name": "iPhone 14 Pro Max", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Iphone 14 pro.jpg", "variants": ["Space Black", "Deep Purple", "87%-88% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy S21 5G", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy S21 5G.jpg", "variants": ["Black 5G"], "flavors": []}, {"name": "Motorola Moto G6", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Motorola Moto G6.webp", "variants": ["Grade A+ 64GB"], "flavors": []}, {"name": "iPhone 14 Pro", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Iphone 14 pro.jpg", "variants": ["Space Black", "85% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A17 5G", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/galaxy_a17.png", "variants": ["Boxed 5G"], "flavors": []}, {"name": "Xiaomi Mi 9", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Xiaomi Mi 9.jpg", "variants": ["Grade A+ Blue 128GB"], "flavors": []}, {"name": "iPhone 13 Pro Max", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 13 Pro Max.jpg", "variants": ["Graphite", "100% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A16", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy A16.jpg", "variants": ["Boxed"], "flavors": []}, {"name": "Huawei Nova 5T", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Huawei P30 breathing crystal white background.jpg", "variants": ["Grade A+ Black 128GB"], "flavors": []}, {"name": "iPhone 13", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 13 starlight white background.jpg", "variants": ["Midnight", "(PRODUCT)RED", "82%-100% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A07", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy A07.jpg", "variants": ["Boxed 64GB"], "flavors": []}, {"name": "IMO Q2 Pro", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/IMO Q2 Pro.jpg", "variants": ["Black Unlocked"], "flavors": []}, {"name": "iPhone 13 Mini", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 13 starlight white background.jpg", "variants": ["Starlight", "83% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A06", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/A06.jpg", "variants": ["Boxed 64GB"], "flavors": []}, {"name": "ZTE Blade V50 Design", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/ZTE Blade V50 Design.jpg", "variants": ["Diamond Black", "Glass Blue"], "flavors": []}, {"name": "iPhone 12 Pro Max", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 12 Pro.jpg", "variants": ["Pacific Blue", "100% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A32 5G", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy A32.jpg", "variants": ["Grade A+ 64GB 5G"], "flavors": []}, {"name": "ZTE Blade A31", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/ZTE Blade A31.jpg", "variants": ["Grey", "Blue"], "flavors": []}, {"name": "iPhone 12 Pro", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 12  12 Mini.jpg", "variants": ["Graphite", "100% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A23 5G", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/samsung galaxy A23.jpg", "variants": ["Grade A+ Red 64GB 5G"], "flavors": []}, {"name": "Doro 6040 Senior Flip Phone", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Doro 6040 Senior Flip Phone.jpg", "variants": ["Graphite / Red"], "flavors": []}, {"name": "iPhone 12", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 12 base model.jpg", "variants": ["Black", "100% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A31", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/galaxy_a36.png", "variants": ["Grade A+ 128GB"], "flavors": []}, {"name": "Nokia 105 Feature Phone", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Nokia 105 Feature Phone.jpg", "variants": ["Black", "Blue"], "flavors": []}, {"name": "iPhone 12 Mini", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone 12  12 Mini.jpg", "variants": ["White", "Black", "93% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A21s", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy A21.webp", "variants": ["Grade A+ Blue 64GB"], "flavors": []}, {"name": "Nokia 3310 Re-issue", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Nokia 3310.jpg", "variants": ["Dark Blue", "Yellow", "Red"], "flavors": []}, {"name": "iPhone XR", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPhone XR.jpg", "variants": ["Black", "88% Battery Health"], "flavors": []}, {"name": "Samsung Galaxy A21", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy A71 silver white background.jpg", "variants": ["Grade A+ 32GB"], "flavors": []}, {"name": "Emporia 313 Feature Phone", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Emporia 313 Feature Phone.jpg", "variants": ["Black"], "flavors": []}, {"name": "Samsung Galaxy XCover Pro", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy XCover Pro.webp", "variants": ["Grade A+ 64GB Rugged"], "flavors": []}, {"name": "Samsung Galaxy A54 5G", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/galaxy_a54.png", "variants": ["Awesome Black", "Awesome Violet", "Awesome Lime"], "flavors": []}, {"name": "Samsung Galaxy A35 5G", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/galaxy_a36.png", "variants": ["Awesome Iceblue", "Awesome Navy"], "flavors": []}, {"name": "Samsung Galaxy A05s", "category": "Smartphones", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy A05s.webp", "variants": ["Black", "Light Green"], "flavors": []}, {"name": "Apple MacBook Pro 14\" (M2 Pro)", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Apple MacBook Pro 14.jpg", "variants": ["Space Gray 16GB/512GB"], "flavors": []}, {"name": "Apple MacBook Pro 16\" (M1 Pro/i9)", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Macbook pro 13 inch.jpg", "variants": ["Space Gray 16GB/32GB"], "flavors": []}, {"name": "Apple MacBook Pro 13\" (M2/i5)", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Macbook pro 13 inch.jpg", "variants": ["Space Gray 16GB/512GB"], "flavors": []}, {"name": "Apple MacBook Air 13\" (M1/M3)", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Apple MacBook Air silver transparent background.jpg", "variants": ["Silver", "Space Gray"], "flavors": []}, {"name": "Apple MacBook 12\" Retina", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Apple MacBook 12.jpg", "variants": ["Space Gray 256GB"], "flavors": []}, {"name": "Microsoft Surface Business Laptop", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Microsoft Surface Business Laptop.jpg", "variants": ["Intel Ultra 5 16GB/256GB Touch"], "flavors": []}, {"name": "Amazon Fire 7 Tablet", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Amazon Fire 7 Tablet.jpg", "variants": ["Rose 16GB Boxed"], "flavors": []}, {"name": "Samsung Galaxy Tab Active 2", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy Tab Active 2.jpg", "variants": ["16GB Cellular Rugged"], "flavors": []}, {"name": "Apple iPad Mini 4", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/iPad mini 4.jpg", "variants": ["128GB White/Silver"], "flavors": []}, {"name": "Samsung Galaxy Tab S2", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy Tab S2.jpg", "variants": ["32GB White"], "flavors": []}, {"name": "Samsung Galaxy Tab S5e", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Samsung Galaxy Tab S5e.jpg", "variants": ["64GB Black"], "flavors": []}, {"name": "Apple iPad (7th Gen)", "category": "Tablets & Laptops", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Apple iPad (7th Gen).jpg", "variants": ["32GB Space Grey Pencil Included"], "flavors": []}, {"name": "Prime Hydration Drink 500ml", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Prime Hydration Drink 500ml.jpg", "variants": ["Blue Raspberry", "Ice Pop", "Tropical Punch", "Lemon Lime", "Meta Moon"], "flavors": []}, {"name": "Red Bull Energy Drink 250ml", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Redbull.webp", "variants": ["Original", "Sugar Free", "Tropical Edition", "Watermelon Edition"], "flavors": []}, {"name": "Monster Energy Drink 500ml", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Monster Energy Drink 500ml.jpg", "variants": ["Original Green", "Ultra White", "Mango Loco", "Pipeline Punch"], "flavors": []}, {"name": "Takis Fuego Hot Chili & Lime Chips 90g", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Takis Fuego Hot Chili & Lime Chips 90g.jpg", "variants": ["Fuego", "Blue Heat", "Nitro"], "flavors": []}, {"name": "Cheetos Crunchy / Flamin' Hot 226g", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Cheetos Crunchy  Flamin' Hot 226g.jpg", "variants": ["Flamin' Hot", "Crunchy Cheese", "Jalapeno Cheddar"], "flavors": []}, {"name": "Skittles Candy 195g", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Skittles Candy 195g.jpg", "variants": ["Original Fruits", "Wild Berry", "Sours"], "flavors": []}, {"name": "Haribo Gummy Sweets 175g", "category": "Drinks & Snacks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Haribo Gummy Sweets 175g.jpg", "variants": ["Starmix", "Tangfastics", "Supermix", "Goldbears"], "flavors": []}, {"name": "IVG 2400 4-in-1 Disposable Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/ivg_pro_10k_kit.png", "variants": ["Special Edition", "Blue Edition", "Pink Edition", "Purple Edition", "Yellow Edition", "Exotic Edition", "Summer Edition", "Menthol Edition", "Juicy Edition", "Plum Edition", "Coffee Edition", "Red Edition", "Citrus Edition"], "flavors": ["Red Edition", "Blue Edition", "Special Edition", "Summer Edition", "Pink Edition"]}, {"name": "Instaflow 5000 Disposable Vape Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Instaflow 5000.jpg", "variants": ["Banana Ice", "Blackcurrant Ice", "Blueberry Raspberry", "Cola Ice", "Fresh Mint", "Grape Ice", "Lemon Lime", "Mixed Berry", "Peach Ice", "Pineapple Ice", "Raspberry Lemonade", "Sour Blue Raspberry", "Strawberry Ice", "Watermelon Ice"], "flavors": ["Blue Raspberry Lemonade", "Mixed Berry", "Watermelon Ice", "Fresh Mint"]}, {"name": "Titan 10K Disposable Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Titan 10K Disposable Pod Kit.jpg", "variants": ["Blue Raspberry", "Blueberry Cherry Cranberry", "Cherry Ice", "Cool Mint", "Lemon Lime", "Pineapple Ice", "Pink Lemonade", "Strawberry Kiwi", "Strawberry Watermelon", "Tropical Punch", "Watermelon Ice"], "flavors": ["Blueberry Cherry Cranberry", "Pineapple Ice", "Watermelon Ice", "Banana Ice"]}, {"name": "Gold Bar Apollo 20K Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Bloody Bar pod twist.jpg", "variants": ["Blueberry Peach", "Blueberry Raspberry", "Cherry Fizz", "Lemon Lime", "Peach Ice", "Pineapple Ice", "Spearmint", "Strawberry Watermelon", "Summer Berries", "Watermelon Ice"], "flavors": ["Summer Berries", "Lemon Lime", "Watermelon Ice", "Blue Raspberry"]}, {"name": "Hayati Pro Ultra 25,000 Puffs Dual-Flavor Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Hayati Pro Ultra 25,000 Puffs Dual-Tank Kit.jpg", "variants": ["Blueberry Cotton K / Raspberry Cotton K", "Blueberry Raspberry", "Blue Razz Cherry", "Fresh Mint", "Fruit Twist", "Grape GB / Strawberry GB", "Hubba Bubba", "Kiwi Banana / Straw Banana", "Lemon & Lime", "Mr Blue", "Pineapple Ice", "Sour Apple / Juicy Peach", "Straw-Cranberry Cherry Ice", "Straw-Watermelon Bubblegum", "Strawberry Watermelon", "Straw-Grapefruit / Straw-Dragonfruit"], "flavors": ["Hubba Bubba & Watermelon", "Blue Razz Gummy & Strawberry", "Mangonada & Pineapple", "Crystal Ice & Kiwi", "Fizzy Cherry & Lemon", "Cherry Berry & Grape"]}, {"name": "Elfbar 600 Prefilled Pod Kit & Pods", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Elf Bar Prefilled pods.jpg", "variants": ["Apple Peach", "Banana Ice", "Blue Razz Lemonade", "Blueberry", "Blueberry Cranberry Cherry", "Cherry Cola", "Cherry Ice", "Elfbull Ice", "Grape", "Kiwi Passionfruit Guava", "P&B Cloudd", "Peach Ice", "Pink Lemonade", "Snoow Tobacco", "Spearmint", "Strawberry Ice", "Strawberry Kiwi", "Watermelon"], "flavors": ["Blue Razz Lemonade", "Watermelon", "Strawberry Ice", "Kiwi Passionfruit Guava", "Spearmint"]}, {"name": "PIXL 8000 / 8K Big Puff Vape Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/blog_big_puff_vapes.png", "variants": ["Black Cherry", "Blue Cotton", "Blue Razz Cherry", "Blue Razz Lemonade", "Blueberry Cranberry", "Blueberry Raspberry", "Blueberry Sour Razz", "Cherry Ice", "Double Apple", "Fresh Mint", "Hawaiian Oasis", "Hubba Bubba", "Juicy Peach", "Lemon & Lime", "Mango Ice", "Pineapple Ice", "Pink Lemonade", "Purple Dream", "Sour Apple", "Sour Pineapple Mango", "Spearmint", "Strawberry Kiwi Razz", "Strawberry Watermelon"], "flavors": ["Blue Razz Lemonade", "Pineapple Ice", "Triple Mango", "Watermelon Ice"]}, {"name": "PIXL Duo 12ml 2-in-1 Dual Flavor Vape", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/PIXL Duo 12ml 2-in-1 Dual Flavor Vape.jpg", "variants": ["Pink Razz / Pink Edition", "Tropical Edition", "Purple Edition", "Raspberry Edition", "Mint Edition", "Fantasy Edition", "Blue Edition"], "flavors": ["Blue Razz Ice & Lemon Lime", "Fizzy Cherry & Strawberry Kiwi", "Watermelon Ice & Peach Mango"]}, {"name": "Lost Mary BM6000 Big Puff Vape Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Lost Mary BM6000.jpg", "variants": ["Blue Razz Lemonade", "Blueberry", "Cherry Peach Lemonade", "Double Apple", "Fruit Punch", "Miami Mint", "Triple Melon", "Watermelon Ice", "Menthol", "Berry Apple Peach", "Triple Berry", "Strawberry Ice", "Mad Blue", "Fresh Mint", "Banana Ice", "Juicy Peach", "Fizzy Cherry", "Red Apple Ice"], "flavors": ["Double Apple", "Watermelon Kiwi", "Fizzy Cherry", "Miami Mint", "Pineapple Ice", "Menthol Edition", "Triple Mango", "Blue Razz Ice"]}, {"name": "Vaporesso Dojo Blast 10K Disposable Vape", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/dojo_blast_kit.png", "variants": ["Pomelo Soda", "Ten Tangerines", "Sour Peach Gummy", "Blast Ice", "Lychee Ice", "Sour Lemon Lime", "Cool Menthol", "Lemon Lime", "Banana Ice", "Pink Lemonade", "Blueberry", "Cherry Ice", "Strawberry Raspberry Cherry Ice", "Sour Berry", "Black Grape", "Pineapple Ice", "Classic Tobacco"], "flavors": ["Lemon Lime", "Banana Ice", "Classic Tobacco", "Kiwi Guava", "Pineapple Ice", "Watermelon Ice", "Blueberry Sour Raspberry"]}, {"name": "Lost Mary Nera 15K & 30K Fullview", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Lost mary 15k.jpg", "variants": ["Blue Razz Ice", "Double Apple", "Lemon Lime", "Pineapple Ice", "Strawberry Ice", "Triple Mango", "Watermelon Ice", "Cherry Ice", "Menthol", "Blueberry Sour Raspberry", "Grape Ice", "Pink Lemonade", "Strawberry Watermelon", "Blueberry Ice", "Peach Ice", "Raspberry Watermelon", "Grape Berry"], "flavors": ["Fizzy Cherry", "Triple Mango", "Watermelon Ice", "Miami Mint"]}, {"name": "SKE Crystal CL6000 / CL4000 Vape Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/SKE Crystal Salts.jpg", "variants": ["Blue Razz Lemonade", "Blueberry Sour Raspberry", "Cherry Ice", "Lemon & Lime", "Strawberry Burst", "Watermelon Ice", "Pink Lemonade", "Physsenberg", "Pineapple Ice", "Sour Apple", "Fruit Medley", "Menthol"], "flavors": ["Blue Fusion", "Cherry Ice", "Lemon & Lime", "Watermelon Ice"]}, {"name": "Crown Bar Al Fakher 30K Hypermax Vape", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/alfakher_30k.png", "variants": ["Mint", "Lemon Lime Cherry Fizz", "Big Cloud 8000"], "flavors": ["Two Apple", "Gum Mint", "Lucid Dream", "Magic Melon", "Grape Mint"]}, {"name": "Pyne Pod 50K Vape Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Pyne pod click.jpg", "variants": ["Cherry Ice", "Fizzy Cherry", "Sour Cherry Raspberry Ice", "Pineapple Passion Fruit", "Pineapple Ice", "Mr Blue", "Blueberry Raspberry", "Lemon Lime"], "flavors": ["Blueberry Raspberry", "Watermelon Bubblegum", "Kiwi Passionfruit", "Sakura Grape"]}, {"name": "OXVA NexLim & Xlim Pro 2 Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/OXVA Nexlim.jpg", "variants": ["Black Carbon", "Gleamy Pink", "Gleamy Blue", "Gleamy Cyan", "Gleamy Green", "Titanium", "Leather White"], "flavors": ["Black Carbon", "Gleamy Blue", "Gleamy Cyan", "Rose Gold"]}, {"name": "Voopoo Drag X2 & Drag S2 Pod Mod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Voopoo drag.webp", "variants": ["Black", "Modern Red", "Sky Blue", "Glow Pink", "Spray Black", "Grey Metal", "Vintage White"], "flavors": ["Modern Red", "Sky Blue", "Glow Pink", "Knight Black"]}, {"name": "Voopoo Argus G2 & P2 Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Voopoo Argus G2 & P2 Pod Kit.jpg", "variants": ["Spray Black", "Space Grey", "Pearl White", "Glow Pink", "Iris Blue", "Matte Black", "Titanium Grey", "Emerald Green", "Neon Blue"], "flavors": ["Spray Black", "Space Gray", "Iris Blue", "Peacock Blue"]}, {"name": "SMOK Nord 5 / Nord GT / Nord 4 Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "Nordic Reuse.webp", "variants": ["7-Color Dart", "Black", "White", "Beige White Leather", "Brown Leather", "Pale Gold", "Cyan", "Silver"], "flavors": ["7-Color Armor", "Fluid 7-Color", "Black Leather", "White Leather"]}, {"name": "Vaporesso XROS 6 / XROS 4 / Nano Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Vaporesso Xros 5.jpg", "variants": ["Black", "Silver", "Emerald Green", "Sakura Pink", "Cosmic Blue", "Sunset Lime", "Ocean Blue", "Graphite Black", "Twilight Purple"], "flavors": ["Black", "Silver", "Blue", "Green", "Pink", "Purple"]}, {"name": "IQOS ILUMA / ILUMA ONE Heat-not-Burn Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/IQOS ILUMA ILUMA ONE Heat-not-Burn Kit.jpg", "variants": ["Pebble Grey", "Moss Green", "Azure Blue", "Sunset Red", "Pebble Beige"], "flavors": ["Pebble Beige", "Pebble Grey", "Moss Green", "Sunset Red", "Azure Blue"]}, {"name": "Uwell Caliburn G2 / G3 / Pro Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Slimstick Oxva.webp", "variants": ["Matte Black", "Space Grey", "Cobalt Blue", "Emerald Green", "Pastel Pink", "Iron Grey", "Olive Green"], "flavors": ["Cobalt Blue", "Matte Black", "Gradient", "Silver"]}, {"name": "Aspire Gotek X / Gotek Pro Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Aspire Gotek X Gotek Pro Pod Kit.jpg", "variants": ["Translucent Black", "Translucent Blue", "Clear", "Metal Gold", "Metal Gunmetal", "Metal Rose Gold"], "flavors": ["Transparent Blue", "Transparent Black", "Amber", "Clear"]}, {"name": "Geekvape Sonder Q / Sonder Q2 Pod Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Geekvape Sonder Q.jpg", "variants": ["Black", "Grey", "Rose Pink", "Violet Purple", "Green", "Red"], "flavors": ["Black", "Grey", "Blue", "Green", "Red"]}, {"name": "Innokin GoMax Tube & Endura T18E Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Innokin GoMax Tube & Endura T18E Kit.jpg", "variants": ["Black", "Stainless Steel", "Blue", "Pink", "Green", "Silver", "Red", "Violet"], "flavors": ["Black", "Stainless Steel", "Blue", "Pink"]}, {"name": "Lost Vape Ursa Cap & Thelema Elite 40 Kit", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Lost Vape Ursa Cap & Thelema Elite 40 Kit.jpg", "variants": ["Joy Black", "Solo Silver", "Pink Edge", "Mint Green", "Space Black", "Eagle Black", "Gunmetal Espresso"], "flavors": ["Joy Black", "Mint Green", "Pink Sugar", "Pearl White"]}, {"name": "ELUX Legend Nic Salts 10ml (20mg)", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/elux_salts_10ml.png", "variants": ["Fizzy Cherry", "Strawberry Kiwi", "Watermelon Ice", "Fresh Mint", "Triple Mango", "Grape", "Cherry Sour Raspberry", "Banana Ice", "Lemon & Lime", "Passion Fruit Nectar", "Blueberry Cherry Cranberry", "Strawberry Cherry", "Blueberry Raspberry", "Mr Blue", "Pineapple Ice"], "flavors": ["Tiger Blood", "Gummy Bear", "Mr Blue", "Fizzy Cherry", "Triple Mango", "Strawberry Ice Cream", "Pink Lemonade", "Blueberry Bubblegum"]}, {"name": "Riot Bar Edition 10ml Nic Salt (20mg)", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Riot Bar Edition 10ml Nic Salt (20mg).jpg", "variants": ["Watermelon Ice", "Blue Sour Raspberry", "Pink Lemonade", "Triple Mint", "Cherry Fizz"], "flavors": ["Fresh Menthol Mojito", "Blue Razz Lemonade", "Apple Peach", "Watermelon Ice", "Cherry Fizz", "Grape Ice"]}, {"name": "Bar Juice 5000 10ml Refillable Nic Salt", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/bar_juice_10ml.png", "variants": ["Fresh Menthol Mojito", "Blue Razz Lemonade", "Apple Peach", "Blue Razz"], "flavors": ["Blue Razz Lemonade", "Watermelon", "Fresh Mint", "Strawberry Ice", "Peach Ice", "Cherry Cola"]}, {"name": "Seriously E-Liquids 100ml Bottle", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Seriously E-Liquids 100ml.jpg", "variants": ["Cookie Dough Donuts", "Watermelon Lemonade Slushy", "Blue Pear Fusion", "Raspberry Jam Donuts", "Triple Berry Ice Slushy", "Lemon Lime Fruity", "Blackcurrant Honeydew", "Apple Raspberry", "Fantasia Lemon Slushy", "Mango Orange Fusion"], "flavors": []}, {"name": "Vampire Vape Koncept 100ml Bottle", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Nasty Juice 100ml shortfill bottle transparent.jpg", "variants": ["Blood Sukka", "Pinkman", "Heisenberg", "Pistachio Milkshake"], "flavors": []}, {"name": "Yeti E-Liquid 100ml & Vapour Life CBD 100ml", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/tasty_cbd_100ml.png", "variants": ["Cherry Yeti", "Lychee Yeti", "Passionfruit Lychee", "Grape CBD", "Mango CBD", "Strawberry CBD", "Grape Ice CBD"], "flavors": []}, {"name": "Cannabis Lollipops (Real Cannabis Oil)", "category": "Vapes & Pod Systems", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Cannabis Lollipops.jpg", "variants": ["Strawberry Banana Kush"], "flavors": []}, {"name": "Pablo Premium Nicotine Pouches", "category": "Nicotine Pouches & Heated Tobacco", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Pablo reuse.jpg", "variants": ["Banana Ice", "Blue Raspberry", "Pineapple", "Spearmint", "Strawberry Lychee", "Pink Lemonade", "Kiwi", "Cold Mint", "Peach Ice", "Tropical Punch", "Sour Blueberries", "Frosted Ice", "Dark Cherry", "Grape Ice", "Bubblegum", "Strawberry Cheesecake", "Lemonade", "Orange"], "flavors": ["Freeze (50mg)", "X-Ice Cold (50mg)", "Banana Ice (50mg)", "Strawberry Cheesecake", "Passion Fruit"]}, {"name": "Killa Exclusive Nicotine Pouches", "category": "Nicotine Pouches & Heated Tobacco", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Killa Cold Mint can white background.webp", "variants": ["Cold X Mint", "Cherry Cola", "Spearmint", "Lemonade", "Frosted Ice", "Strawberry Lychee", "Pineapple"], "flavors": ["Cold Mint (16mg)", "Watermelon (16mg)", "Blueberry (16mg)", "Bubblegum (16mg)", "Apple (16mg)"]}, {"name": "Velo Premium Nicotine Pouches", "category": "Nicotine Pouches & Heated Tobacco", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Velo reuse.jpg", "variants": ["Wintry Watermelon", "Crispy Peppermint", "Tropical Mango", "Strawberry Ice", "Cola Lemon Ice", "Blueberry Ice", "Freeze Peppermint", "Lime Flame", "Berry Frost", "Wintry Peppermint", "Bright Spearmint", "Icy Berries", "Purple Grape", "Peach Ice", "Mango Flame", "Strawberry Watermelon"], "flavors": ["Polar Mint (6mg / 10mg)", "Ruby Berry (6mg)", "Urban Vibe (10mg)", "Freeze MAX (14mg)", "Tropical Breeze"]}, {"name": "ZYN Nicotine Pouches", "category": "Nicotine Pouches & Heated Tobacco", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/ZYN Pouches Reuse.webp", "variants": ["Cool Watermelon", "Guava Spice", "Cool Mint", "Blackcurrant Frost", "Black Cherry"], "flavors": ["Cool Mint (3mg / 6mg)", "Espressino (6mg)", "Citrus (3mg)", "Spearmint (6mg)", "Black Black"]}, {"name": "Nordic Spirit Nicotine Pouches", "category": "Nicotine Pouches & Heated Tobacco", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "Nordic Reuse.webp", "variants": ["Forest Berries", "Tropical Mix", "Frosty Berry", "Frosty Mint", "Sweet Mint", "Spearmint", "Fresh Mint"], "flavors": ["Smooth Mint (6mg / 9mg)", "Bergamot Wildberry (6mg)", "Spearmint (9mg)"]}, {"name": "TEREA & HEETS Heatsticks for IQOS", "category": "Nicotine Pouches & Heated Tobacco", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/TEREA & HEETS Heatsticks for IQOS.jpg", "variants": ["Purple Wave", "Oats Pearl", "Green Selection", "Starling Pearl", "Sienna"], "flavors": ["Amber Selection", "Yellow Selection", "Turquoise Selection", "Bronze Selection", "Blue Selection"]}, {"name": "Vaporesso XROS / LUXE X Replacement Pods", "category": "Vape Coils & Tanks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Vaporesso XROS.jpg", "variants": ["0.4ohm Mesh", "0.6ohm Mesh", "0.8ohm Mesh", "1.0ohm Mesh", "0.3ohm Dual Mesh"], "flavors": ["0.6 ohm Mesh", "0.8 ohm Mesh", "1.0 ohm Mesh", "1.2 ohm Pod"]}, {"name": "SMOK RPM / RPM2 / LP Series Coils", "category": "Vape Coils & Tanks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/SMOK RPM  RPM2 LP Series Coils.jpg", "variants": ["RPM Mesh 0.4ohm", "RPM 2 Coil", "LP1 Coil", "LP2 Coil"], "flavors": ["RPM Mesh 0.4 ohm", "RPM Triple 0.6 ohm", "RPM2 Mesh 0.16 ohm"]}, {"name": "OXVA XLIM Replacement Cartridges", "category": "Vape Coils & Tanks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/OXVA Nexlim.jpg", "variants": ["0.6ohm Top Fill", "0.8ohm Top Fill", "1.2ohm Top Fill", "V2 Pods"], "flavors": ["0.6 ohm Top Fill", "0.8 ohm Top Fill", "1.2 ohm Pod"]}, {"name": "Voopoo PnP Replacement Pods & Coils", "category": "Vape Coils & Tanks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Voopoo PnP Replacement Pods & Coils.jpg", "variants": ["PnP Pod Cartridge", "PnP MTL Pod", "PnP-VM6 0.15ohm Coil"], "flavors": ["PnP-VM1 0.3 ohm", "PnP-VM5 0.2 ohm", "PnP-VM6 0.15 ohm"]}, {"name": "GeekVape Replacement Coils & Cartridges", "category": "Vape Coils & Tanks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/GeekVape Replacement Coils & Cartridges.jpg", "variants": ["Z 0.2ohm Mesh", "Z 0.4ohm Mesh", "B 0.4ohm", "B 0.5ohm", "B 0.6ohm", "WENAX H1 Cartridge", "GeekVape U Cartridge", "Q Cartridge"], "flavors": ["Z Series 0.2 ohm", "Z Series 0.4 ohm", "B Series 0.4 ohm"]}, {"name": "Aspire & Innokin Replacement Coils", "category": "Vape Coils & Tanks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Aspire & Innokin Replacement Coils.jpg", "variants": ["Odan Mesh 0.3ohm", "PockeX 0.6ohm", "PockeX 1.2ohm", "Prism T20 Coil", "Prism T20-S Coil"], "flavors": ["Prism T20 1.5 ohm", "Nautilus BVC 1.8 ohm", "AF Mesh 0.6 ohm"]}, {"name": "Ray-Ban Optics Gen 2 Smart Glasses", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Ray-Ban Optics Gen 2 Smart Glasses.jpg", "variants": ["Black Wayfarer Boxed"], "flavors": []}, {"name": "Apple AirPods Pro 2nd Gen", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Authentic Apple Air Pods.jpg", "variants": ["White Boxed Edition"], "flavors": []}, {"name": "Sony PS5 DualSense Wireless Controller", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Sony PS5 DualSense.jpg", "variants": ["Grey Camouflage", "White", "Midnight Black"], "flavors": []}, {"name": "Sony PS4 DualShock 4 Wireless Controller", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/PS4 Controller.jpg", "variants": ["Jet Black", "Magma Red"], "flavors": []}, {"name": "Nintendo Switch Wireless Controller", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Nintendo Switch Wireless Controller.jpg", "variants": ["Blue / Black Wireless Edition"], "flavors": []}, {"name": "Watch Plus BIG 1.99 Series 8 Smartwatch", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/Watch Plus BIG 1.99 Series 8 Smartwatch.jpg", "variants": ["Black Silicone", "Orange Ocean Band", "Silver Metallic Mesh"], "flavors": []}, {"name": "HELIX DELTA-FIT Smart Watch", "category": "Gaming & Electronics", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/HELIX DELTA-FIT Smart Watch.jpg", "variants": ["Black Silicone Strap"], "flavors": []}, {"name": "HOCO 80,000mAh Massive Power Bank (J152)", "category": "Chargers & Power Banks", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/HOCO 80,000mAh Massive Power Bank (J152).jpg", "variants": ["Black 80k mAh Multi-Port"], "flavors": []}, {"name": "XO 30,000mAh Power Bank (PR285)", "category": "Chargers & Power Banks", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/XO 30,000mAh Power Bank (PR285).jpg", "variants": ["Black 30k mAh"], "flavors": []}, {"name": "YESIDO 240W Dual Type-C Braided Cable 2m", "category": "Chargers & Power Banks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/budi_charging_cable.png", "variants": ["240W 2m Cable (CA186)"], "flavors": []}, {"name": "YESIDO 100W Digital Display Cable", "category": "Chargers & Power Banks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/budi_charging_cable.png", "variants": ["100W LED Power Meter (CAI58)"], "flavors": []}, {"name": "WYE LUX Premier Magnetic Power Bank 10,000mAh", "category": "Chargers & Power Banks", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/WYE LUX Premier Magnetic Power Bank 10,000mAh.jpg", "variants": ["10000mAh Matte Black", "10000mAh Space Grey"], "flavors": []}, {"name": "CORE+ 10,000mAh Magnetic Power Bank 22.5W", "category": "Chargers & Power Banks", "badge_text": "ENQUIRE FOR PRICE", "action_type": "call", "action_btn_text": "Call Store for Price & Stock", "action_link": "tel:+447300660016", "image": "fast_access_images/CORE+ 10,000mAh Magnetic Power Bank 22.5W.jpg", "variants": ["VD-PB053 Black"], "flavors": []}, {"name": "VEN-DENS 55W Dual Retractable Car Charger", "category": "Chargers & Power Banks", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/VEN-DENS 55W Dual Retractable Car Charger.jpg", "variants": ["55W Fast Car Charger Black"], "flavors": []}, {"name": "Vapouron Digital Mini Precision Scale", "category": "Scales & Gadgets", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Vapouron Digital Mini Precision Scale 100g200g.jpg", "variants": ["MT Series (100g x 0.01g)", "CS-200 (200g x 0.01g)"], "flavors": []}, {"name": "Myco MZ-100 Digital Scale", "category": "Scales & Gadgets", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Myco MZ-100 Digital Scale.jpg", "variants": ["MZ-100 (100g x 0.01g)"], "flavors": []}, {"name": "Panther Force 4G/5G Pocket WiFi Router", "category": "Scales & Gadgets", "badge_text": "IN STOCK", "action_type": "instock", "action_btn_text": "In-Store Only", "action_link": "#", "image": "fast_access_images/Panther Force 4G5G Pocket WiFi Router.jpg", "variants": ["White Pocket Router 300Mbps"], "flavors": []}];
+const productsData = [
+  {
+    "name": "iPhone 16",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Phone 16 (Base Model).jpg",
+    "variants": [
+      "White",
+      "Black",
+      "Standard"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy S24 Ultra.jpg",
+    "variants": [
+      "Titanium Black",
+      "256GB",
+      "512GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Sony Xperia L4",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Sony Xperia L4.jpg",
+    "variants": [
+      "Grade A+ 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 15 Pro Max",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iphone_15_promax.png",
+    "variants": [
+      "Black",
+      "Space Black",
+      "Pro Max"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy S23 Ultra.jpg",
+    "variants": [
+      "Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "TCL 405",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/TCL 405.jpg",
+    "variants": [
+      "Grade A+ 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iphone_15_promax.png",
+    "variants": [
+      "Black Titanium",
+      "Natural Titanium",
+      "81%-86% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy S22 Ultra",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/galaxy_s22_ultra.png",
+    "variants": [
+      "Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "TCL 403",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/TCL 403.jpg",
+    "variants": [
+      "Grade A+ 32GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 15",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 15.jpg",
+    "variants": [
+      "Black",
+      "Blue",
+      "Standard"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy S22",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy S22 (Base Model).jpg",
+    "variants": [
+      "Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Nokia C12",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Nokia C12.jpg",
+    "variants": [
+      "Boxed Teal/Blue 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 14 Pro Max",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Iphone 14 pro.jpg",
+    "variants": [
+      "Space Black",
+      "Deep Purple",
+      "87%-88% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy S21 5G",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy S21 5G.jpg",
+    "variants": [
+      "Black 5G"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Motorola Moto G6",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Motorola Moto G6.webp",
+    "variants": [
+      "Grade A+ 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Iphone 14 pro.jpg",
+    "variants": [
+      "Space Black",
+      "85% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A17 5G",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/galaxy_a17.png",
+    "variants": [
+      "Boxed 5G"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Xiaomi Mi 9",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Xiaomi Mi 9.jpg",
+    "variants": [
+      "Grade A+ Blue 128GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 13 Pro Max",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 13 Pro Max.jpg",
+    "variants": [
+      "Graphite",
+      "100% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A16",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy A16.jpg",
+    "variants": [
+      "Boxed"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Huawei Nova 5T",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Huawei P30 breathing crystal white background.jpg",
+    "variants": [
+      "Grade A+ Black 128GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 13",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 13 starlight white background.jpg",
+    "variants": [
+      "Midnight",
+      "(PRODUCT)RED",
+      "82%-100% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A07",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy A07.jpg",
+    "variants": [
+      "Boxed 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "IMO Q2 Pro",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/IMO Q2 Pro.jpg",
+    "variants": [
+      "Black Unlocked"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 13 Mini",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 13 starlight white background.jpg",
+    "variants": [
+      "Starlight",
+      "83% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A06",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/A06.jpg",
+    "variants": [
+      "Boxed 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "ZTE Blade V50 Design",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/ZTE Blade V50 Design.jpg",
+    "variants": [
+      "Diamond Black",
+      "Glass Blue"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 12 Pro.jpg",
+    "variants": [
+      "Pacific Blue",
+      "100% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A32 5G",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy A32.jpg",
+    "variants": [
+      "Grade A+ 64GB 5G"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "ZTE Blade A31",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/ZTE Blade A31.jpg",
+    "variants": [
+      "Grey",
+      "Blue"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 12  12 Mini.jpg",
+    "variants": [
+      "Graphite",
+      "100% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A23 5G",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/samsung galaxy A23.jpg",
+    "variants": [
+      "Grade A+ Red 64GB 5G"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Doro 6040 Senior Flip Phone",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Doro 6040 Senior Flip Phone.jpg",
+    "variants": [
+      "Graphite / Red"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 12",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 12 base model.jpg",
+    "variants": [
+      "Black",
+      "100% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A31",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/galaxy_a36.png",
+    "variants": [
+      "Grade A+ 128GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Nokia 105 Feature Phone",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Nokia 105 Feature Phone.jpg",
+    "variants": [
+      "Black",
+      "Blue"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone 12 Mini",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone 12  12 Mini.jpg",
+    "variants": [
+      "White",
+      "Black",
+      "93% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A21s",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy A21.webp",
+    "variants": [
+      "Grade A+ Blue 64GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Nokia 3310 Re-issue",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Nokia 3310.jpg",
+    "variants": [
+      "Dark Blue",
+      "Yellow",
+      "Red"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "iPhone XR",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPhone XR.jpg",
+    "variants": [
+      "Black",
+      "88% Battery Health"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A21",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy A71 silver white background.jpg",
+    "variants": [
+      "Grade A+ 32GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Emporia 313 Feature Phone",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Emporia 313 Feature Phone.jpg",
+    "variants": [
+      "Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy XCover Pro",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy XCover Pro.webp",
+    "variants": [
+      "Grade A+ 64GB Rugged"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A54 5G",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/galaxy_a54.png",
+    "variants": [
+      "Awesome Black",
+      "Awesome Violet",
+      "Awesome Lime"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A35 5G",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/galaxy_a36.png",
+    "variants": [
+      "Awesome Iceblue",
+      "Awesome Navy"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy A05s",
+    "category": "Smartphones",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy A05s.webp",
+    "variants": [
+      "Black",
+      "Light Green"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple MacBook Pro 14\" (M2 Pro)",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Apple MacBook Pro 14.jpg",
+    "variants": [
+      "Space Gray 16GB/512GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple MacBook Pro 16\" (M1 Pro/i9)",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Macbook pro 13 inch.jpg",
+    "variants": [
+      "Space Gray 16GB/32GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple MacBook Pro 13\" (M2/i5)",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Macbook pro 13 inch.jpg",
+    "variants": [
+      "Space Gray 16GB/512GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple MacBook Air 13\" (M1/M3)",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Apple MacBook Air silver transparent background.jpg",
+    "variants": [
+      "Silver",
+      "Space Gray"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple MacBook 12\" Retina",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Apple MacBook 12.jpg",
+    "variants": [
+      "Space Gray 256GB"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Microsoft Surface Business Laptop",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Microsoft Surface Business Laptop.jpg",
+    "variants": [
+      "Intel Ultra 5 16GB/256GB Touch"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Amazon Fire 7 Tablet",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Amazon Fire 7 Tablet.jpg",
+    "variants": [
+      "Rose 16GB Boxed"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy Tab Active 2",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy Tab Active 2.jpg",
+    "variants": [
+      "16GB Cellular Rugged"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple iPad Mini 4",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/iPad mini 4.jpg",
+    "variants": [
+      "128GB White/Silver"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy Tab S2",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy Tab S2.jpg",
+    "variants": [
+      "32GB White"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Samsung Galaxy Tab S5e",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Samsung Galaxy Tab S5e.jpg",
+    "variants": [
+      "64GB Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple iPad (7th Gen)",
+    "category": "Tablets & Laptops",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Apple iPad (7th Gen).jpg",
+    "variants": [
+      "32GB Space Grey Pencil Included"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Prime Hydration Drink 500ml",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Prime Hydration Drink 500ml.jpg",
+    "variants": [
+      "Blue Raspberry",
+      "Ice Pop",
+      "Tropical Punch",
+      "Lemon Lime",
+      "Meta Moon"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Red Bull Energy Drink 250ml",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Redbull.webp",
+    "variants": [
+      "Original",
+      "Sugar Free",
+      "Tropical Edition",
+      "Watermelon Edition"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Monster Energy Drink 500ml",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Monster Energy Drink 500ml.jpg",
+    "variants": [
+      "Original Green",
+      "Ultra White",
+      "Mango Loco",
+      "Pipeline Punch"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Takis Fuego Hot Chili & Lime Chips 90g",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Takis Fuego Hot Chili & Lime Chips 90g.jpg",
+    "variants": [
+      "Fuego",
+      "Blue Heat",
+      "Nitro"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Cheetos Crunchy / Flamin' Hot 226g",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Cheetos Crunchy  Flamin' Hot 226g.jpg",
+    "variants": [
+      "Flamin' Hot",
+      "Crunchy Cheese",
+      "Jalapeno Cheddar"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Skittles Candy 195g",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Skittles Candy 195g.jpg",
+    "variants": [
+      "Original Fruits",
+      "Wild Berry",
+      "Sours"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Haribo Gummy Sweets 175g",
+    "category": "Drinks & Snacks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Haribo Gummy Sweets 175g.jpg",
+    "variants": [
+      "Starmix",
+      "Tangfastics",
+      "Supermix",
+      "Goldbears"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "IVG 2400 4-in-1 Disposable Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/ivg_pro_10k_kit.png",
+    "variants": [
+      "Special Edition",
+      "Blue Edition",
+      "Pink Edition",
+      "Purple Edition",
+      "Yellow Edition",
+      "Exotic Edition",
+      "Summer Edition",
+      "Menthol Edition",
+      "Juicy Edition",
+      "Plum Edition",
+      "Coffee Edition",
+      "Red Edition",
+      "Citrus Edition"
+    ],
+    "flavors": [
+      "Red Edition",
+      "Blue Edition",
+      "Special Edition",
+      "Summer Edition",
+      "Pink Edition"
+    ]
+  },
+  {
+    "name": "Instaflow 5000 Disposable Vape Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Instaflow 5000.jpg",
+    "variants": [
+      "Banana Ice",
+      "Blackcurrant Ice",
+      "Blueberry Raspberry",
+      "Cola Ice",
+      "Fresh Mint",
+      "Grape Ice",
+      "Lemon Lime",
+      "Mixed Berry",
+      "Peach Ice",
+      "Pineapple Ice",
+      "Raspberry Lemonade",
+      "Sour Blue Raspberry",
+      "Strawberry Ice",
+      "Watermelon Ice"
+    ],
+    "flavors": [
+      "Blue Raspberry Lemonade",
+      "Mixed Berry",
+      "Watermelon Ice",
+      "Fresh Mint"
+    ]
+  },
+  {
+    "name": "Titan 10K Disposable Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Titan 10K Disposable Pod Kit.jpg",
+    "variants": [
+      "Blue Raspberry",
+      "Blueberry Cherry Cranberry",
+      "Cherry Ice",
+      "Cool Mint",
+      "Lemon Lime",
+      "Pineapple Ice",
+      "Pink Lemonade",
+      "Strawberry Kiwi",
+      "Strawberry Watermelon",
+      "Tropical Punch",
+      "Watermelon Ice"
+    ],
+    "flavors": [
+      "Blueberry Cherry Cranberry",
+      "Pineapple Ice",
+      "Watermelon Ice",
+      "Banana Ice"
+    ]
+  },
+  {
+    "name": "Gold Bar Apollo 20K Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Bloody Bar pod twist.jpg",
+    "variants": [
+      "Blueberry Peach",
+      "Blueberry Raspberry",
+      "Cherry Fizz",
+      "Lemon Lime",
+      "Peach Ice",
+      "Pineapple Ice",
+      "Spearmint",
+      "Strawberry Watermelon",
+      "Summer Berries",
+      "Watermelon Ice"
+    ],
+    "flavors": [
+      "Summer Berries",
+      "Lemon Lime",
+      "Watermelon Ice",
+      "Blue Raspberry"
+    ]
+  },
+  {
+    "name": "Hayati Pro Ultra 25,000 Puffs Dual-Flavor Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Hayati Pro Ultra 25,000 Puffs Dual-Tank Kit.jpg",
+    "variants": [
+      "Blueberry Cotton K / Raspberry Cotton K",
+      "Blueberry Raspberry",
+      "Blue Razz Cherry",
+      "Fresh Mint",
+      "Fruit Twist",
+      "Grape GB / Strawberry GB",
+      "Hubba Bubba",
+      "Kiwi Banana / Straw Banana",
+      "Lemon & Lime",
+      "Mr Blue",
+      "Pineapple Ice",
+      "Sour Apple / Juicy Peach",
+      "Straw-Cranberry Cherry Ice",
+      "Straw-Watermelon Bubblegum",
+      "Strawberry Watermelon",
+      "Straw-Grapefruit / Straw-Dragonfruit"
+    ],
+    "flavors": [
+      "Hubba Bubba & Watermelon",
+      "Blue Razz Gummy & Strawberry",
+      "Mangonada & Pineapple",
+      "Crystal Ice & Kiwi",
+      "Fizzy Cherry & Lemon",
+      "Cherry Berry & Grape"
+    ]
+  },
+  {
+    "name": "Elfbar 600 Prefilled Pod Kit & Pods",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "3 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Elf Bar Prefilled pods.jpg",
+    "variants": [
+      "Apple Peach",
+      "Banana Ice",
+      "Blue Razz Lemonade",
+      "Blueberry",
+      "Blueberry Cranberry Cherry",
+      "Cherry Cola",
+      "Cherry Ice",
+      "Elfbull Ice",
+      "Grape",
+      "Kiwi Passionfruit Guava",
+      "P&B Cloudd",
+      "Peach Ice",
+      "Pink Lemonade",
+      "Snoow Tobacco",
+      "Spearmint",
+      "Strawberry Ice",
+      "Strawberry Kiwi",
+      "Watermelon"
+    ],
+    "flavors": [
+      "Blue Razz Lemonade",
+      "Watermelon",
+      "Strawberry Ice",
+      "Kiwi Passionfruit Guava",
+      "Spearmint"
+    ]
+  },
+  {
+    "name": "PIXL 8000 / 8K Big Puff Vape Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/blog_big_puff_vapes.png",
+    "variants": [
+      "Black Cherry",
+      "Blue Cotton",
+      "Blue Razz Cherry",
+      "Blue Razz Lemonade",
+      "Blueberry Cranberry",
+      "Blueberry Raspberry",
+      "Blueberry Sour Razz",
+      "Cherry Ice",
+      "Double Apple",
+      "Fresh Mint",
+      "Hawaiian Oasis",
+      "Hubba Bubba",
+      "Juicy Peach",
+      "Lemon & Lime",
+      "Mango Ice",
+      "Pineapple Ice",
+      "Pink Lemonade",
+      "Purple Dream",
+      "Sour Apple",
+      "Sour Pineapple Mango",
+      "Spearmint",
+      "Strawberry Kiwi Razz",
+      "Strawberry Watermelon"
+    ],
+    "flavors": [
+      "Blue Razz Lemonade",
+      "Pineapple Ice",
+      "Triple Mango",
+      "Watermelon Ice"
+    ]
+  },
+  {
+    "name": "PIXL Duo 12ml 2-in-1 Dual Flavor Vape",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/PIXL Duo 12ml 2-in-1 Dual Flavor Vape.jpg",
+    "variants": [
+      "Pink Razz / Pink Edition",
+      "Tropical Edition",
+      "Purple Edition",
+      "Raspberry Edition",
+      "Mint Edition",
+      "Fantasy Edition",
+      "Blue Edition"
+    ],
+    "flavors": [
+      "Blue Razz Ice & Lemon Lime",
+      "Fizzy Cherry & Strawberry Kiwi",
+      "Watermelon Ice & Peach Mango"
+    ]
+  },
+  {
+    "name": "Lost Mary BM6000 Big Puff Vape Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Lost Mary BM6000.jpg",
+    "variants": [
+      "Blue Razz Lemonade",
+      "Blueberry",
+      "Cherry Peach Lemonade",
+      "Double Apple",
+      "Fruit Punch",
+      "Miami Mint",
+      "Triple Melon",
+      "Watermelon Ice",
+      "Menthol",
+      "Berry Apple Peach",
+      "Triple Berry",
+      "Strawberry Ice",
+      "Mad Blue",
+      "Fresh Mint",
+      "Banana Ice",
+      "Juicy Peach",
+      "Fizzy Cherry",
+      "Red Apple Ice"
+    ],
+    "flavors": [
+      "Double Apple",
+      "Watermelon Kiwi",
+      "Fizzy Cherry",
+      "Miami Mint",
+      "Pineapple Ice",
+      "Menthol Edition",
+      "Triple Mango",
+      "Blue Razz Ice"
+    ]
+  },
+  {
+    "name": "Vaporesso Dojo Blast 10K Disposable Vape",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/dojo_blast_kit.png",
+    "variants": [
+      "Pomelo Soda",
+      "Ten Tangerines",
+      "Sour Peach Gummy",
+      "Blast Ice",
+      "Lychee Ice",
+      "Sour Lemon Lime",
+      "Cool Menthol",
+      "Lemon Lime",
+      "Banana Ice",
+      "Pink Lemonade",
+      "Blueberry",
+      "Cherry Ice",
+      "Strawberry Raspberry Cherry Ice",
+      "Sour Berry",
+      "Black Grape",
+      "Pineapple Ice",
+      "Classic Tobacco"
+    ],
+    "flavors": [
+      "Lemon Lime",
+      "Banana Ice",
+      "Classic Tobacco",
+      "Kiwi Guava",
+      "Pineapple Ice",
+      "Watermelon Ice",
+      "Blueberry Sour Raspberry"
+    ]
+  },
+  {
+    "name": "Lost Mary Nera 15K & 30K Fullview",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Lost mary 15k.jpg",
+    "variants": [
+      "Blue Razz Ice",
+      "Double Apple",
+      "Lemon Lime",
+      "Pineapple Ice",
+      "Strawberry Ice",
+      "Triple Mango",
+      "Watermelon Ice",
+      "Cherry Ice",
+      "Menthol",
+      "Blueberry Sour Raspberry",
+      "Grape Ice",
+      "Pink Lemonade",
+      "Strawberry Watermelon",
+      "Blueberry Ice",
+      "Peach Ice",
+      "Raspberry Watermelon",
+      "Grape Berry"
+    ],
+    "flavors": [
+      "Fizzy Cherry",
+      "Triple Mango",
+      "Watermelon Ice",
+      "Miami Mint"
+    ]
+  },
+  {
+    "name": "SKE Crystal CL6000 / CL4000 Vape Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/SKE Crystal Salts.jpg",
+    "variants": [
+      "Blue Razz Lemonade",
+      "Blueberry Sour Raspberry",
+      "Cherry Ice",
+      "Lemon & Lime",
+      "Strawberry Burst",
+      "Watermelon Ice",
+      "Pink Lemonade",
+      "Physsenberg",
+      "Pineapple Ice",
+      "Sour Apple",
+      "Fruit Medley",
+      "Menthol"
+    ],
+    "flavors": [
+      "Blue Fusion",
+      "Cherry Ice",
+      "Lemon & Lime",
+      "Watermelon Ice"
+    ]
+  },
+  {
+    "name": "Crown Bar Al Fakher 30K Hypermax Vape",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/alfakher_30k.png",
+    "variants": [
+      "Mint",
+      "Lemon Lime Cherry Fizz",
+      "Big Cloud 8000"
+    ],
+    "flavors": [
+      "Two Apple",
+      "Gum Mint",
+      "Lucid Dream",
+      "Magic Melon",
+      "Grape Mint"
+    ]
+  },
+  {
+    "name": "Pyne Pod 50K Vape Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Pyne pod click.jpg",
+    "variants": [
+      "Cherry Ice",
+      "Fizzy Cherry",
+      "Sour Cherry Raspberry Ice",
+      "Pineapple Passion Fruit",
+      "Pineapple Ice",
+      "Mr Blue",
+      "Blueberry Raspberry",
+      "Lemon Lime"
+    ],
+    "flavors": [
+      "Blueberry Raspberry",
+      "Watermelon Bubblegum",
+      "Kiwi Passionfruit",
+      "Sakura Grape"
+    ]
+  },
+  {
+    "name": "OXVA NexLim & Xlim Pro 2 Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/OXVA Nexlim.jpg",
+    "variants": [
+      "Black Carbon",
+      "Gleamy Pink",
+      "Gleamy Blue",
+      "Gleamy Cyan",
+      "Gleamy Green",
+      "Titanium",
+      "Leather White"
+    ],
+    "flavors": [
+      "Black Carbon",
+      "Gleamy Blue",
+      "Gleamy Cyan",
+      "Rose Gold"
+    ]
+  },
+  {
+    "name": "Voopoo Drag X2 & Drag S2 Pod Mod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Voopoo drag.webp",
+    "variants": [
+      "Black",
+      "Modern Red",
+      "Sky Blue",
+      "Glow Pink",
+      "Spray Black",
+      "Grey Metal",
+      "Vintage White"
+    ],
+    "flavors": [
+      "Modern Red",
+      "Sky Blue",
+      "Glow Pink",
+      "Knight Black"
+    ]
+  },
+  {
+    "name": "Voopoo Argus G2 & P2 Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Voopoo Argus G2 & P2 Pod Kit.jpg",
+    "variants": [
+      "Spray Black",
+      "Space Grey",
+      "Pearl White",
+      "Glow Pink",
+      "Iris Blue",
+      "Matte Black",
+      "Titanium Grey",
+      "Emerald Green",
+      "Neon Blue"
+    ],
+    "flavors": [
+      "Spray Black",
+      "Space Gray",
+      "Iris Blue",
+      "Peacock Blue"
+    ]
+  },
+  {
+    "name": "SMOK Nord 5 / Nord GT / Nord 4 Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "Nordic Reuse.webp",
+    "variants": [
+      "7-Color Dart",
+      "Black",
+      "White",
+      "Beige White Leather",
+      "Brown Leather",
+      "Pale Gold",
+      "Cyan",
+      "Silver"
+    ],
+    "flavors": [
+      "7-Color Armor",
+      "Fluid 7-Color",
+      "Black Leather",
+      "White Leather"
+    ]
+  },
+  {
+    "name": "Vaporesso XROS 6 / XROS 4 / Nano Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Vaporesso Xros 5.jpg",
+    "variants": [
+      "Black",
+      "Silver",
+      "Emerald Green",
+      "Sakura Pink",
+      "Cosmic Blue",
+      "Sunset Lime",
+      "Ocean Blue",
+      "Graphite Black",
+      "Twilight Purple"
+    ],
+    "flavors": [
+      "Black",
+      "Silver",
+      "Blue",
+      "Green",
+      "Pink",
+      "Purple"
+    ]
+  },
+  {
+    "name": "IQOS ILUMA / ILUMA ONE Heat-not-Burn Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/IQOS ILUMA ILUMA ONE Heat-not-Burn Kit.jpg",
+    "variants": [
+      "Pebble Grey",
+      "Moss Green",
+      "Azure Blue",
+      "Sunset Red",
+      "Pebble Beige"
+    ],
+    "flavors": [
+      "Pebble Beige",
+      "Pebble Grey",
+      "Moss Green",
+      "Sunset Red",
+      "Azure Blue"
+    ]
+  },
+  {
+    "name": "Uwell Caliburn G2 / G3 / Pro Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Slimstick Oxva.webp",
+    "variants": [
+      "Matte Black",
+      "Space Grey",
+      "Cobalt Blue",
+      "Emerald Green",
+      "Pastel Pink",
+      "Iron Grey",
+      "Olive Green"
+    ],
+    "flavors": [
+      "Cobalt Blue",
+      "Matte Black",
+      "Gradient",
+      "Silver"
+    ]
+  },
+  {
+    "name": "Aspire Gotek X / Gotek Pro Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Aspire Gotek X Gotek Pro Pod Kit.jpg",
+    "variants": [
+      "Translucent Black",
+      "Translucent Blue",
+      "Clear",
+      "Metal Gold",
+      "Metal Gunmetal",
+      "Metal Rose Gold"
+    ],
+    "flavors": [
+      "Transparent Blue",
+      "Transparent Black",
+      "Amber",
+      "Clear"
+    ]
+  },
+  {
+    "name": "Geekvape Sonder Q / Sonder Q2 Pod Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Geekvape Sonder Q.jpg",
+    "variants": [
+      "Black",
+      "Grey",
+      "Rose Pink",
+      "Violet Purple",
+      "Green",
+      "Red"
+    ],
+    "flavors": [
+      "Black",
+      "Grey",
+      "Blue",
+      "Green",
+      "Red"
+    ]
+  },
+  {
+    "name": "Innokin GoMax Tube & Endura T18E Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Innokin GoMax Tube & Endura T18E Kit.jpg",
+    "variants": [
+      "Black",
+      "Stainless Steel",
+      "Blue",
+      "Pink",
+      "Green",
+      "Silver",
+      "Red",
+      "Violet"
+    ],
+    "flavors": [
+      "Black",
+      "Stainless Steel",
+      "Blue",
+      "Pink"
+    ]
+  },
+  {
+    "name": "Lost Vape Ursa Cap & Thelema Elite 40 Kit",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Lost Vape Ursa Cap & Thelema Elite 40 Kit.jpg",
+    "variants": [
+      "Joy Black",
+      "Solo Silver",
+      "Pink Edge",
+      "Mint Green",
+      "Space Black",
+      "Eagle Black",
+      "Gunmetal Espresso"
+    ],
+    "flavors": [
+      "Joy Black",
+      "Mint Green",
+      "Pink Sugar",
+      "Pearl White"
+    ]
+  },
+  {
+    "name": "ELUX Legend Nic Salts 10ml (20mg)",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "5 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/elux_salts_10ml.png",
+    "variants": [
+      "Fizzy Cherry",
+      "Strawberry Kiwi",
+      "Watermelon Ice",
+      "Fresh Mint",
+      "Triple Mango",
+      "Grape",
+      "Cherry Sour Raspberry",
+      "Banana Ice",
+      "Lemon & Lime",
+      "Passion Fruit Nectar",
+      "Blueberry Cherry Cranberry",
+      "Strawberry Cherry",
+      "Blueberry Raspberry",
+      "Mr Blue",
+      "Pineapple Ice"
+    ],
+    "flavors": [
+      "Tiger Blood",
+      "Gummy Bear",
+      "Mr Blue",
+      "Fizzy Cherry",
+      "Triple Mango",
+      "Strawberry Ice Cream",
+      "Pink Lemonade",
+      "Blueberry Bubblegum"
+    ]
+  },
+  {
+    "name": "Riot Bar Edition 10ml Nic Salt (20mg)",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "5 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Riot Bar Edition 10ml Nic Salt (20mg).jpg",
+    "variants": [
+      "Watermelon Ice",
+      "Blue Sour Raspberry",
+      "Pink Lemonade",
+      "Triple Mint",
+      "Cherry Fizz"
+    ],
+    "flavors": [
+      "Fresh Menthol Mojito",
+      "Blue Razz Lemonade",
+      "Apple Peach",
+      "Watermelon Ice",
+      "Cherry Fizz",
+      "Grape Ice"
+    ]
+  },
+  {
+    "name": "Bar Juice 5000 10ml Refillable Nic Salt",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "5 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/bar_juice_10ml.png",
+    "variants": [
+      "Fresh Menthol Mojito",
+      "Blue Razz Lemonade",
+      "Apple Peach",
+      "Blue Razz"
+    ],
+    "flavors": [
+      "Blue Razz Lemonade",
+      "Watermelon",
+      "Fresh Mint",
+      "Strawberry Ice",
+      "Peach Ice",
+      "Cherry Cola"
+    ]
+  },
+  {
+    "name": "Seriously E-Liquids 100ml Bottle",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "5 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Seriously E-Liquids 100ml.jpg",
+    "variants": [
+      "Cookie Dough Donuts",
+      "Watermelon Lemonade Slushy",
+      "Blue Pear Fusion",
+      "Raspberry Jam Donuts",
+      "Triple Berry Ice Slushy",
+      "Lemon Lime Fruity",
+      "Blackcurrant Honeydew",
+      "Apple Raspberry",
+      "Fantasia Lemon Slushy",
+      "Mango Orange Fusion"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Vampire Vape Koncept 100ml Bottle",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "5 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Nasty Juice 100ml shortfill bottle transparent.jpg",
+    "variants": [
+      "Blood Sukka",
+      "Pinkman",
+      "Heisenberg",
+      "Pistachio Milkshake"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Yeti E-Liquid 100ml & Vapour Life CBD 100ml",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "5 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/tasty_cbd_100ml.png",
+    "variants": [
+      "Cherry Yeti",
+      "Lychee Yeti",
+      "Passionfruit Lychee",
+      "Grape CBD",
+      "Mango CBD",
+      "Strawberry CBD",
+      "Grape Ice CBD"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Cannabis Lollipops (Real Cannabis Oil)",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Cannabis Lollipops.jpg",
+    "variants": [
+      "Strawberry Banana Kush"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Pablo Premium Nicotine Pouches",
+    "category": "Nicotine Pouches & Heated Tobacco",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Pablo reuse.jpg",
+    "variants": [
+      "Banana Ice",
+      "Blue Raspberry",
+      "Pineapple",
+      "Spearmint",
+      "Strawberry Lychee",
+      "Pink Lemonade",
+      "Kiwi",
+      "Cold Mint",
+      "Peach Ice",
+      "Tropical Punch",
+      "Sour Blueberries",
+      "Frosted Ice",
+      "Dark Cherry",
+      "Grape Ice",
+      "Bubblegum",
+      "Strawberry Cheesecake",
+      "Lemonade",
+      "Orange"
+    ],
+    "flavors": [
+      "Freeze (50mg)",
+      "X-Ice Cold (50mg)",
+      "Banana Ice (50mg)",
+      "Strawberry Cheesecake",
+      "Passion Fruit"
+    ]
+  },
+  {
+    "name": "Killa Exclusive Nicotine Pouches",
+    "category": "Nicotine Pouches & Heated Tobacco",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Killa Cold Mint can white background.webp",
+    "variants": [
+      "Cold X Mint",
+      "Cherry Cola",
+      "Spearmint",
+      "Lemonade",
+      "Frosted Ice",
+      "Strawberry Lychee",
+      "Pineapple"
+    ],
+    "flavors": [
+      "Cold Mint (16mg)",
+      "Watermelon (16mg)",
+      "Blueberry (16mg)",
+      "Bubblegum (16mg)",
+      "Apple (16mg)"
+    ]
+  },
+  {
+    "name": "Velo Premium Nicotine Pouches",
+    "category": "Nicotine Pouches & Heated Tobacco",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Velo reuse.jpg",
+    "variants": [
+      "Wintry Watermelon",
+      "Crispy Peppermint",
+      "Tropical Mango",
+      "Strawberry Ice",
+      "Cola Lemon Ice",
+      "Blueberry Ice",
+      "Freeze Peppermint",
+      "Lime Flame",
+      "Berry Frost",
+      "Wintry Peppermint",
+      "Bright Spearmint",
+      "Icy Berries",
+      "Purple Grape",
+      "Peach Ice",
+      "Mango Flame",
+      "Strawberry Watermelon"
+    ],
+    "flavors": [
+      "Polar Mint (6mg / 10mg)",
+      "Ruby Berry (6mg)",
+      "Urban Vibe (10mg)",
+      "Freeze MAX (14mg)",
+      "Tropical Breeze"
+    ]
+  },
+  {
+    "name": "ZYN Nicotine Pouches",
+    "category": "Nicotine Pouches & Heated Tobacco",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/ZYN Pouches Reuse.webp",
+    "variants": [
+      "Cool Watermelon",
+      "Guava Spice",
+      "Cool Mint",
+      "Blackcurrant Frost",
+      "Black Cherry"
+    ],
+    "flavors": [
+      "Cool Mint (3mg / 6mg)",
+      "Espressino (6mg)",
+      "Citrus (3mg)",
+      "Spearmint (6mg)",
+      "Black Black"
+    ]
+  },
+  {
+    "name": "Nordic Spirit Nicotine Pouches",
+    "category": "Nicotine Pouches & Heated Tobacco",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "Nordic Reuse.webp",
+    "variants": [
+      "Forest Berries",
+      "Tropical Mix",
+      "Frosty Berry",
+      "Frosty Mint",
+      "Sweet Mint",
+      "Spearmint",
+      "Fresh Mint"
+    ],
+    "flavors": [
+      "Smooth Mint (6mg / 9mg)",
+      "Bergamot Wildberry (6mg)",
+      "Spearmint (9mg)"
+    ]
+  },
+  {
+    "name": "TEREA & HEETS Heatsticks for IQOS",
+    "category": "Nicotine Pouches & Heated Tobacco",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/TEREA & HEETS Heatsticks for IQOS.jpg",
+    "variants": [
+      "Purple Wave",
+      "Oats Pearl",
+      "Green Selection",
+      "Starling Pearl",
+      "Sienna"
+    ],
+    "flavors": [
+      "Amber Selection",
+      "Yellow Selection",
+      "Turquoise Selection",
+      "Bronze Selection",
+      "Blue Selection"
+    ]
+  },
+  {
+    "name": "Vaporesso XROS / LUXE X Replacement Pods",
+    "category": "Vape Coils & Tanks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Vaporesso XROS.jpg",
+    "variants": [
+      "0.4ohm Mesh",
+      "0.6ohm Mesh",
+      "0.8ohm Mesh",
+      "1.0ohm Mesh",
+      "0.3ohm Dual Mesh"
+    ],
+    "flavors": [
+      "0.6 ohm Mesh",
+      "0.8 ohm Mesh",
+      "1.0 ohm Mesh",
+      "1.2 ohm Pod"
+    ]
+  },
+  {
+    "name": "SMOK RPM / RPM2 / LP Series Coils",
+    "category": "Vape Coils & Tanks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/SMOK RPM  RPM2 LP Series Coils.jpg",
+    "variants": [
+      "RPM Mesh 0.4ohm",
+      "RPM 2 Coil",
+      "LP1 Coil",
+      "LP2 Coil"
+    ],
+    "flavors": [
+      "RPM Mesh 0.4 ohm",
+      "RPM Triple 0.6 ohm",
+      "RPM2 Mesh 0.16 ohm"
+    ]
+  },
+  {
+    "name": "OXVA XLIM Replacement Cartridges",
+    "category": "Vape Coils & Tanks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/OXVA Nexlim.jpg",
+    "variants": [
+      "0.6ohm Top Fill",
+      "0.8ohm Top Fill",
+      "1.2ohm Top Fill",
+      "V2 Pods"
+    ],
+    "flavors": [
+      "0.6 ohm Top Fill",
+      "0.8 ohm Top Fill",
+      "1.2 ohm Pod"
+    ]
+  },
+  {
+    "name": "Voopoo PnP Replacement Pods & Coils",
+    "category": "Vape Coils & Tanks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Voopoo PnP Replacement Pods & Coils.jpg",
+    "variants": [
+      "PnP Pod Cartridge",
+      "PnP MTL Pod",
+      "PnP-VM6 0.15ohm Coil"
+    ],
+    "flavors": [
+      "PnP-VM1 0.3 ohm",
+      "PnP-VM5 0.2 ohm",
+      "PnP-VM6 0.15 ohm"
+    ]
+  },
+  {
+    "name": "GeekVape Replacement Coils & Cartridges",
+    "category": "Vape Coils & Tanks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/GeekVape Replacement Coils & Cartridges.jpg",
+    "variants": [
+      "Z 0.2ohm Mesh",
+      "Z 0.4ohm Mesh",
+      "B 0.4ohm",
+      "B 0.5ohm",
+      "B 0.6ohm",
+      "WENAX H1 Cartridge",
+      "GeekVape U Cartridge",
+      "Q Cartridge"
+    ],
+    "flavors": [
+      "Z Series 0.2 ohm",
+      "Z Series 0.4 ohm",
+      "B Series 0.4 ohm"
+    ]
+  },
+  {
+    "name": "Aspire & Innokin Replacement Coils",
+    "category": "Vape Coils & Tanks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Aspire & Innokin Replacement Coils.jpg",
+    "variants": [
+      "Odan Mesh 0.3ohm",
+      "PockeX 0.6ohm",
+      "PockeX 1.2ohm",
+      "Prism T20 Coil",
+      "Prism T20-S Coil"
+    ],
+    "flavors": [
+      "Prism T20 1.5 ohm",
+      "Nautilus BVC 1.8 ohm",
+      "AF Mesh 0.6 ohm"
+    ]
+  },
+  {
+    "name": "Ray-Ban Optics Gen 2 Smart Glasses",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Ray-Ban Optics Gen 2 Smart Glasses.jpg",
+    "variants": [
+      "Black Wayfarer Boxed"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Apple AirPods Pro 2nd Gen",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Authentic Apple Air Pods.jpg",
+    "variants": [
+      "White Boxed Edition"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Sony PS5 DualSense Wireless Controller",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Sony PS5 DualSense.jpg",
+    "variants": [
+      "Grey Camouflage",
+      "White",
+      "Midnight Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Sony PS4 DualShock 4 Wireless Controller",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/PS4 Controller.jpg",
+    "variants": [
+      "Jet Black",
+      "Magma Red"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Nintendo Switch Wireless Controller",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Nintendo Switch Wireless Controller.jpg",
+    "variants": [
+      "Blue / Black Wireless Edition"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Watch Plus BIG 1.99 Series 8 Smartwatch",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/Watch Plus BIG 1.99 Series 8 Smartwatch.jpg",
+    "variants": [
+      "Black Silicone",
+      "Orange Ocean Band",
+      "Silver Metallic Mesh"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "HELIX DELTA-FIT Smart Watch",
+    "category": "Gaming & Electronics",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/HELIX DELTA-FIT Smart Watch.jpg",
+    "variants": [
+      "Black Silicone Strap"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "HOCO 80,000mAh Massive Power Bank (J152)",
+    "category": "Chargers & Power Banks",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/HOCO 80,000mAh Massive Power Bank (J152).jpg",
+    "variants": [
+      "Black 80k mAh Multi-Port"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "XO 30,000mAh Power Bank (PR285)",
+    "category": "Chargers & Power Banks",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/XO 30,000mAh Power Bank (PR285).jpg",
+    "variants": [
+      "Black 30k mAh"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "YESIDO 240W Dual Type-C Braided Cable 2m",
+    "category": "Chargers & Power Banks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/budi_charging_cable.png",
+    "variants": [
+      "240W 2m Cable (CA186)"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "YESIDO 100W Digital Display Cable",
+    "category": "Chargers & Power Banks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/budi_charging_cable.png",
+    "variants": [
+      "100W LED Power Meter (CAI58)"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "WYE LUX Premier Magnetic Power Bank 10,000mAh",
+    "category": "Chargers & Power Banks",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/WYE LUX Premier Magnetic Power Bank 10,000mAh.jpg",
+    "variants": [
+      "10000mAh Matte Black",
+      "10000mAh Space Grey"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "CORE+ 10,000mAh Magnetic Power Bank 22.5W",
+    "category": "Chargers & Power Banks",
+    "badge_text": "ENQUIRE FOR PRICE",
+    "action_type": "call",
+    "action_btn_text": "Call Store for Price & Stock",
+    "action_link": "tel:+447300660016",
+    "image": "fast_access_images/CORE+ 10,000mAh Magnetic Power Bank 22.5W.jpg",
+    "variants": [
+      "VD-PB053 Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS 20W Dual Retractable Car Charger",
+    "category": "Chargers & Power Banks",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/VEN-DENS 55W Dual Retractable Car Charger.jpg",
+    "variants": [
+      "20W Fast Car Charger Black"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Vapouron Digital Mini Precision Scale",
+    "category": "Scales & Gadgets",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Vapouron Digital Mini Precision Scale 100g200g.jpg",
+    "variants": [
+      "MT Series (100g x 0.01g)",
+      "CS-200 (200g x 0.01g)"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Myco MZ-100 Digital Scale",
+    "category": "Scales & Gadgets",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Myco MZ-100 Digital Scale.jpg",
+    "variants": [
+      "MZ-100 (100g x 0.01g)"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Panther Force 4G/5G Pocket WiFi Router",
+    "category": "Scales & Gadgets",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/Panther Force 4G5G Pocket WiFi Router.jpg",
+    "variants": [
+      "White Pocket Router 300Mbps"
+    ],
+    "flavors": []
+  },
+  {
+    "name": "Lost Mary 600",
+    "category": "Vapes & Pod Systems",
+    "badge_text": "3 for £10",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "image": "fast_access_images/lost-mary-600.jpg",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "Authentic Bled Perfume",
+    "category": "Perfumes",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "View Scents",
+    "action_link": "#",
+    "image": "fast_access_images/bled-blackbone-perfume.jpg",
+    "variants": [
+      "Zagora",
+      "Orange",
+      "Golden Dune",
+      "Luxe",
+      "Safi Mirage",
+      "Dinar Dust",
+      "Leptis",
+      "Sahara"
+    ],
+    "flavors": [
+      "Zagora",
+      "Orange",
+      "Golden Dune",
+      "Luxe",
+      "Safi Mirage",
+      "Dinar Dust",
+      "Leptis",
+      "Sahara"
+    ]
+  },
+  {
+    "name": "HELIX 66W Quick Charging Dual-Port Car Charger",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/helix-66w-dual-port-car-charger.png",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS OTG Connecter (Micro USB to Type-C)",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-otg-micro-to-type-c.webp",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS 25W Wireless Charger",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-wireless-charger.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS Type-C to Mag2 Cable",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-type-c-to-type-c.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS Micro USB Data Charging & Sync Cable",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-micro-usb-cable.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "HELIX 25W Quick Charging USB-C Adapter",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/helix-25w-usb-c-adapter.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS USB-A to Type-C Data Sync & Charging Cable",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-usb-a-to-type-c.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "WYE USB Cable",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/wye-usb-cable.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "SPEEDY Dual PD 20W Power Delivery Wall Charger",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/speedy-dual-pd-20w.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS Wired Earphones (Lightning / IP Connector)",
+    "category": "Gaming & Electronics",
+    "image": "fast_access_images/ven-dens-lightning-earphones.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS Audio Cable Adapter (Lightning to 3.5mm)",
+    "category": "Gaming & Electronics",
+    "image": "fast_access_images/ven-dens-lightning-aux.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "HELIX Pulse Noise Cancelling Earbuds",
+    "category": "Gaming & Electronics",
+    "image": "fast_access_images/helix-pulse-earbuds.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS Dual-Port Car Charger",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-dual-port-car-charger.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS 90W Powerful Car Charger",
+    "category": "Chargers & Power Banks",
+    "image": "fast_access_images/ven-dens-dual-port-car-charger.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS Suction Cup Magnetic Car Holder",
+    "category": "Gaming & Electronics",
+    "image": "fast_access_images/ven-dens-phone-car-holder.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  },
+  {
+    "name": "VEN-DENS 360° Strong Magnetic Holder",
+    "category": "Gaming & Electronics",
+    "image": "fast_access_images/ven-dens-magnetic-stand-holder.jpg",
+    "badge_text": "IN STOCK",
+    "action_type": "instock",
+    "action_btn_text": "In-Store Only",
+    "action_link": "#",
+    "variants": [],
+    "flavors": []
+  }
+];
